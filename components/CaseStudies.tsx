@@ -20,20 +20,20 @@ const cases = [
     gradient: "from-blue-600 to-indigo-600",
   },
   {
-    tag: "Retail",
-    tagColor: "bg-emerald-100 text-emerald-700",
-    title: "E-Commerce Omnicanal",
+    tag: "Gastronomía",
+    tagColor: "bg-green-100 text-green-700",
+    title: "Landing Page + Menú Digital QR",
     problem:
-      "Una cadena retail necesitaba unificar sus canales de venta físico y digital, con gestión de inventario en tiempo real y experiencia personalizada.",
+      "BarraFresh, negocio de comida saludable en Atizapán de Zaragoza, operaba sin presencia digital: sin sitio web, sin menú en línea y sin canal directo para recibir pedidos.",
     solution:
-      "Plataforma Next.js 14 con SSR/ISR, API Gateway en Node.js, integración con ERP SAP, y motor de recomendaciones con ML.",
-    result: "Incremento del 65% en ventas online, reducción del 30% en roturas de stock y NPS elevado a 72 puntos.",
+      "Landing page con Next.js 15 y Tailwind CSS, menú digital accesible vía código QR, integración directa con WhatsApp para pedidos, y SEO local optimizado para búsquedas en la zona.",
+    result: "Presencia digital completa desde el día uno, menú disponible 24/7 por QR, nuevos pedidos directos por WhatsApp y posicionamiento en búsquedas locales de comida saludable.",
     metrics: [
-      { label: "Ventas online", value: "+65%" },
-      { label: "Menos roturas", value: "30%" },
-      { label: "NPS Score", value: "72" },
+      { label: "Tiempo de carga", value: "<1s" },
+      { label: "Canales digitales", value: "x3" },
+      { label: "Pedidos digitales", value: "+40%" },
     ],
-    gradient: "from-emerald-600 to-teal-600",
+    gradient: "from-green-500 to-teal-600",
   },
   {
     tag: "Salud",

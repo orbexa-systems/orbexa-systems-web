@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://novatechsolutions.com"),
-  title: "NovaTech Solutions | Desarrollo de Software y Consultoría IT",
+  metadataBase: new URL("https://orbexasystems.com"),
+  title: "Orbexa | Homepage",
   description:
     "Empresa especializada en desarrollo de software, aplicaciones web, cloud, DevOps e inteligencia artificial. Transformamos ideas en soluciones tecnológicas escalables.",
   keywords: [
@@ -20,19 +20,19 @@ export const metadata: Metadata = {
     "cloud computing",
     "DevOps",
     "inteligencia artificial",
-    "NovaTech Solutions",
+    "Orbexa Systems",
     "tecnología empresarial",
   ],
-  authors: [{ name: "NovaTech Solutions" }],
-  creator: "NovaTech Solutions",
-  publisher: "NovaTech Solutions",
+  authors: [{ name: "Orbexa Systems" }],
+  creator: "Orbexa Systems",
+  publisher: "Orbexa Systems",
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "es_ES",
-    url: "https://novatechsolutions.com",
-    siteName: "NovaTech Solutions",
-    title: "NovaTech Solutions | Desarrollo de Software y Consultoría IT",
+    url: "https://orbexasystems.com",
+    siteName: "Orbexa Systems",
+    title: "Orbexa Systems | Desarrollo de Software y Consultoría IT",
     description:
       "Empresa especializada en desarrollo de software, aplicaciones web, cloud, DevOps e inteligencia artificial.",
     images: [
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "NovaTech Solutions",
+        alt: "Orbexa Systems",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "NovaTech Solutions | Desarrollo de Software y Consultoría IT",
+    title: "Orbexa Systems | Desarrollo de Software y Consultoría IT",
     description:
       "Empresa especializada en desarrollo de software, aplicaciones web, cloud, DevOps e inteligencia artificial.",
     images: ["/og-image.png"],
@@ -56,22 +56,22 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "NovaTech Solutions",
-  url: "https://novatechsolutions.com",
-  logo: "https://novatechsolutions.com/logo.png",
+  name: "Orbexa Systems",
+  url: "https://orbexasystems.com",
+  logo: "https://orbexasystems.com/orbexa-systems-logo-completo.svg",
   description:
     "Empresa especializada en desarrollo de software, aplicaciones web, cloud computing, DevOps e inteligencia artificial.",
   foundingDate: "2018",
   contactPoint: {
     "@type": "ContactPoint",
-    telephone: "+1-555-0100",
+    telephone: "+52-55-8600-9578",
     contactType: "customer service",
     availableLanguage: ["Spanish", "English"],
   },
   sameAs: [
-    "https://linkedin.com/company/novatechsolutions",
-    "https://twitter.com/novatechsol",
-    "https://github.com/novatechsolutions",
+    "https://linkedin.com/company/orbexasystems",
+    "https://twitter.com/orbexasystems",
+    "https://github.com/orbexasystems",
   ],
 };
 

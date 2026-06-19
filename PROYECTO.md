@@ -1,4 +1,4 @@
-# NovaTech Solutions — Landing Page
+# Orbexa Systems — Landing Page
 
 Landing page profesional para empresa de tecnología/consultoría IT. Construida con Next.js 15, React, TypeScript y Tailwind CSS. Orientada a generación de leads B2B.
 
@@ -55,7 +55,7 @@ npm run start    # servidor de producción
 
 ## Personalización rápida
 
-- **Nombre empresa**: buscar y reemplazar `NovaTech` / `NovaTech Solutions` en todos los archivos
+- **Nombre empresa**: buscar y reemplazar `Orbexa` / `Orbexa Systems` en todos los archivos
 - **Colores**: cambiar en `globals.css` y clases Tailwind (`blue-600`, `slate-900`)
 - **Contenido**: cada componente tiene sus datos como arrays/objetos al inicio del archivo
 - **Formulario de contacto**: `Contact.tsx` línea `await new Promise(...)` — reemplazar con llamada real a backend/API
