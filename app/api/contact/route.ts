@@ -1,9 +1,8 @@
 import { Resend } from "resend";
 import { NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 export async function POST(request: Request) {
+  const resend = new Resend(process.env.RESEND_API_KEY);
   try {
     const { name, company, email, phone, message } = await request.json();
 
@@ -15,7 +14,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "NovaTech Web <onboarding@resend.dev>",
+      from: "Orbexa Systems <onboarding@resend.dev>",
       to: process.env.CONTACT_EMAIL!,
       replyTo: email,
       subject: `Nueva solicitud de cotización — ${name}`,
@@ -32,7 +31,7 @@ export async function POST(request: Request) {
                 <tr>
                   <td style="background:linear-gradient(135deg,#1D4ED8,#2563EB);padding:32px 40px;">
                     <p style="margin:0;color:#fff;font-size:22px;font-weight:700;letter-spacing:-0.5px;">
-                      ⚡ NovaTech<span style="color:#93C5FD;">.</span>
+                      Orbexa <span style="color:#93C5FD;">Systems</span>
                     </p>
                     <p style="margin:8px 0 0;color:#BFDBFE;font-size:14px;">Nueva solicitud de cotización recibida</p>
                   </td>
@@ -71,7 +70,7 @@ export async function POST(request: Request) {
 
                     <!-- CTA -->
                     <div style="margin-top:32px;text-align:center;">
-                      <a href="mailto:${email}?subject=Re: Tu solicitud en NovaTech Solutions"
+                      <a href="mailto:${email}?subject=Re: Tu solicitud en Orbexa Systems"
                         style="display:inline-block;background:#2563EB;color:#fff;font-size:14px;font-weight:600;padding:14px 28px;border-radius:10px;text-decoration:none;">
                         Responder a ${name}
                       </a>
@@ -84,7 +83,7 @@ export async function POST(request: Request) {
                   <td style="background:#F1F5F9;padding:20px 40px;text-align:center;">
                     <p style="margin:0;color:#94A3B8;font-size:12px;">
                       Este mensaje fue enviado desde el formulario de contacto de
-                      <strong style="color:#64748B;">novatechsolutions.com</strong>
+                      <strong style="color:#64748B;">orbexasystems.com</strong>
                     </p>
                   </td>
                 </tr>
