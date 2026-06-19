@@ -7,23 +7,23 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Correo",
-    value: "contacto@novatechsolutions.com",
-    href: "mailto:contacto@novatechsolutions.com",
+    value: "siheca2013@gmail.com.mx",
+    href: "mailto:siheca2013@gmail.com.mx",
     color: "text-blue-600",
     bg: "bg-blue-50",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "+1 (555) 010-0000",
-    href: "https://wa.me/15550100000",
+    value: "+52 55 8600 9578",
+    href: "https://wa.me/525586009578",
     color: "text-emerald-600",
     bg: "bg-emerald-50",
   },
   {
     icon: MapPin,
     label: "Dirección",
-    value: "123 Tech Avenue, Suite 400, San Francisco, CA 94107",
+    value: "Lirio 20, Lomas de San Miguel, CP 52928",
     href: "#",
     color: "text-violet-600",
     bg: "bg-violet-50",
@@ -48,6 +48,7 @@ export default function Contact() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
@@ -56,10 +57,26 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    // Placeholder: integrate with your backend/email service here
-    await new Promise((r) => setTimeout(r, 1200));
-    setSubmitted(true);
-    setLoading(false);
+    setError("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Error al enviar el mensaje.");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Error al enviar. Intenta de nuevo.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -221,6 +238,12 @@ export default function Contact() {
                     className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none text-sm"
                   />
                 </div>
+                {error && (
+                  <div className="bg-red-50 border border-red-200 text-red-700 text-sm px-4 py-3 rounded-xl">
+                    {error}
+                  </div>
+                )}
+
                 <button
                   type="submit"
                   disabled={loading}

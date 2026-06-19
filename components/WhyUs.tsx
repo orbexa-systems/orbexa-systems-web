@@ -7,7 +7,7 @@ const reasons = [
     icon: Users,
     title: "Equipo Especializado",
     description: "Ingenieros certificados con experiencia en proyectos enterprise internacionales.",
-    stat: "15+",
+    stat: "10+",
     statLabel: "expertos en plantilla",
   },
   {
@@ -70,8 +70,8 @@ export default function WhyUs() {
             <div className="grid grid-cols-3 gap-6">
               {[
                 { value: "98%", label: "Proyectos en tiempo" },
-                { value: "+50", label: "Clientes atendidos" },
-                { value: "8+", label: "Años de experiencia" },
+                { value: "+20", label: "Clientes atendidos" },
+                { value: "12+", label: "Años de experiencia" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div className="text-3xl font-bold text-blue-600">{s.value}</div>
