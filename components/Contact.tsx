@@ -7,8 +7,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Correo",
-    value: "siheca2013@gmail.com.mx",
-    href: "mailto:siheca2013@gmail.com.mx",
+    value: "contacto@orbexasystems.com",
+    href: "mailto:contacto@orbexasystems.com",
     color: "text-blue-600",
     bg: "bg-blue-50",
   },
@@ -92,7 +92,7 @@ export default function Contact() {
             <span className="gradient-text">próximo proyecto</span>
           </h2>
           <p className="text-lg text-slate-600">
-            Completa el formulario y uno de nuestros consultores te contactará en menos de 24 horas.
+            Completa el formulario y te contactaré en menos de 24 horas.
           </p>
         </div>
 
@@ -102,7 +102,7 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-bold text-slate-900 mb-2">Información de Contacto</h3>
               <p className="text-slate-600 text-sm">
-                Estamos disponibles para atender tus consultas y comenzar a construir juntos.
+                Disponible para atender tus consultas y comenzar a construir juntos.
               </p>
             </div>
 
@@ -156,7 +156,7 @@ export default function Contact() {
                 </div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-2">¡Mensaje enviado!</h3>
                 <p className="text-slate-600">
-                  Gracias por contactarnos. Uno de nuestros consultores se pondrá en contacto contigo en menos de 24 horas.
+                  Gracias por tu mensaje. Me pondré en contacto contigo en menos de 24 horas.
                 </p>
               </div>
             ) : (

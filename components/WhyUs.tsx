@@ -6,9 +6,9 @@ const reasons = [
   {
     icon: Users,
     title: "Equipo Especializado",
-    description: "Ingenieros certificados con experiencia en proyectos enterprise internacionales.",
-    stat: "10+",
-    statLabel: "expertos en plantilla",
+    description: "15 años construyendo sistemas para banca, seguros, telecom y retail — sé qué se rompe antes de que ocurra y cómo evitarlo.",
+    stat: "15+",
+    statLabel: "años en producción",
   },
   {
     icon: Zap,
@@ -62,16 +62,14 @@ export default function WhyUs() {
               <span className="gradient-text">marca el resultado</span>
             </h2>
             <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              No solo escribimos código. Entendemos tu negocio, proponemos soluciones
-              estratégicas y acompañamos cada fase del proyecto para asegurar el éxito.
+              Cuando contratas a Orbexa Systems, hablas directamente con el ingeniero que escribe tu código. Sin intermediarios, sin junior asignado después de la venta, sin suposiciones sobre tu negocio.
             </p>
 
             {/* Big stats */}
-            <div className="grid grid-cols-3 gap-6">
+            <div className="grid grid-cols-2 gap-6">
               {[
                 { value: "98%", label: "Proyectos en tiempo" },
-                { value: "+20", label: "Clientes atendidos" },
-                { value: "12+", label: "Años de experiencia" },
+                { value: "15+", label: "Años de experiencia personal" },
               ].map((s) => (
                 <div key={s.label} className="text-center">
                   <div className="text-3xl font-bold text-blue-600">{s.value}</div>

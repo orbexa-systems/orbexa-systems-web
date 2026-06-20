@@ -4,40 +4,20 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Carlos Mendoza",
-    role: "CTO",
-    company: "FinanzasPro S.A.",
-    comment:
-      "Orbexa Systems transformó por completo nuestra plataforma de pagos. El equipo demostró un nivel técnico excepcional, cumplieron cada sprint puntualmente y la calidad del código es impresionante. Superaron todas nuestras expectativas.",
-    rating: 5,
-    initials: "CM",
-    color: "bg-blue-600",
-  },
-  {
     name: "Mary González",
     role: "Fundadora",
     company: "BarraFresh",
     comment:
-      "No teníamos ninguna presencia en internet y Orbexa Systems nos llevó de cero a tener un sitio profesional con menú digital por QR en muy poco tiempo. Ahora recibimos pedidos por WhatsApp todos los días. Fue la mejor inversión para el negocio.",
+      "Orbexa Systems nos está ayudando a construir nuestra presencia digital desde cero: sitio web profesional y menú digital por QR. Un proceso ágil y con comunicación directa en todo momento.",
     rating: 5,
     initials: "MG",
     color: "bg-green-600",
-  },
-  {
-    name: "Dr. Luis Herrera",
-    role: "Director de Tecnología",
-    company: "Red Hospitalaria del Norte",
-    comment:
-      "Implementar un sistema hospitalario es extremadamente delicado. Orbexa Systems gestionó la complejidad con madurez, seguridad y profesionalismo. El sistema lleva 2 años en producción sin incidentes críticos. Es una alianza que continuaremos.",
-    rating: 5,
-    initials: "LH",
-    color: "bg-violet-600",
   },
 ];
 
 export default function Testimonials() {
   return (
-    <section className="py-24 lg:py-32 bg-gradient-to-br from-slate-900 via-[#0F172A] to-slate-800 relative overflow-hidden">
+    <section className="py-24 lg:py-32 bg-gradient-to-br from-slate-800 via-[#162032] to-slate-700 relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-10"
         style={{
@@ -60,8 +40,8 @@ export default function Testimonials() {
           </p>
         </div>
 
-        {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        {/* Card */}
+        <div className="max-w-xl mx-auto">
           {testimonials.map((t) => (
             <div
               key={t.name}

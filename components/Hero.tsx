@@ -3,9 +3,9 @@
 import { ArrowRight, ChevronDown, CheckCircle, TrendingUp, Users, Server } from "lucide-react";
 
 const metrics = [
-  { icon: TrendingUp, value: "+50", label: "Proyectos entregados" },
-  { icon: Users, value: "+20", label: "Clientes satisfechos" },
-  { icon: Server, value: "99.9%", label: "Disponibilidad garantizada" },
+  { icon: TrendingUp, value: "15+", label: "Años de experiencia en desarrollo" },
+  { icon: Users, value: "4", label: "Industrias: seguros, banca, telecom, retail" },
+  { icon: Server, value: "100%", label: "Ingeniería senior directa, sin subcontratar" },
 ];
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-900 via-[#0F172A] to-slate-800"
+      className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-800 via-[#162032] to-slate-700"
     >
       {/* Background grid */}
       <div className="absolute inset-0 opacity-20"
@@ -37,18 +37,17 @@ export default function Hero() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-500/30 rounded-full px-4 py-1.5">
               <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
-              <span className="text-blue-300 text-sm font-medium">Innovación Tecnológica Empresarial</span>
+              <span className="text-blue-300 text-sm font-medium">15 Años de Experiencia · Ingeniería Senior</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Transformamos ideas en{" "}
-              <span className="gradient-text">soluciones tecnológicas</span>{" "}
-              que impulsan tu negocio
+              15 años desarrollando software para{" "}
+              <span className="gradient-text">seguros, banca, telecomunicaciones y retail</span>
             </h1>
 
             <p className="text-lg text-slate-300 leading-relaxed max-w-xl">
-              Desarrollamos software, automatizamos procesos y construimos plataformas escalables
-              para empresas que buscan crecer en la era digital.
+              Construyo plataformas escalables, automatizo procesos y desarrollo sistemas donde
+              la disponibilidad y el cumplimiento regulatorio son innegociables.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -69,7 +68,7 @@ export default function Hero() {
 
             {/* Trust badges */}
             <div className="flex flex-wrap gap-4 pt-2">
-              {["Metodologías Ágiles", "Código de Calidad", "Soporte 24/7"].map((item) => (
+              {["Metodologías Ágiles", "Código de Calidad", "Ingeniería Senior"].map((item) => (
                 <div key={item} className="flex items-center gap-1.5 text-slate-400 text-sm">
                   <CheckCircle className="w-4 h-4 text-blue-400" />
                   {item}
