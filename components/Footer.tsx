@@ -83,8 +83,8 @@ export default function Footer() {
               </svg>
             </div>
             <p className="text-slate-400 text-sm leading-relaxed mb-6">
-              Empresa especializada en desarrollo de software, cloud computing e inteligencia artificial.
-              Transformamos ideas en soluciones tecnológicas que impulsan el crecimiento empresarial.
+              Especializado en desarrollo de software, cloud computing e inteligencia artificial.
+              Transformo 15 años de experiencia enterprise en soluciones para tu negocio.
             </p>
             {/* Socials */}
             <div className="flex gap-3">
@@ -147,8 +147,8 @@ export default function Footer() {
             <div className="space-y-4 text-sm">
               <div>
                 <div className="text-slate-500 text-xs uppercase tracking-wider mb-1">Email</div>
-                <a href="mailto:siheca2013@gmail.com.mx" className="text-slate-300 hover:text-blue-400 transition-colors">
-                  siheca2013@gmail.com.mx
+                <a href="mailto:contacto@orbexasystems.com" className="text-slate-300 hover:text-blue-400 transition-colors">
+                  contacto@orbexasystems.com
                 </a>
               </div>
               <div>
