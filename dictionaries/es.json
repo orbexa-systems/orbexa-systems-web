@@ -264,5 +264,9 @@
     "privacyPolicy": "Política de Privacidad",
     "termsOfUse": "Términos de Uso",
     "cookies": "Cookies"
+  },
+  "whatsapp": {
+    "message": "Hola, me interesa conocer más sobre sus servicios de desarrollo de software.",
+    "tooltip": "¡Chatea con nosotros!"
   }
 }

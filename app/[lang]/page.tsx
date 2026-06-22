@@ -11,6 +11,7 @@ import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export default async function Home({
   params,
@@ -37,6 +38,7 @@ export default async function Home({
         <Contact dict={dict.contact} />
       </main>
       <Footer dict={dict.footer} />
+      <WhatsAppButton message={dict.whatsapp.message} tooltip={dict.whatsapp.tooltip} />
     </>
   );
 }
