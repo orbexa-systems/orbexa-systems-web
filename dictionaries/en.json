@@ -252,7 +252,7 @@
       { "label": "Technologies", "href": "#tecnologias" },
       { "label": "Case Studies", "href": "#casos" },
       { "label": "Contact", "href": "#contacto" },
-      { "label": "Privacy Policy", "href": "#" }
+      { "label": "Privacy Policy", "href": "/en/privacy" }
     ],
     "contactTitle": "Quick Contact",
     "emailLabel": "Email",
@@ -264,6 +264,13 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfUse": "Terms of Use",
     "cookies": "Cookies"
+  },
+  "cookieBanner": {
+    "title": "We use cookies",
+    "description": "We use essential cookies for the site to work and analytics cookies to improve your experience. See our",
+    "acceptAll": "Accept all",
+    "essentialOnly": "Essential only",
+    "privacyLink": "Privacy Policy"
   },
   "whatsapp": {
     "message": "Hi, I'm interested in learning more about your software development services.",

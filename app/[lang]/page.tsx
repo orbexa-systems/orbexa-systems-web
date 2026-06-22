@@ -12,6 +12,7 @@ import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import CookieBanner from "@/components/CookieBanner";
 
 export default async function Home({
   params,
@@ -30,7 +31,7 @@ export default async function Home({
         <Hero dict={dict.hero} />
         <Services dict={dict.services} />
         <WhyUs dict={dict.whyUs} />
-        <Technologies dict={dict.technologies} />
+        <Technologies dict={dict.technologies} lang={lang} />
         <CaseStudies dict={dict.caseStudies} />
         <Process dict={dict.process} />
         <Testimonials dict={dict.testimonials} />
@@ -39,6 +40,7 @@ export default async function Home({
       </main>
       <Footer dict={dict.footer} />
       <WhatsAppButton message={dict.whatsapp.message} tooltip={dict.whatsapp.tooltip} />
+      <CookieBanner dict={dict.cookieBanner} lang={lang} />
     </>
   );
 }
