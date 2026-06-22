@@ -2,13 +2,20 @@
 
 import { ArrowRight, ChevronDown, CheckCircle, TrendingUp, Users, Server } from "lucide-react";
 
-const metrics = [
-  { icon: TrendingUp, value: "15+", label: "Años de experiencia en desarrollo" },
-  { icon: Users, value: "4", label: "Industrias: seguros, banca, telecom, retail" },
-  { icon: Server, value: "100%", label: "Ingeniería senior directa, sin subcontratar" },
-];
+const metricIcons = [TrendingUp, Users, Server];
 
-export default function Hero() {
+type HeroDict = {
+  badge: string;
+  title: string;
+  titleGradient: string;
+  subtitle: string;
+  ctaPrimary: string;
+  ctaSecondary: string;
+  trustBadges: string[];
+  metrics: { value: string; label: string }[];
+};
+
+export default function Hero({ dict }: { dict: HeroDict }) {
   const scrollTo = (id: string) => {
     document.querySelector(id)?.scrollIntoView({ behavior: "smooth" });
   };
@@ -18,36 +25,30 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-800 via-[#162032] to-slate-700"
     >
-      {/* Background grid */}
       <div className="absolute inset-0 opacity-20"
         style={{
           backgroundImage: `linear-gradient(rgba(37,99,235,0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(37,99,235,0.3) 1px, transparent 1px)`,
           backgroundSize: "60px 60px",
         }}
       />
-
-      {/* Glow blobs */}
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-600/20 rounded-full blur-3xl animate-pulse" />
       <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-400/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1.5s" }} />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-
-          {/* Left Content */}
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 bg-blue-600/20 border border-blue-500/30 rounded-full px-4 py-1.5">
               <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse" />
-              <span className="text-blue-300 text-sm font-medium">15 Años de Experiencia · Ingeniería Senior</span>
+              <span className="text-blue-300 text-sm font-medium">{dict.badge}</span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              15 años desarrollando software para{" "}
-              <span className="gradient-text">seguros, banca, telecomunicaciones y retail</span>
+              {dict.title}{" "}
+              <span className="gradient-text">{dict.titleGradient}</span>
             </h1>
 
             <p className="text-lg text-slate-300 leading-relaxed max-w-xl">
-              Construyo plataformas escalables, automatizo procesos y desarrollo sistemas donde
-              la disponibilidad y el cumplimiento regulatorio son innegociables.
+              {dict.subtitle}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -55,20 +56,19 @@ export default function Hero() {
                 onClick={() => scrollTo("#contacto")}
                 className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200 shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:-translate-y-0.5 group"
               >
-                Solicitar Cotización
+                {dict.ctaPrimary}
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               <button
                 onClick={() => scrollTo("#servicios")}
                 className="inline-flex items-center justify-center gap-2 border border-white/20 hover:border-white/40 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-200 hover:bg-white/5"
               >
-                Conocer Servicios
+                {dict.ctaSecondary}
               </button>
             </div>
 
-            {/* Trust badges */}
             <div className="flex flex-wrap gap-4 pt-2">
-              {["Metodologías Ágiles", "Código de Calidad", "Ingeniería Senior"].map((item) => (
+              {dict.trustBadges.map((item) => (
                 <div key={item} className="flex items-center gap-1.5 text-slate-400 text-sm">
                   <CheckCircle className="w-4 h-4 text-blue-400" />
                   {item}
@@ -77,12 +77,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: Visual + Metrics */}
           <div className="relative flex flex-col items-center gap-6">
-            {/* Main visual card */}
             <div className="relative w-full max-w-md animate-float">
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 shadow-2xl">
-                {/* Code window mockup */}
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-3 h-3 rounded-full bg-red-400" />
                   <div className="w-3 h-3 rounded-full bg-yellow-400" />
@@ -106,8 +103,6 @@ export default function Hero() {
                   <span className="text-slate-400 text-xs">v2.5.0</span>
                 </div>
               </div>
-
-              {/* Floating tech tags */}
               <div className="absolute -top-4 -right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1.5 rounded-lg shadow-lg">
                 Next.js 15
               </div>
@@ -116,24 +111,25 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Metrics cards */}
             <div className="grid grid-cols-3 gap-3 w-full max-w-md">
-              {metrics.map(({ icon: Icon, value, label }) => (
-                <div
-                  key={label}
-                  className="bg-white/8 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center hover:bg-white/12 transition-colors"
-                >
-                  <Icon className="w-5 h-5 text-blue-400 mx-auto mb-2" />
-                  <div className="text-2xl font-bold text-white">{value}</div>
-                  <div className="text-xs text-slate-400 mt-1 leading-tight">{label}</div>
-                </div>
-              ))}
+              {dict.metrics.map(({ value, label }, i) => {
+                const Icon = metricIcons[i];
+                return (
+                  <div
+                    key={label}
+                    className="bg-white/8 backdrop-blur-sm border border-white/10 rounded-xl p-4 text-center hover:bg-white/12 transition-colors"
+                  >
+                    <Icon className="w-5 h-5 text-blue-400 mx-auto mb-2" />
+                    <div className="text-2xl font-bold text-white">{value}</div>
+                    <div className="text-xs text-slate-400 mt-1 leading-tight">{label}</div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
       </div>
 
-      {/* Scroll indicator */}
       <button
         onClick={() => scrollTo("#servicios")}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/50 hover:text-white/80 transition-colors animate-bounce"

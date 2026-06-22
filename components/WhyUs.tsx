@@ -2,75 +2,33 @@
 
 import { Users, Zap, Layers, ShieldCheck, BarChart3, HeadphonesIcon } from "lucide-react";
 
-const reasons = [
-  {
-    icon: Users,
-    title: "Equipo Especializado",
-    description: "15 años construyendo sistemas para banca, seguros, telecom y retail — sé qué se rompe antes de que ocurra y cómo evitarlo.",
-    stat: "15+",
-    statLabel: "años en producción",
-  },
-  {
-    icon: Zap,
-    title: "Metodologías Ágiles",
-    description: "Sprints de 2 semanas con entregas continuas y retroalimentación constante del cliente.",
-    stat: "2 sem",
-    statLabel: "ciclos de entrega",
-  },
-  {
-    icon: Layers,
-    title: "Tecnología Moderna",
-    description: "Stack tecnológico actualizado con las últimas versiones y mejores prácticas del sector.",
-    stat: "2024",
-    statLabel: "stack actualizado",
-  },
-  {
-    icon: BarChart3,
-    title: "Arquitectura Escalable",
-    description: "Diseñamos sistemas que crecen con tu negocio, desde startups hasta millones de usuarios.",
-    stat: "10x",
-    statLabel: "capacidad de escala",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Seguridad Empresarial",
-    description: "Cumplimiento OWASP, cifrado de datos y auditorías de seguridad en cada proyecto.",
-    stat: "ISO",
-    statLabel: "estándares de seguridad",
-  },
-  {
-    icon: HeadphonesIcon,
-    title: "Soporte Continuo",
-    description: "Acompañamiento post-lanzamiento, monitoreo 24/7 y SLA garantizado por contrato.",
-    stat: "24/7",
-    statLabel: "soporte disponible",
-  },
-];
+const reasonIcons = [Users, Zap, Layers, BarChart3, ShieldCheck, HeadphonesIcon];
 
-export default function WhyUs() {
+type WhyUsDict = {
+  label: string;
+  title: string;
+  titleGradient: string;
+  subtitle: string;
+  stats: { value: string; label: string }[];
+  reasons: { title: string; description: string; stat: string; statLabel: string }[];
+};
+
+export default function WhyUs({ dict }: { dict: WhyUsDict }) {
   return (
     <section className="py-24 lg:py-32 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Left Text */}
           <div>
             <span className="inline-block text-blue-600 font-semibold text-sm tracking-widest uppercase mb-4">
-              ¿Por Qué Elegirnos?
+              {dict.label}
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-              La diferencia que{" "}
-              <span className="gradient-text">marca el resultado</span>
+              {dict.title}{" "}
+              <span className="gradient-text">{dict.titleGradient}</span>
             </h2>
-            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-              Cuando contratas a Orbexa Systems, hablas directamente con el ingeniero que escribe tu código. Sin intermediarios, sin junior asignado después de la venta, sin suposiciones sobre tu negocio.
-            </p>
-
-            {/* Big stats */}
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed">{dict.subtitle}</p>
             <div className="grid grid-cols-2 gap-6">
-              {[
-                { value: "98%", label: "Proyectos en tiempo" },
-                { value: "15+", label: "Años de experiencia personal" },
-              ].map((s) => (
+              {dict.stats.map((s) => (
                 <div key={s.label} className="text-center">
                   <div className="text-3xl font-bold text-blue-600">{s.value}</div>
                   <div className="text-sm text-slate-500 mt-1">{s.label}</div>
@@ -79,10 +37,9 @@ export default function WhyUs() {
             </div>
           </div>
 
-          {/* Right Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {reasons.map((reason) => {
-              const Icon = reason.icon;
+            {dict.reasons.map((reason, i) => {
+              const Icon = reasonIcons[i];
               return (
                 <div
                   key={reason.title}
@@ -93,9 +50,7 @@ export default function WhyUs() {
                       <Icon className="w-5 h-5 text-blue-600 group-hover:text-white transition-colors duration-300" />
                     </div>
                     <div className="min-w-0">
-                      <div className="flex items-baseline gap-2 mb-1">
-                        <h3 className="font-bold text-slate-900 text-[15px]">{reason.title}</h3>
-                      </div>
+                      <h3 className="font-bold text-slate-900 text-[15px] mb-1">{reason.title}</h3>
                       <p className="text-slate-500 text-sm leading-relaxed">{reason.description}</p>
                       <div className="mt-3 flex items-center gap-1.5">
                         <span className="text-blue-600 font-bold text-lg">{reason.stat}</span>
