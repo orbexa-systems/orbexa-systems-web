@@ -13,8 +13,8 @@ export async function POST(request: Request) {
       );
     }
 
-    await resend.emails.send({
-      from: "Orbexa Systems <onboarding@resend.dev>",
+    const { error: sendError } = await resend.emails.send({
+      from: "Orbexa Systems <noreply@orbexasystems.com>",
       to: process.env.CONTACT_EMAIL!,
       replyTo: email,
       subject: `Nueva solicitud de cotización — ${name}`,
@@ -95,6 +95,11 @@ export async function POST(request: Request) {
         </html>
       `,
     });
+
+    if (sendError) {
+      console.error("Resend error:", sendError);
+      return NextResponse.json({ error: sendError.message }, { status: 500 });
+    }
 
     return NextResponse.json({ success: true });
   } catch (error) {
