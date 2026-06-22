@@ -262,7 +262,9 @@
     "ctaButton": "Book a Consultation",
     "copyright": "All rights reserved.",
     "privacyPolicy": "Privacy Policy",
-    "termsOfUse": "Terms of Use",
+    "privacyHref": "/en/privacy",
+    "termsOfUse": "Terms and Conditions",
+    "termsHref": "/en/terms",
     "cookies": "Cookies"
   },
   "cookieBanner": {

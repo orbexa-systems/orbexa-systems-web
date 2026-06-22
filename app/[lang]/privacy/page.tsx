@@ -113,7 +113,7 @@ export default async function PrivacyPage({
     <main className="min-h-screen bg-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <Link
-          href={`/${lang}`}
+          href={`/${lang}#footer`}
           className="text-sm text-blue-600 hover:underline mb-8 inline-block"
         >
           {c.backLabel}

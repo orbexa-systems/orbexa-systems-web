@@ -262,7 +262,9 @@
     "ctaButton": "Solicitar Cotización",
     "copyright": "Todos los derechos reservados.",
     "privacyPolicy": "Política de Privacidad",
-    "termsOfUse": "Términos de Uso",
+    "privacyHref": "/es/privacy",
+    "termsOfUse": "Términos y Condiciones",
+    "termsHref": "/es/terms",
     "cookies": "Cookies"
   },
   "cookieBanner": {
