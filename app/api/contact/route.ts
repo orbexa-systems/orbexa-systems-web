@@ -14,7 +14,7 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "Orbexa Systems <onboarding@resend.dev>",
+      from: "Orbexa Systems <noreply@orbexasystems.com>",
       to: process.env.CONTACT_EMAIL!,
       replyTo: email,
       subject: `Nueva solicitud de cotización — ${name}`,
