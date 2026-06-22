@@ -82,21 +82,29 @@ export default function Navbar({ dict, lang }: { dict: NavbarDict; lang: string 
             </a>
           </div>
 
-          {/* Mobile Menu Toggle */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-gray-100 transition-colors"
-            aria-label="Toggle menu"
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
+          {/* Mobile: Lang switcher + hamburger */}
+          <div className="lg:hidden flex items-center gap-2">
+            <Link
+              href={`/${otherLang}`}
+              className="text-xs font-medium text-slate-600 bg-slate-100 hover:bg-slate-200 border border-slate-200 px-3 py-1 rounded-full transition-colors"
+            >
+              {otherLang.toUpperCase()}
+            </Link>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="p-2 rounded-lg text-slate-700 hover:bg-gray-100 transition-colors"
+              aria-label="Toggle menu"
+            >
+              {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
         {isOpen && (
           <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-100 shadow-xl">
             <div className="px-4 py-4 space-y-1">
-              {dict.links.map((link) => (
+                {dict.links.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
@@ -106,17 +114,11 @@ export default function Navbar({ dict, lang }: { dict: NavbarDict; lang: string 
                   {link.label}
                 </a>
               ))}
-              <div className="pt-2 flex gap-2">
-                <Link
-                  href={`/${otherLang}`}
-                  className="flex-1 text-center border border-gray-200 text-slate-600 font-semibold px-5 py-3 rounded-xl transition-colors hover:bg-gray-50"
-                >
-                  {otherLang.toUpperCase()}
-                </Link>
+              <div className="pt-2">
                 <a
                   href="#contacto"
                   onClick={(e) => { e.preventDefault(); handleNavClick("#contacto"); }}
-                  className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl transition-colors"
+                  className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl transition-colors"
                 >
                   {dict.cta}
                 </a>
