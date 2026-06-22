@@ -51,11 +51,7 @@ function TechPill({ name, emoji, category }: { name: string; emoji: string; cate
   );
 }
 
-export default function Technologies({ dict }: { dict: TechDict }) {
-  const lang = typeof window !== "undefined"
-    ? window.location.pathname.split("/")[1] || "es"
-    : "es";
-
+export default function Technologies({ dict, lang }: { dict: TechDict; lang: string }) {
   const techsWithCategory = allTechs.map((t) => ({
     ...t,
     category: "categoryKey" in t ? (dbLabels[lang] ?? dbLabels.es) : t.category,

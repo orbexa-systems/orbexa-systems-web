@@ -252,7 +252,7 @@
       { "label": "Tecnologías", "href": "#tecnologias" },
       { "label": "Casos de Éxito", "href": "#casos" },
       { "label": "Contacto", "href": "#contacto" },
-      { "label": "Política de Privacidad", "href": "#" }
+      { "label": "Política de Privacidad", "href": "/es/privacy" }
     ],
     "contactTitle": "Contacto Rápido",
     "emailLabel": "Email",
@@ -264,6 +264,13 @@
     "privacyPolicy": "Política de Privacidad",
     "termsOfUse": "Términos de Uso",
     "cookies": "Cookies"
+  },
+  "cookieBanner": {
+    "title": "Usamos cookies",
+    "description": "Utilizamos cookies esenciales para el funcionamiento del sitio y cookies analíticas para mejorar tu experiencia. Consulta nuestra",
+    "acceptAll": "Aceptar todas",
+    "essentialOnly": "Solo esenciales",
+    "privacyLink": "Política de Privacidad"
   },
   "whatsapp": {
     "message": "Hola, me interesa conocer más sobre sus servicios de desarrollo de software.",
