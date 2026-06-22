@@ -1,0 +1,268 @@
+{
+  "navbar": {
+    "links": [
+      { "label": "Inicio", "href": "#inicio" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Tecnologías", "href": "#tecnologias" },
+      { "label": "Casos de Éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" }
+    ],
+    "cta": "Solicitar Cotización"
+  },
+  "hero": {
+    "badge": "15 Años de Experiencia · Ingeniería Senior",
+    "title": "15 años desarrollando software para",
+    "titleGradient": "seguros, banca, telecomunicaciones y retail",
+    "subtitle": "Construyo plataformas escalables, automatizo procesos y desarrollo sistemas donde la disponibilidad y el cumplimiento regulatorio son innegociables.",
+    "ctaPrimary": "Solicitar Cotización",
+    "ctaSecondary": "Conocer Servicios",
+    "trustBadges": ["Metodologías Ágiles", "Código de Calidad", "Ingeniería Senior"],
+    "metrics": [
+      { "value": "15+", "label": "Años de experiencia en desarrollo" },
+      { "value": "4", "label": "Industrias: seguros, banca, telecom, retail" },
+      { "value": "100%", "label": "Ingeniería senior directa, sin subcontratar" }
+    ]
+  },
+  "services": {
+    "label": "Nuestros Servicios",
+    "title": "Soluciones tecnológicas para",
+    "titleGradient": "cada desafío",
+    "subtitle": "Trabajo con el ecosistema tecnológico más moderno y probado de la industria para entregar soluciones de clase mundial.",
+    "items": [
+      {
+        "title": "Desarrollo de Software",
+        "description": "Construimos aplicaciones a medida con arquitecturas robustas, código limpio y las mejores prácticas de la industria para garantizar escalabilidad y mantenibilidad."
+      },
+      {
+        "title": "Aplicaciones Web",
+        "description": "Desarrollamos experiencias web modernas con React y Next.js, optimizadas para rendimiento, SEO y conversión. Desde MVPs hasta plataformas enterprise."
+      },
+      {
+        "title": "APIs e Integraciones",
+        "description": "Diseñamos e integramos APIs RESTful y GraphQL, conectando sistemas legacy con plataformas modernas y automatizando flujos de negocio críticos."
+      },
+      {
+        "title": "Cloud & DevOps",
+        "description": "Migración y despliegue en AWS, Azure y GCP. Implementamos CI/CD, contenedores Docker y orquestación Kubernetes para entregas continuas y seguras."
+      },
+      {
+        "title": "Inteligencia Artificial",
+        "description": "Integramos modelos de IA y ML para automatizar decisiones, analizar datos a escala y crear asistentes inteligentes que potencian tu negocio."
+      },
+      {
+        "title": "Soporte e Infraestructura",
+        "description": "Monitoreo continuo, mantenimiento preventivo y soporte técnico especializado para garantizar la disponibilidad y rendimiento de tus sistemas."
+      }
+    ]
+  },
+  "whyUs": {
+    "label": "¿Por Qué Elegirnos?",
+    "title": "La diferencia que",
+    "titleGradient": "marca el resultado",
+    "subtitle": "Cuando contratas a Orbexa Systems, hablas directamente con el ingeniero que escribe tu código. Sin intermediarios, sin junior asignado después de la venta, sin suposiciones sobre tu negocio.",
+    "stats": [
+      { "value": "98%", "label": "Proyectos en tiempo" },
+      { "value": "15+", "label": "Años de experiencia personal" }
+    ],
+    "reasons": [
+      {
+        "title": "Equipo Especializado",
+        "description": "15 años construyendo sistemas para banca, seguros, telecom y retail — sé qué se rompe antes de que ocurra y cómo evitarlo.",
+        "stat": "15+",
+        "statLabel": "años en producción"
+      },
+      {
+        "title": "Metodologías Ágiles",
+        "description": "Sprints de 2 semanas con entregas continuas y retroalimentación constante del cliente.",
+        "stat": "2 sem",
+        "statLabel": "ciclos de entrega"
+      },
+      {
+        "title": "Tecnología Moderna",
+        "description": "Stack tecnológico actualizado con las últimas versiones y mejores prácticas del sector.",
+        "stat": "2024",
+        "statLabel": "stack actualizado"
+      },
+      {
+        "title": "Arquitectura Escalable",
+        "description": "Diseñamos sistemas que crecen con tu negocio, desde startups hasta millones de usuarios.",
+        "stat": "10x",
+        "statLabel": "capacidad de escala"
+      },
+      {
+        "title": "Seguridad Empresarial",
+        "description": "Cumplimiento OWASP, cifrado de datos y auditorías de seguridad en cada proyecto.",
+        "stat": "ISO",
+        "statLabel": "estándares de seguridad"
+      },
+      {
+        "title": "Soporte Continuo",
+        "description": "Acompañamiento post-lanzamiento, monitoreo 24/7 y SLA garantizado por contrato.",
+        "stat": "24/7",
+        "statLabel": "soporte disponible"
+      }
+    ]
+  },
+  "technologies": {
+    "label": "Stack Tecnológico",
+    "title": "Herramientas que",
+    "titleGradient": "hacen la diferencia",
+    "subtitle": "Trabajo con las tecnologías más demandadas y probadas en producción enterprise."
+  },
+  "caseStudies": {
+    "label": "Experiencia y Proyectos",
+    "title": "Trayectoria real en sectores donde el",
+    "titleGradient": "software no puede fallar",
+    "subtitle": "Proyectos desarrollados en sectores de alta exigencia, donde la disponibilidad, la seguridad y el cumplimiento regulatorio son parte del día a día.",
+    "challengeLabel": "Desafío",
+    "solutionLabel": "Solución",
+    "statusLabel": "Estado actual",
+    "cases": [
+      {
+        "tag": "Seguros · Banca · Telecom · Retail",
+        "title": "15 años en sistemas críticos",
+        "problem": "Sectores donde un fallo impacta millones de transacciones, pólizas activas o contratos regulados.",
+        "solution": "He formado parte de equipos de desarrollo en proyectos para compañías líderes de los sectores asegurador, bancario, telecomunicaciones y retail, incluyendo operaciones internacionales, trabajando con arquitecturas robustas donde la disponibilidad y el cumplimiento regulatorio son innegociables.",
+        "estado": null
+      },
+      {
+        "tag": "Gastronomía · En desarrollo",
+        "title": "Landing Page + Menú Digital QR",
+        "problem": "BarraFresh, negocio de comida saludable en Atizapán de Zaragoza, operaba sin presencia digital: sin sitio web, sin menú en línea y sin canal directo para recibir pedidos.",
+        "solution": "Landing page con Next.js 15 y Tailwind CSS, menú digital accesible vía código QR, integración directa con WhatsApp para pedidos, y SEO local optimizado para búsquedas en la zona.",
+        "estado": "Proyecto en fase de desarrollo activo."
+      }
+    ]
+  },
+  "process": {
+    "label": "Nuestro Proceso",
+    "title": "De la idea al",
+    "titleGradient": "producto en producción",
+    "subtitle": "Un proceso transparente, iterativo y orientado a resultados que garantiza proyectos exitosos en tiempo y presupuesto.",
+    "steps": [
+      {
+        "title": "Descubrimiento",
+        "description": "Reuniones de kickoff para entender tu negocio, objetivos, usuarios y restricciones técnicas. Definimos el alcance y el plan de acción.",
+        "duration": "1-2 semanas"
+      },
+      {
+        "title": "Análisis",
+        "description": "Evaluamos requerimientos funcionales y no funcionales, riesgos técnicos, integraciones existentes y definimos la arquitectura de la solución.",
+        "duration": "1-2 semanas"
+      },
+      {
+        "title": "Diseño",
+        "description": "Creamos wireframes, prototipos y diseño visual de alta fidelidad. Validamos la experiencia de usuario antes de escribir una sola línea de código.",
+        "duration": "2-3 semanas"
+      },
+      {
+        "title": "Desarrollo",
+        "description": "Sprints de 2 semanas con demos continuas. Código revisado, testeado y documentado. Acceso a tablero en tiempo real con el avance del proyecto.",
+        "duration": "Variable"
+      },
+      {
+        "title": "Pruebas",
+        "description": "Testing automatizado, pruebas de carga, seguridad y aceptación de usuario. Garantizamos calidad antes del lanzamiento en producción.",
+        "duration": "1-2 semanas"
+      },
+      {
+        "title": "Despliegue y Soporte",
+        "description": "Lanzamiento controlado con rollback plan. Monitoreo activo post-go-live, capacitación del equipo y soporte continuo garantizado por SLA.",
+        "duration": "Continuo"
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Testimonios",
+    "title": "Lo que dicen nuestros",
+    "titleGradient": "clientes",
+    "subtitle": "La satisfacción de nuestros clientes es la mejor validación de nuestro trabajo.",
+    "items": [
+      {
+        "name": "Mary González",
+        "role": "Fundadora",
+        "company": "BarraFresh",
+        "comment": "Orbexa Systems nos está ayudando a construir nuestra presencia digital desde cero: sitio web profesional y menú digital por QR. Un proceso ágil y con comunicación directa en todo momento.",
+        "initials": "MG"
+      }
+    ]
+  },
+  "cta": {
+    "badge": "Primera consulta 100% gratuita",
+    "title": "¿Listo para transformar",
+    "titleGradient": "tu negocio",
+    "titleEnd": "?",
+    "subtitle": "Agenda una consulta gratuita con nuestros expertos. Analizamos tu proyecto, proponemos la solución tecnológica ideal y te damos una estimación sin compromiso.",
+    "button": "Agenda una Consulta Gratuita",
+    "trustItems": ["Sin compromiso", "Respuesta en 24h", "Expertos disponibles"]
+  },
+  "contact": {
+    "label": "Contacto",
+    "title": "Hablemos de tu",
+    "titleGradient": "próximo proyecto",
+    "subtitle": "Completa el formulario y te contactaré en menos de 24 horas.",
+    "infoTitle": "Información de Contacto",
+    "infoSubtitle": "Disponible para atender tus consultas y comenzar a construir juntos.",
+    "emailLabel": "Correo",
+    "whatsappLabel": "WhatsApp",
+    "locationLabel": "Dirección",
+    "location": "Lirio 20, Lomas de San Miguel, CP 52928",
+    "officeHoursTitle": "Horario de Atención",
+    "officeHours": [
+      { "day": "Lunes — Viernes", "hours": "8:00 — 18:00" },
+      { "day": "Sábado", "hours": "9:00 — 13:00" },
+      { "day": "Soporte de emergencia", "hours": "24/7" }
+    ],
+    "form": {
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Juan García",
+      "companyLabel": "Empresa",
+      "companyPlaceholder": "Mi Empresa S.A.",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "juan@empresa.com",
+      "phoneLabel": "Teléfono",
+      "phonePlaceholder": "+1 555 000 0000",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos sobre tu proyecto, qué necesitas desarrollar, en qué plazo y cualquier detalle relevante...",
+      "submitButton": "Enviar Solicitud",
+      "sendingButton": "Enviando...",
+      "privacyText": "Al enviar este formulario, aceptas nuestra",
+      "privacyLink": "Política de Privacidad",
+      "successTitle": "¡Mensaje enviado!",
+      "successSubtitle": "Gracias por tu mensaje. Me pondré en contacto contigo en menos de 24 horas.",
+      "errorGeneric": "Error al enviar. Intenta de nuevo.",
+      "errorRequired": "Nombre, correo y mensaje son requeridos."
+    }
+  },
+  "footer": {
+    "description": "Especializado en desarrollo de software, cloud computing e inteligencia artificial. Transformo 15 años de experiencia enterprise en soluciones para tu negocio.",
+    "servicesTitle": "Servicios",
+    "services": [
+      "Desarrollo de Software",
+      "Aplicaciones Web",
+      "APIs e Integraciones",
+      "Cloud & DevOps",
+      "Inteligencia Artificial",
+      "Soporte e Infraestructura"
+    ],
+    "navTitle": "Navegación",
+    "navLinks": [
+      { "label": "Inicio", "href": "#inicio" },
+      { "label": "Servicios", "href": "#servicios" },
+      { "label": "Tecnologías", "href": "#tecnologias" },
+      { "label": "Casos de Éxito", "href": "#casos" },
+      { "label": "Contacto", "href": "#contacto" },
+      { "label": "Política de Privacidad", "href": "#" }
+    ],
+    "contactTitle": "Contacto Rápido",
+    "emailLabel": "Email",
+    "whatsappLabel": "WhatsApp",
+    "locationLabel": "Ubicación",
+    "location": "Lirio 20, Lomas de San Miguel, CP 52928",
+    "ctaButton": "Solicitar Cotización",
+    "copyright": "Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfUse": "Términos de Uso",
+    "cookies": "Cookies"
+  }
+}

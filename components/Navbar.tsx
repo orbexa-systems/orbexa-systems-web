@@ -2,16 +2,14 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 
-const navLinks = [
-  { label: "Inicio", href: "#inicio" },
-  { label: "Servicios", href: "#servicios" },
-  { label: "Tecnologías", href: "#tecnologias" },
-  { label: "Casos de Éxito", href: "#casos" },
-  { label: "Contacto", href: "#contacto" },
-];
+type NavbarDict = {
+  links: { label: string; href: string }[];
+  cta: string;
+};
 
-export default function Navbar() {
+export default function Navbar({ dict, lang }: { dict: NavbarDict; lang: string }) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -26,6 +24,8 @@ export default function Navbar() {
     const el = document.querySelector(href);
     el?.scrollIntoView({ behavior: "smooth" });
   };
+
+  const otherLang = lang === "es" ? "en" : "es";
 
   return (
     <header
@@ -53,7 +53,7 @@ export default function Navbar() {
 
           {/* Desktop Links */}
           <div className="hidden lg:flex items-center gap-1">
-            {navLinks.map((link) => (
+            {dict.links.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
@@ -65,14 +65,20 @@ export default function Navbar() {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* Right side: Lang switcher + CTA */}
+          <div className="hidden lg:flex items-center gap-3">
+            <Link
+              href={`/${otherLang}`}
+              className="text-sm font-semibold text-slate-500 hover:text-blue-600 transition-colors px-2 py-1 rounded-lg hover:bg-blue-50"
+            >
+              {otherLang.toUpperCase()}
+            </Link>
             <a
               href="#contacto"
               onClick={(e) => { e.preventDefault(); handleNavClick("#contacto"); }}
               className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-5 py-2.5 rounded-xl transition-all duration-200 shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:-translate-y-0.5"
             >
-              Solicitar Cotización
+              {dict.cta}
             </a>
           </div>
 
@@ -90,7 +96,7 @@ export default function Navbar() {
         {isOpen && (
           <div className="lg:hidden absolute top-full left-0 right-0 bg-white border-b border-gray-100 shadow-xl">
             <div className="px-4 py-4 space-y-1">
-              {navLinks.map((link) => (
+              {dict.links.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
@@ -100,13 +106,19 @@ export default function Navbar() {
                   {link.label}
                 </a>
               ))}
-              <div className="pt-2">
+              <div className="pt-2 flex gap-2">
+                <Link
+                  href={`/${otherLang}`}
+                  className="flex-1 text-center border border-gray-200 text-slate-600 font-semibold px-5 py-3 rounded-xl transition-colors hover:bg-gray-50"
+                >
+                  {otherLang.toUpperCase()}
+                </Link>
                 <a
                   href="#contacto"
                   onClick={(e) => { e.preventDefault(); handleNavClick("#contacto"); }}
-                  className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl transition-colors"
+                  className="flex-1 text-center bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-3 rounded-xl transition-colors"
                 >
-                  Solicitar Cotización
+                  {dict.cta}
                 </a>
               </div>
             </div>

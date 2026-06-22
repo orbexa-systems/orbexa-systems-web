@@ -11,10 +11,10 @@ const allTechs = [
   { name: "Node.js", emoji: "🟢", category: "Backend" },
   { name: "Python", emoji: "🐍", category: "Backend" },
   { name: "Go", emoji: "🐹", category: "Backend" },
-  { name: "PostgreSQL", emoji: "🐘", category: "Base de datos" },
-  { name: "MySQL", emoji: "🐬", category: "Base de datos" },
-  { name: "MongoDB", emoji: "🍃", category: "Base de datos" },
-  { name: "Redis", emoji: "🔴", category: "Base de datos" },
+  { name: "PostgreSQL", emoji: "🐘", categoryKey: "database" },
+  { name: "MySQL", emoji: "🐬", categoryKey: "database" },
+  { name: "MongoDB", emoji: "🍃", categoryKey: "database" },
+  { name: "Redis", emoji: "🔴", categoryKey: "database" },
   { name: "AWS", emoji: "☁️", category: "Cloud" },
   { name: "Azure", emoji: "🔷", category: "Cloud" },
   { name: "Docker", emoji: "🐳", category: "DevOps" },
@@ -24,8 +24,20 @@ const allTechs = [
   { name: "GitLab CI", emoji: "🦊", category: "CI/CD" },
 ];
 
+const dbLabels: Record<string, string> = {
+  es: "Base de datos",
+  en: "Database",
+};
+
 const row1 = [...allTechs, ...allTechs];
 const row2 = [...[...allTechs].reverse(), ...[...allTechs].reverse()];
+
+type TechDict = {
+  label: string;
+  title: string;
+  titleGradient: string;
+  subtitle: string;
+};
 
 function TechPill({ name, emoji, category }: { name: string; emoji: string; category: string }) {
   return (
@@ -39,51 +51,50 @@ function TechPill({ name, emoji, category }: { name: string; emoji: string; cate
   );
 }
 
-export default function Technologies() {
+export default function Technologies({ dict }: { dict: TechDict }) {
+  const lang = typeof window !== "undefined"
+    ? window.location.pathname.split("/")[1] || "es"
+    : "es";
+
+  const techsWithCategory = allTechs.map((t) => ({
+    ...t,
+    category: "categoryKey" in t ? (dbLabels[lang] ?? dbLabels.es) : t.category,
+  }));
+
+  const r1 = [...techsWithCategory, ...techsWithCategory];
+  const r2 = [...[...techsWithCategory].reverse(), ...[...techsWithCategory].reverse()];
+
   return (
     <section id="tecnologias" className="relative py-24 lg:py-32 bg-slate-50 overflow-hidden">
-      {/* Header */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-14">
         <div className="text-center max-w-3xl mx-auto">
           <span className="inline-block text-blue-600 font-semibold text-sm tracking-widest uppercase mb-4">
-            Stack Tecnológico
+            {dict.label}
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-6 leading-tight">
-            Tecnologías de{" "}
-            <span className="gradient-text">vanguardia</span>
+            {dict.title}{" "}
+            <span className="gradient-text">{dict.titleGradient}</span>
           </h2>
-          <p className="text-lg text-slate-600">
-            Trabajamos con el ecosistema tecnológico más moderno y probado de la industria
-            para entregar soluciones de clase mundial.
-          </p>
+          <p className="text-lg text-slate-600">{dict.subtitle}</p>
         </div>
       </div>
 
-      {/* Row 1 — izquierda a derecha */}
       <div className="mb-4 overflow-hidden">
-        <div
-          className="flex gap-4 w-max"
-          style={{ animation: "scroll-left 35s linear infinite" }}
-        >
-          {row1.map((tech, i) => (
-            <TechPill key={`r1-${i}`} {...tech} />
+        <div className="flex gap-4 w-max" style={{ animation: "scroll-left 35s linear infinite" }}>
+          {r1.map((tech, i) => (
+            <TechPill key={`r1-${i}`} name={tech.name} emoji={tech.emoji} category={tech.category} />
           ))}
         </div>
       </div>
 
-      {/* Row 2 — derecha a izquierda */}
       <div className="overflow-hidden">
-        <div
-          className="flex gap-4 w-max"
-          style={{ animation: "scroll-right 40s linear infinite" }}
-        >
-          {row2.map((tech, i) => (
-            <TechPill key={`r2-${i}`} {...tech} />
+        <div className="flex gap-4 w-max" style={{ animation: "scroll-right 40s linear infinite" }}>
+          {r2.map((tech, i) => (
+            <TechPill key={`r2-${i}`} name={tech.name} emoji={tech.emoji} category={tech.category} />
           ))}
         </div>
       </div>
 
-      {/* Fade edges */}
       <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-slate-50 to-transparent z-10" />
       <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-slate-50 to-transparent z-10" />
 
