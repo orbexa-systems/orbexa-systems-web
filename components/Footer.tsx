@@ -39,7 +39,9 @@ type FooterDict = {
   ctaButton: string;
   copyright: string;
   privacyPolicy: string;
+  privacyHref: string;
   termsOfUse: string;
+  termsHref: string;
   cookies: string;
 };
 
@@ -50,7 +52,7 @@ export default function Footer({ dict }: { dict: FooterDict }) {
   };
 
   return (
-    <footer className="bg-slate-900 text-slate-300">
+    <footer id="footer" className="bg-slate-900 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12">
           <div className="lg:col-span-1">
@@ -128,9 +130,9 @@ export default function Footer({ dict }: { dict: FooterDict }) {
         <div className="border-t border-slate-800 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
           <p>© {new Date().getFullYear()} Orbexa Systems. {dict.copyright}</p>
           <div className="flex gap-4">
-            <a href="#" className="hover:text-slate-300 transition-colors">{dict.privacyPolicy}</a>
-            <a href="#" className="hover:text-slate-300 transition-colors">{dict.termsOfUse}</a>
-            <a href="#" className="hover:text-slate-300 transition-colors">{dict.cookies}</a>
+            <a href={dict.privacyHref} className="hover:text-slate-300 transition-colors">{dict.privacyPolicy}</a>
+            <a href={dict.termsHref} className="hover:text-slate-300 transition-colors">{dict.termsOfUse}</a>
+            <a href={dict.privacyHref} className="hover:text-slate-300 transition-colors">{dict.cookies}</a>
           </div>
         </div>
       </div>
