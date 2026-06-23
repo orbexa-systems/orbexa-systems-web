@@ -14,7 +14,7 @@
     "badge": "15 Years of Experience · Senior Engineering",
     "title": "15 years building software for",
     "titleGradient": "insurance, banking, telecom and retail",
-    "subtitle": "I build scalable platforms, automate processes and develop systems where availability and regulatory compliance are non-negotiable.",
+    "subtitle": "We build scalable platforms, automate processes and develop systems where availability and regulatory compliance are non-negotiable.",
     "ctaPrimary": "Book a Consultation",
     "ctaSecondary": "View Services",
     "trustBadges": ["Agile Methodologies", "Quality Code", "Senior Engineering"],
@@ -28,7 +28,7 @@
     "label": "Our Services",
     "title": "Technology solutions for",
     "titleGradient": "every challenge",
-    "subtitle": "I work with the most modern and proven technology ecosystem in the industry to deliver world-class solutions.",
+    "subtitle": "We work with the most modern and proven technology ecosystem in the industry to deliver world-class solutions.",
     "items": [
       {
         "title": "Software Development",
@@ -60,7 +60,7 @@
     "label": "Why Choose Us?",
     "title": "The difference that",
     "titleGradient": "drives results",
-    "subtitle": "When you hire Orbexa Systems, you talk directly to the engineer writing your code. No middlemen, no junior assigned after the sale, no guesses about your business.",
+    "subtitle": "When you hire Orbexa Systems, you work directly with the engineers writing your code. No middlemen, no junior assigned after the sale, no guesses about your business.",
     "stats": [
       { "value": "98%", "label": "Projects on time" },
       { "value": "15+", "label": "Years of personal experience" }
@@ -68,7 +68,7 @@
     "reasons": [
       {
         "title": "Specialized Team",
-        "description": "15 years building systems for banking, insurance, telecom and retail — I know what breaks before it happens and how to prevent it.",
+        "description": "15 years building systems for banking, insurance, telecom and retail — we know what breaks before it happens and how to prevent it.",
         "stat": "15+",
         "statLabel": "years in production"
       },
@@ -108,7 +108,7 @@
     "label": "Tech Stack",
     "title": "Tools that",
     "titleGradient": "make the difference",
-    "subtitle": "I work with the most in-demand technologies, proven in enterprise production environments."
+    "subtitle": "We work with the most in-demand technologies, proven in enterprise production environments."
   },
   "caseStudies": {
     "label": "Experience & Projects",
@@ -123,7 +123,7 @@
         "tag": "Insurance · Banking · Telecom · Retail",
         "title": "15 years in mission-critical systems",
         "problem": "Sectors where a failure impacts millions of transactions, active policies or regulated contracts.",
-        "solution": "I have been part of development teams on projects for leading companies in the insurance, banking, telecommunications and retail sectors, including international operations, working with robust architectures where availability and regulatory compliance are non-negotiable.",
+        "solution": "We have been part of development teams on projects for leading companies in the insurance, banking, telecommunications and retail sectors, including international operations, working with robust architectures where availability and regulatory compliance are non-negotiable.",
         "estado": null
       },
       {
@@ -201,7 +201,7 @@
     "label": "Contact",
     "title": "Let's talk about your",
     "titleGradient": "next project",
-    "subtitle": "Fill out the form and I'll get back to you within 24 hours.",
+    "subtitle": "Fill out the form and we'll get back to you within 24 hours.",
     "infoTitle": "Contact Information",
     "infoSubtitle": "Available to answer your questions and start building together.",
     "emailLabel": "Email",
@@ -230,13 +230,13 @@
       "privacyText": "By submitting this form, you agree to our",
       "privacyLink": "Privacy Policy",
       "successTitle": "Message sent!",
-      "successSubtitle": "Thank you for your message. I'll get back to you within 24 hours.",
+      "successSubtitle": "Thank you for your message. We'll get back to you within 24 hours.",
       "errorGeneric": "Error sending. Please try again.",
       "errorRequired": "Name, email and message are required."
     }
   },
   "footer": {
-    "description": "Specialized in software development, cloud computing and artificial intelligence. I bring 15 years of enterprise experience to solutions for your business.",
+    "description": "Specialized in software development, cloud computing and artificial intelligence. We bring 15 years of enterprise experience to solutions for your business.",
     "servicesTitle": "Services",
     "services": [
       "Software Development",

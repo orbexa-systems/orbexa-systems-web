@@ -38,7 +38,7 @@ export default async function Home({
         <Testimonials dict={dict.testimonials} />
         <FAQ dict={dict.faq} />
         <CTA dict={dict.cta} />
-        <Contact dict={dict.contact} />
+        <Contact dict={dict.contact} lang={lang} />
       </main>
       <Footer dict={dict.footer} />
       <WhatsAppButton message={dict.whatsapp.message} tooltip={dict.whatsapp.tooltip} />
