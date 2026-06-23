@@ -5,6 +5,7 @@
       { "label": "Servicios", "href": "#servicios" },
       { "label": "Tecnologías", "href": "#tecnologias" },
       { "label": "Casos de Éxito", "href": "#casos" },
+      { "label": "FAQ", "href": "#faq" },
       { "label": "Contacto", "href": "#contacto" }
     ],
     "cta": "Solicitar Cotización"
@@ -264,6 +265,44 @@
     "privacyPolicy": "Política de Privacidad",
     "termsOfUse": "Términos de Uso",
     "cookies": "Cookies"
+  },
+  "faq": {
+    "label": "Preguntas Frecuentes",
+    "title": "Todo lo que necesitas",
+    "titleGradient": "saber",
+    "subtitle": "Resolvemos las dudas más comunes antes de que inicies tu proyecto con nosotros.",
+    "items": [
+      {
+        "question": "¿Cuánto cuesta desarrollar un proyecto?",
+        "answer": "Cada proyecto es único, por lo que no manejamos precios fijos. El costo depende del alcance, la complejidad y el tiempo estimado. Lo que sí podemos garantizar es transparencia total: en la consulta gratuita analizamos tu necesidad y te entregamos una propuesta detallada sin compromiso."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda en desarrollarse un proyecto?",
+        "answer": "Depende del tipo de solución. Una landing page o sitio informativo puede estar lista en 1-2 semanas. Una aplicación web con funcionalidades personalizadas tarda entre 1 y 3 meses. Plataformas enterprise o integraciones complejas pueden llevar más tiempo. Siempre definimos plazos claros antes de comenzar."
+      },
+      {
+        "question": "¿Trabajan con startups o solo con empresas grandes?",
+        "answer": "Trabajamos con ambas. Tenemos experiencia en empresas enterprise del sector bancario, seguros y telecomunicaciones, pero también apoyamos a emprendedores y negocios en crecimiento. Adaptamos la solución y el presupuesto a la etapa en la que se encuentra tu negocio."
+      },
+      {
+        "question": "¿Qué pasa si no me gusta el resultado?",
+        "answer": "Trabajamos con entregas iterativas cada 2 semanas para que puedas ver y validar el avance constantemente. Esto elimina sorpresas al final. Además, incluimos un periodo de garantía de 30 días tras la entrega final para corregir cualquier error funcional sin costo adicional."
+      },
+      {
+        "question": "¿Necesito saber de tecnología para contratar sus servicios?",
+        "answer": "No. Tú nos describes el problema de negocio que quieres resolver y nosotros nos encargamos de la solución técnica. Nuestro trabajo incluye traducir tus necesidades a tecnología, no al revés. Solo necesitas tener clara la meta, nosotros elegimos el camino."
+      },
+      {
+        "question": "¿Trabajan de forma remota?",
+        "answer": "Sí, operamos 100% de forma remota con clientes en México y en el extranjero. Usamos herramientas de colaboración para mantenernos alineados: videollamadas semanales, tableros de proyecto en tiempo real y entregas demostrables cada sprint."
+      },
+      {
+        "question": "¿Dan soporte después de entregar el proyecto?",
+        "answer": "Sí. Todo proyecto incluye 30 días de garantía para corrección de errores. Además ofrecemos planes de mantenimiento y soporte continuo para quienes necesiten monitoreo, actualizaciones y atención técnica post-lanzamiento. El soporte de emergencia está disponible 24/7."
+      }
+    ],
+    "ctaText": "¿Tu pregunta no está aquí? Escríbenos directamente.",
+    "ctaButton": "Hacer una pregunta"
   },
   "cookieBanner": {
     "title": "Usamos cookies",

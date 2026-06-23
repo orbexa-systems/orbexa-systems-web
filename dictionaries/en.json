@@ -5,6 +5,7 @@
       { "label": "Services", "href": "#servicios" },
       { "label": "Technologies", "href": "#tecnologias" },
       { "label": "Case Studies", "href": "#casos" },
+      { "label": "FAQ", "href": "#faq" },
       { "label": "Contact", "href": "#contacto" }
     ],
     "cta": "Book a Consultation"
@@ -264,6 +265,44 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfUse": "Terms of Use",
     "cookies": "Cookies"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Everything you need",
+    "titleGradient": "to know",
+    "subtitle": "We answer the most common questions before you start your project with us.",
+    "items": [
+      {
+        "question": "How much does it cost to develop a project?",
+        "answer": "Every project is unique, so we don't have fixed prices. The cost depends on the scope, complexity and estimated time. What we can guarantee is full transparency: in the free consultation we analyze your needs and deliver a detailed proposal with no commitment."
+      },
+      {
+        "question": "How long does a project take?",
+        "answer": "It depends on the type of solution. A landing page or informational site can be ready in 1-2 weeks. A web application with custom features takes 1 to 3 months. Enterprise platforms or complex integrations may take longer. We always define clear timelines before we start."
+      },
+      {
+        "question": "Do you work with startups or only large companies?",
+        "answer": "Both. We have experience with enterprise companies in banking, insurance and telecommunications, but we also support entrepreneurs and growing businesses. We adapt the solution and budget to the stage your business is at."
+      },
+      {
+        "question": "What if I don't like the result?",
+        "answer": "We work with iterative deliveries every 2 weeks so you can see and validate progress constantly. This eliminates surprises at the end. We also include a 30-day warranty after final delivery to fix any functional bugs at no additional cost."
+      },
+      {
+        "question": "Do I need to know about technology to hire you?",
+        "answer": "No. You describe the business problem you want to solve and we handle the technical solution. Our job is to translate your needs into technology, not the other way around. You just need to know your goal — we choose the path."
+      },
+      {
+        "question": "Do you work remotely?",
+        "answer": "Yes, we operate 100% remotely with clients in Mexico and abroad. We use collaboration tools to stay aligned: weekly video calls, real-time project boards and demonstrable deliveries every sprint."
+      },
+      {
+        "question": "Do you provide support after delivering the project?",
+        "answer": "Yes. Every project includes a 30-day warranty for bug fixes. We also offer maintenance and ongoing support plans for those who need monitoring, updates and post-launch technical assistance. Emergency support is available 24/7."
+      }
+    ],
+    "ctaText": "Don't see your question here? Write to us directly.",
+    "ctaButton": "Ask a question"
   },
   "cookieBanner": {
     "title": "We use cookies",
