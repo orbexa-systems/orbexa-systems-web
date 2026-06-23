@@ -45,7 +45,7 @@ interface FormData {
   message: string;
 }
 
-export default function Contact({ dict }: { dict: ContactDict }) {
+export default function Contact({ dict, lang }: { dict: ContactDict; lang: string }) {
   const [form, setForm] = useState<FormData>({ name: "", company: "", email: "", phone: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -191,7 +191,7 @@ export default function Contact({ dict }: { dict: ContactDict }) {
                 </button>
                 <p className="text-xs text-slate-400 text-center">
                   {dict.form.privacyText}{" "}
-                  <a href="#" className="text-blue-600 hover:underline">{dict.form.privacyLink}</a>.
+                  <a href={`/${lang}/privacy`} className="text-blue-600 hover:underline">{dict.form.privacyLink}</a>.
                 </p>
               </form>
             )}
