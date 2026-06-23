@@ -12,6 +12,7 @@ import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import FAQ from "@/components/FAQ";
 import CookieBanner from "@/components/CookieBanner";
 
 export default async function Home({
@@ -35,6 +36,7 @@ export default async function Home({
         <CaseStudies dict={dict.caseStudies} />
         <Process dict={dict.process} />
         <Testimonials dict={dict.testimonials} />
+        <FAQ dict={dict.faq} />
         <CTA dict={dict.cta} />
         <Contact dict={dict.contact} />
       </main>
