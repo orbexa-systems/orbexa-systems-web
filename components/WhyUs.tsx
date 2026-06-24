@@ -26,7 +26,7 @@ export default function WhyUs({ dict }: { dict: WhyUsDict }) {
               {dict.title}{" "}
               <span className="gradient-text">{dict.titleGradient}</span>
             </h2>
-            <p className="text-lg text-slate-600 mb-8 leading-relaxed">{dict.subtitle}</p>
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed whitespace-pre-line">{dict.subtitle}</p>
             <div className="grid grid-cols-2 gap-6">
               {dict.stats.map((s) => (
                 <div key={s.label} className="text-center">

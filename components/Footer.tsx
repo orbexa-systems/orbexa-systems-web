@@ -47,8 +47,10 @@ type FooterDict = {
 
 export default function Footer({ dict }: { dict: FooterDict }) {
   const scrollTo = (href: string) => {
-    if (href === "#") return;
-    document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    if (!href.startsWith("#")) return;
+    try {
+      document.querySelector(href)?.scrollIntoView({ behavior: "smooth" });
+    } catch {}
   };
 
   return (
@@ -95,10 +97,17 @@ export default function Footer({ dict }: { dict: FooterDict }) {
             <ul className="space-y-3">
               {dict.navLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} onClick={(e) => { e.preventDefault(); scrollTo(link.href); }} className="text-slate-400 hover:text-white text-sm flex items-center gap-1.5 group transition-colors">
-                    <ArrowRight className="w-3 h-3 text-blue-500 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all" />
-                    {link.label}
-                  </a>
+                  {link.href.startsWith("#") ? (
+                    <a href={link.href} onClick={(e) => { e.preventDefault(); scrollTo(link.href); }} className="text-slate-400 hover:text-white text-sm flex items-center gap-1.5 group transition-colors">
+                      <ArrowRight className="w-3 h-3 text-blue-500 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all" />
+                      {link.label}
+                    </a>
+                  ) : (
+                    <a href={link.href} className="text-slate-400 hover:text-white text-sm flex items-center gap-1.5 group transition-colors">
+                      <ArrowRight className="w-3 h-3 text-blue-500 opacity-0 group-hover:opacity-100 -translate-x-1 group-hover:translate-x-0 transition-all" />
+                      {link.label}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>

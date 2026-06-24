@@ -2,105 +2,159 @@
   "navbar": {
     "links": [
       { "label": "Inicio", "href": "#inicio" },
+      { "label": "Sobre mí", "href": "#fundadores" },
       { "label": "Servicios", "href": "#servicios" },
-      { "label": "Tecnologías", "href": "#tecnologias" },
       { "label": "Casos de Éxito", "href": "#casos" },
       { "label": "FAQ", "href": "#faq" },
       { "label": "Contacto", "href": "#contacto" }
     ],
-    "cta": "Solicitar Cotización"
+    "cta": "Habla con el Fundador"
   },
   "hero": {
-    "badge": "15 Años de Experiencia · Pymes y Enterprise",
-    "title": "15 años desarrollando software para",
-    "titleGradient": "seguros, banca, telecomunicaciones y retail",
-    "subtitle": "Construimos plataformas escalables, automatizamos procesos y desarrollamos sistemas donde la disponibilidad y el cumplimiento regulatorio son innegociables. Trabajamos con negocios de todos los tamaños: desde emprendedores lanzando su primera idea hasta corporativos que necesitan escalar.",
-    "ctaPrimary": "Solicitar Cotización",
-    "ctaSecondary": "Conocer Servicios",
-    "trustBadges": ["Metodologías Ágiles", "Código de Calidad", "Ingeniería Senior"],
+    "badge": "Consultoría Boutique · Liderada por el Fundador",
+    "title": "Software real que elimina",
+    "titleGradient": "trabajo manual y hace crecer tu negocio",
+    "subtitle": "Soy ingeniero de software con más de 15 años de experiencia en banca, seguros, telecomunicaciones y retail. Construyo software que va a producción — no prototipos, no demos. Sistemas que reemplazan hojas de Excel, automatizan procesos y conectan herramientas que hoy no se hablan.",
+    "ctaPrimary": "Agenda una Llamada de 20 Min (Gratis)",
+    "ctaSecondary": "Ver Servicios",
+    "trustBadges": ["Sin pitch de ventas", "Código en producción", "Sin intermediarios"],
     "metrics": [
-      { "value": "15+", "label": "Años de experiencia en desarrollo" },
-      { "value": "4", "label": "Industrias: seguros, banca, telecom, retail" },
-      { "value": "100%", "label": "Ingeniería senior directa, sin subcontratar" }
+      { "value": "15+", "label": "Años de experiencia técnica del fundador" },
+      { "value": "4", "label": "Industrias de alta exigencia" },
+      { "value": "24h", "label": "Tiempo de respuesta garantizado" }
     ]
   },
   "services": {
-    "label": "Nuestros Servicios",
-    "title": "Soluciones tecnológicas para",
-    "titleGradient": "cada desafío",
-    "subtitle": "Trabajamos con el ecosistema tecnológico más moderno y probado de la industria para entregar soluciones de alta calidad, adaptadas al tamaño y presupuesto de tu negocio: pymes, startups y enterprise.",
+    "label": "Servicios",
+    "title": "Tecnología a la medida",
+    "titleGradient": "de tu negocio",
+    "subtitle": "Desde una landing page hasta una plataforma enterprise. Trabajo con el stack tecnológico más moderno para entregar soluciones de alta calidad, adaptadas al tamaño y presupuesto de tu negocio.",
     "items": [
       {
-        "title": "Desarrollo de Software",
-        "description": "Construimos aplicaciones a medida con arquitecturas robustas, código limpio y las mejores prácticas de la industria para garantizar escalabilidad y mantenibilidad."
+        "title": "Aplicaciones Web a Medida",
+        "description": "¿Tu equipo trabaja con hojas de Excel o procesos manuales? Construyo el software que los reemplaza: aplicaciones web reales, en producción, sin demos eternas ni MVPs abandonados."
       },
       {
-        "title": "Aplicaciones Web",
-        "description": "Desarrollamos experiencias web modernas con React y Next.js, optimizadas para rendimiento, SEO y conversión. Desde MVPs hasta plataformas enterprise."
+        "title": "Landing Pages",
+        "description": "Páginas diseñadas para convertir visitas en leads. Carga rápida, SEO local y conexión directa con WhatsApp, email o cualquier canal de ventas que ya uses."
       },
       {
-        "title": "APIs e Integraciones",
-        "description": "Diseñamos e integramos APIs RESTful y GraphQL, conectando sistemas legacy con plataformas modernas y automatizando flujos de negocio críticos."
+        "title": "Automatización de Procesos",
+        "description": "Si algo lo haces manualmente hoy — reportes, notificaciones, actualizaciones de inventario, correos recurrentes — probablemente se puede automatizar. Te ahorro horas de trabajo manual cada semana."
       },
       {
-        "title": "Cloud & DevOps",
-        "description": "Migración y despliegue en AWS, Azure y GCP. Implementamos CI/CD, contenedores Docker y orquestación Kubernetes para entregas continuas y seguras."
+        "title": "Integraciones y APIs",
+        "description": "Tu CRM no habla con tu sistema de pagos. Tu ERP no actualiza tu inventario en tiempo real. Conecto los sistemas que ya usas para que trabajen juntos, sin exportar CSVs."
       },
       {
         "title": "Inteligencia Artificial",
-        "description": "Integramos modelos de IA y ML para automatizar decisiones, analizar datos a escala y crear asistentes inteligentes que potencian tu negocio."
+        "description": "IA aplicada a problemas reales: clasificación automática de datos, chatbots para atención al cliente, generación de reportes o detección de anomalías en tus operaciones."
       },
       {
-        "title": "Soporte e Infraestructura",
-        "description": "Monitoreo continuo, mantenimiento preventivo y soporte técnico especializado para garantizar la disponibilidad y rendimiento de tus sistemas."
+        "title": "Cloud y Migración",
+        "description": "Tu servidor se cae cada vez que sube el tráfico. O pagas demasiado por infraestructura que no escalas bien. Migro tus sistemas a AWS, Azure o GCP y los optimizo para que escalen sin fricciones."
       }
     ]
   },
   "whyUs": {
-    "label": "¿Por Qué Elegirnos?",
-    "title": "La diferencia que",
-    "titleGradient": "marca el resultado",
-    "subtitle": "Cuando contratas a Orbexa Systems, trabajas directamente con los ingenieros que escriben tu código. Sin intermediarios, sin junior asignado después de la venta, sin suposiciones sobre tu negocio. Ya sea que estés lanzando tu primer proyecto o escalando una plataforma existente, el trato y la calidad son los mismos.",
+    "label": "Orbexa vs Agencias Tradicionales",
+    "title": "No es lo mismo contratar",
+    "titleGradient": "una agencia que contratar a Orbexa",
+    "subtitle": "En muchas agencias, el cliente rara vez habla con la persona que realmente construye el software.\n\nEn Orbexa trabajas directamente con el ingeniero que diseña y desarrolla tu sistema. Esto elimina intermediarios, acelera decisiones y reduce errores de interpretación en el desarrollo.\n\nHablas con quien construye, no con quien transmite mensajes.",
     "stats": [
-      { "value": "98%", "label": "Proyectos en tiempo" },
-      { "value": "15+", "label": "Años de experiencia personal" }
+      { "value": "0", "label": "Intermediarios entre tú y el código" },
+      { "value": "< 24h", "label": "Para tomar decisiones técnicas" }
     ],
     "reasons": [
       {
-        "title": "Equipo Especializado",
-        "description": "15 años construyendo sistemas para banca, seguros, telecom y retail — sabemos qué se rompe antes de que ocurra y cómo evitarlo.",
-        "stat": "15+",
-        "statLabel": "años en producción"
+        "title": "Hablas con quien escribe el código",
+        "description": "En una agencia, el developer asignado nunca estuvo en la reunión de ventas. Aquí, quien te responde el WhatsApp es quien programa.",
+        "stat": "1",
+        "statLabel": "punto de contacto"
       },
       {
-        "title": "Metodologías Ágiles",
-        "description": "Sprints de 2 semanas con entregas continuas y retroalimentación constante del cliente.",
-        "stat": "2 sem",
-        "statLabel": "ciclos de entrega"
+        "title": "Código en producción desde la semana 2",
+        "description": "Sin meses de discovery interminables. En la segunda semana ya tienes algo funcionando en un servidor real — no un prototipo en Figma.",
+        "stat": "Sem 2",
+        "statLabel": "primer deploy real"
       },
       {
-        "title": "Tecnología Moderna",
-        "description": "Stack tecnológico actualizado con las últimas versiones y mejores prácticas del sector.",
-        "stat": "2024",
-        "statLabel": "stack actualizado"
+        "title": "Decisiones técnicas en horas",
+        "description": "Sin comités de aprobación ni escalar a un tech lead que no conoce tu proyecto. Tomo decisiones directamente y te explico el razonamiento.",
+        "stat": "< 1 día",
+        "statLabel": "tiempo de decisión"
       },
       {
-        "title": "Arquitectura Escalable",
-        "description": "Diseñamos sistemas que crecen con tu negocio, desde startups hasta millones de usuarios.",
-        "stat": "10x",
-        "statLabel": "capacidad de escala"
+        "title": "Sin overhead de agencia",
+        "description": "Las agencias cobran un margen sobre el trabajo de sus developers. Aquí pagas por el trabajo real, no por financiar una estructura de 10 personas.",
+        "stat": "0%",
+        "statLabel": "markup oculto"
       },
       {
-        "title": "Seguridad Empresarial",
-        "description": "Cumplimiento OWASP, cifrado de datos y auditorías de seguridad en cada proyecto.",
-        "stat": "ISO",
-        "statLabel": "estándares de seguridad"
+        "title": "Software real, no demos eternas",
+        "description": "Todo lo que construyo va a producción. Sin MVPs abandonados, sin demostraciones interminables. La primera entrega es código funcional en un servidor real.",
+        "stat": "100%",
+        "statLabel": "code in production"
       },
       {
-        "title": "Soporte Continuo",
-        "description": "Acompañamiento post-lanzamiento, monitoreo 24/7 y SLA garantizado por contrato.",
-        "stat": "24/7",
-        "statLabel": "soporte disponible"
+        "title": "Garantía incluida sin letra chica",
+        "description": "30 días de garantía post-entrega sin costo adicional. No como las agencias que cobran retainer de mantenimiento desde el día 1.",
+        "stat": "30 días",
+        "statLabel": "garantía real"
+      }
+    ]
+  },
+  "founders": {
+    "label": "El Fundador",
+    "title": "Una empresa liderada",
+    "titleGradient": "directamente por su fundador",
+    "subtitle": "Orbexa Systems es una firma boutique donde el fundador es quien diseña, desarrolla y entrega cada proyecto. Sin capas de gestión, sin delegación a juniors, sin sorpresas.",
+    "storyTitle": "¿Por qué fundé Orbexa?",
+    "story": "Después de más de 15 años trabajando en proyectos de software para grandes corporativos — banca, seguros, telecomunicaciones y retail — me di cuenta de algo: la mayoría de las pymes y negocios en crecimiento no tienen acceso a ese nivel de experiencia técnica. Las grandes consultoras son costosas, lentas y asignan a sus mejores perfiles a las cuentas más grandes. Fundé Orbexa Systems para cambiar eso: llevar ingeniería de nivel enterprise a cualquier negocio, con trato directo, agilidad y total transparencia.",
+    "linkedinLabel": "LinkedIn",
+    "githubLabel": "GitHub",
+    "items": [
+      {
+        "name": "Silvano Hernández",
+        "role": "Fundador, Software Engineer & Architect",
+        "bio": "Ingeniero de software con más de 15 años construyendo sistemas críticos en seguros, banca, telecomunicaciones y retail. Especializado en arquitecturas escalables, integraciones complejas y desarrollo web moderno. Me apasiona construir software que resuelve problemas reales, no prototipos que se ven bien en demos.",
+        "linkedin": "",
+        "github": "",
+        "photo": null,
+        "initials": "SH"
+      }
+    ]
+  },
+  "industries": {
+    "label": "Industrias con Experiencia",
+    "title": "Sectores donde",
+    "titleGradient": "el software no puede fallar",
+    "subtitle": "He trabajado en proyectos de software para empresas líderes en estas industrias. Ese conocimiento lo aplico hoy en cada proyecto que tomo.",
+    "disclaimer": "* Esta experiencia corresponde al fundador como profesional de software antes de constituir Orbexa Systems, no a proyectos actuales de la empresa.",
+    "items": [
+      {
+        "title": "Banca",
+        "description": "Sistemas de transacciones, módulos de crédito, banca en línea y cumplimiento regulatorio en entornos de alta disponibilidad."
+      },
+      {
+        "title": "Seguros",
+        "description": "Plataformas de gestión de pólizas, procesamiento de reclamaciones e integraciones con aseguradoras en entornos regulados."
+      },
+      {
+        "title": "Telecomunicaciones",
+        "description": "Portales de clientes, sistemas de facturación, gestión de servicios y automatización de procesos operativos a gran escala."
+      },
+      {
+        "title": "Retail",
+        "description": "E-commerce, gestión de inventario, sistemas de punto de venta e integraciones con plataformas de venta nacionales e internacionales."
+      },
+      {
+        "title": "Alimentos y Bebidas",
+        "description": "Presencia digital, menús en línea, pedidos vía WhatsApp y automatización de atención al cliente para negocios locales."
+      },
+      {
+        "title": "Logística",
+        "description": "Seguimiento de envíos, optimización de rutas, gestión de almacén y reportes operativos para cadenas de distribución."
       }
     ]
   },
@@ -108,100 +162,120 @@
     "label": "Stack Tecnológico",
     "title": "Herramientas que",
     "titleGradient": "hacen la diferencia",
-    "subtitle": "Trabajamos con las tecnologías más demandadas y probadas en proyectos reales, desde sitios y aplicaciones para negocios locales hasta plataformas de alto tráfico."
+    "subtitle": "Trabajo con las tecnologías más demandadas y probadas en proyectos reales, desde sitios y aplicaciones para negocios locales hasta plataformas de alto tráfico."
   },
   "caseStudies": {
-    "label": "Experiencia y Proyectos",
-    "title": "Experiencia para llevar tu negocio",
-    "titleGradient": "al siguiente nivel",
-    "subtitle": "Sin importar en qué etapa esté tu negocio, tenemos la experiencia y las herramientas para ayudarte a crecer con tecnología que realmente funciona.",
+    "label": "Proyectos",
+    "title": "Trabajo real,",
+    "titleGradient": "resultados concretos",
+    "subtitle": "Transparencia total sobre lo que he construido y en qué etapa está cada proyecto.",
     "challengeLabel": "Desafío",
     "solutionLabel": "Solución",
+    "highlightsLabel": "Experiencia aplicada",
+    "technologiesLabel": "Tecnologías utilizadas",
+    "impactLabel": "Impacto en el negocio",
     "statusLabel": "Estado actual",
+    "screenshotLabel": "Vista previa",
+    "screenshotComingSoon": "Capturas disponibles próximamente",
     "cases": [
       {
         "tag": "Seguros · Banca · Telecom · Retail",
         "title": "15 años en sistemas críticos",
-        "problem": "Sectores donde un fallo impacta millones de transacciones, pólizas activas o contratos regulados.",
-        "solution": "Hemos formado parte de equipos de desarrollo en proyectos para compañías líderes de los sectores asegurador, bancario, telecomunicaciones y retail, incluyendo operaciones internacionales, trabajando con arquitecturas robustas donde la disponibilidad y el cumplimiento regulatorio son innegociables.",
-        "estado": null
+        "problem": "Sectores donde un fallo impacta millones de transacciones, pólizas activas o contratos regulados. La tolerancia al error es prácticamente cero.",
+        "solution": "Participé en equipos de desarrollo para empresas líderes en estos sectores, incluyendo operaciones internacionales, trabajando con arquitecturas robustas donde la disponibilidad y el cumplimiento regulatorio son innegociables.",
+        "highlights": [
+          "Sistemas con 99.9%+ de disponibilidad requerida",
+          "Procesamiento de millones de transacciones simultáneas",
+          "Cumplimiento regulatorio (CNBV, CONDUSEF, Profeco)",
+          "Integraciones con sistemas legacy y APIs modernas",
+          "Equipos distribuidos con metodologías ágiles",
+          "Arquitecturas de microservicios a gran escala"
+        ],
+        "technologies": ["Java", "Spring Boot", "Microservicios", "APIs RESTful", "Oracle · PostgreSQL", "Docker · Kubernetes", "CI/CD", "Alta disponibilidad"],
+        "impact": "Experiencia directamente aplicable al diseño de sistemas robustos, seguros y de alta disponibilidad — sin importar el tamaño del negocio.",
+        "estado": null,
+        "screenshotPlaceholder": false
       },
       {
         "tag": "Gastronomía · En desarrollo",
-        "title": "Landing Page + Menú Digital QR",
-        "problem": "BarraFresh, negocio de comida saludable en Atizapán de Zaragoza, operaba sin presencia digital: sin sitio web, sin menú en línea y sin canal directo para recibir pedidos.",
-        "solution": "Landing page con Next.js 15 y Tailwind CSS, menú digital accesible vía código QR, integración directa con WhatsApp para pedidos, y SEO local optimizado para búsquedas en la zona.",
-        "estado": "Proyecto en fase de desarrollo activo."
+        "title": "BarraFresh — Landing Page + Menú Digital QR",
+        "problem": "BarraFresh, negocio de comida saludable en Atizapán de Zaragoza, operaba sin presencia digital: sin sitio web, sin menú en línea y sin un canal directo para recibir pedidos de sus clientes.",
+        "solution": "Desarrollé una landing page profesional con Next.js 15, un menú digital accesible vía código QR, integración directa con WhatsApp para la recepción de pedidos y SEO local optimizado para búsquedas en la zona.",
+        "highlights": [],
+        "technologies": ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Vercel", "WhatsApp API"],
+        "impact": "El negocio cuenta por primera vez con presencia digital profesional, un canal activo de pedidos por WhatsApp y visibilidad en búsquedas locales de Google.",
+        "estado": "Proyecto en fase de desarrollo activo.",
+        "screenshotPlaceholder": true
       }
     ]
   },
   "process": {
-    "label": "Nuestro Proceso",
-    "title": "De la idea al",
-    "titleGradient": "producto en producción",
-    "subtitle": "Un proceso transparente, iterativo y orientado a resultados que garantiza proyectos exitosos en tiempo y presupuesto.",
+    "label": "Cómo Trabajo",
+    "title": "Del problema",
+    "titleGradient": "al código en producción",
+    "subtitle": "Sin burocracia, sin deliverables interminables. Aquí está exactamente cómo avanzo desde la primera llamada hasta el software funcionando en un servidor real.",
     "steps": [
       {
-        "title": "Descubrimiento",
-        "description": "Reuniones de kickoff para entender tu negocio, objetivos, usuarios y restricciones técnicas. Definimos el alcance y el plan de acción.",
-        "duration": "1-2 semanas"
+        "title": "Llamada de descubrimiento",
+        "description": "30–60 minutos. Me cuentas el problema que quieres resolver. Te hago preguntas técnicas y de negocio. Al final te digo honestamente si puedo ayudarte, con qué tecnología y en cuánto tiempo.",
+        "duration": "Semana 1"
       },
       {
-        "title": "Análisis",
-        "description": "Evaluamos requerimientos funcionales y no funcionales, riesgos técnicos, integraciones existentes y definimos la arquitectura de la solución.",
-        "duration": "1-2 semanas"
+        "title": "Propuesta técnica",
+        "description": "Te entrego una propuesta escrita con alcance, arquitectura propuesta, stack tecnológico, fases de entrega, tiempos estimados y precio. Sin letra chica.",
+        "duration": "Días 3–5"
       },
       {
-        "title": "Diseño",
-        "description": "Creamos wireframes, prototipos y diseño visual de alta fidelidad. Validamos la experiencia de usuario antes de escribir una sola línea de código.",
-        "duration": "2-3 semanas"
+        "title": "Primer sprint (diseño + base técnica)",
+        "description": "Configuro el repositorio, CI/CD pipeline, entorno de staging y la arquitectura base. Al final del sprint ya tienes algo deployado en un ambiente real.",
+        "duration": "Semanas 1–2"
       },
       {
-        "title": "Desarrollo",
-        "description": "Sprints de 2 semanas con demos continuas. Código revisado, testeado y documentado. Acceso a tablero en tiempo real con el avance del proyecto.",
+        "title": "Desarrollo iterativo",
+        "description": "Sprints de 2 semanas con demo en vivo al cerrar cada uno. Código en producción, no en Figma. Tablero de avance disponible en tiempo real. Feedback incorporado en el siguiente sprint.",
         "duration": "Variable"
       },
       {
-        "title": "Pruebas",
-        "description": "Testing automatizado, pruebas de carga, seguridad y aceptación de usuario. Garantizamos calidad antes del lanzamiento en producción.",
-        "duration": "1-2 semanas"
+        "title": "QA y pruebas",
+        "description": "Testing automatizado (unitario e integración), pruebas de carga si aplica y revisión de seguridad básica (OWASP Top 10). Nada va a producción final sin pasar esta fase.",
+        "duration": "1–2 semanas"
       },
       {
-        "title": "Despliegue y Soporte",
-        "description": "Lanzamiento controlado con rollback plan. Monitoreo activo post-go-live, capacitación del equipo y soporte continuo garantizado por SLA.",
+        "title": "Entrega y soporte",
+        "description": "Deploy final a producción con plan de rollback. Te entrego acceso completo al código, documentación técnica básica y 30 días de garantía sin costo adicional.",
         "duration": "Continuo"
       }
     ]
   },
   "testimonials": {
     "label": "Testimonios",
-    "title": "Lo que dicen nuestros",
+    "title": "Lo que dicen mis",
     "titleGradient": "clientes",
-    "subtitle": "La satisfacción de nuestros clientes es la mejor validación de nuestro trabajo.",
+    "subtitle": "La satisfacción de mis clientes es la mejor validación de mi trabajo.",
     "items": [
       {
         "name": "Mary González",
         "role": "Fundadora",
         "company": "BarraFresh",
-        "comment": "Orbexa Systems nos está ayudando a construir nuestra presencia digital desde cero: sitio web profesional y menú digital por QR. Un proceso ágil y con comunicación directa en todo momento.",
+        "comment": "Silvano nos está ayudando a construir nuestra presencia digital desde cero: sitio web profesional y menú digital por QR. Un proceso ágil y con comunicación directa en todo momento.",
         "initials": "MG"
       }
     ]
   },
   "cta": {
-    "badge": "Primera consulta 100% gratuita",
-    "title": "¿Listo para transformar",
-    "titleGradient": "tu negocio",
+    "badge": "Llamada de 20 minutos · 100% gratuita",
+    "title": "¿Tu idea merece software real,",
+    "titleGradient": "no otro prototipo en Figma",
     "titleEnd": "?",
-    "subtitle": "Agenda una consulta gratuita con nuestros expertos. Analizamos tu proyecto, proponemos la solución tecnológica ideal y te damos una estimación sin compromiso.",
-    "button": "Agenda una Consulta Gratuita",
-    "trustItems": ["Sin compromiso", "Respuesta en 24h", "Expertos disponibles"]
+    "subtitle": "Agenda una llamada de 20 minutos conmigo. Sin pitch de ventas, sin presentaciones corporativas. Me cuentas el problema, yo te digo si puedo resolverlo, con qué tecnología y en cuánto tiempo — honestamente.",
+    "button": "Agenda tu llamada de 20 min (gratis)",
+    "trustItems": ["Sin compromiso", "Sin pitch de ventas", "Evaluación técnica honesta"]
   },
   "contact": {
     "label": "Contacto",
     "title": "Hablemos de tu",
     "titleGradient": "próximo proyecto",
-    "subtitle": "Completa el formulario y te contactaremos en menos de 24 horas.",
+    "subtitle": "Completa el formulario y te respondo en menos de 24 horas.",
     "infoTitle": "Información de Contacto",
     "infoSubtitle": "Disponible para atender tus consultas y comenzar a construir juntos.",
     "emailLabel": "Correo",
@@ -222,35 +296,35 @@
       "emailLabel": "Correo electrónico",
       "emailPlaceholder": "juan@empresa.com",
       "phoneLabel": "Teléfono",
-      "phonePlaceholder": "+1 555 000 0000",
+      "phonePlaceholder": "+52 55 0000 0000",
       "messageLabel": "Mensaje",
-      "messagePlaceholder": "Cuéntanos sobre tu proyecto, qué necesitas desarrollar, en qué plazo y cualquier detalle relevante...",
+      "messagePlaceholder": "Cuéntame sobre tu proyecto: qué necesitas desarrollar, en qué plazo y cualquier detalle relevante...",
       "submitButton": "Enviar Solicitud",
       "sendingButton": "Enviando...",
       "privacyText": "Al enviar este formulario, aceptas nuestra",
       "privacyLink": "Política de Privacidad",
       "successTitle": "¡Mensaje enviado!",
-      "successSubtitle": "Gracias por tu mensaje. Nos pondremos en contacto contigo en menos de 24 horas.",
+      "successSubtitle": "Gracias por tu mensaje. Te respondo en menos de 24 horas.",
       "errorGeneric": "Error al enviar. Intenta de nuevo.",
       "errorRequired": "Nombre, correo y mensaje son requeridos."
     }
   },
   "footer": {
-    "description": "Especializados en desarrollo de software. Hacemos que la tecnología trabaje para tu negocio, sin importar su tamaño. 15 años de experiencia, resultados reales.",
+    "description": "Consultoría boutique de desarrollo de software, liderada directamente por el fundador. Tecnología que hace crecer tu negocio, sin importar su tamaño.",
     "servicesTitle": "Servicios",
     "services": [
-      "Desarrollo de Software",
-      "Aplicaciones Web",
-      "APIs e Integraciones",
-      "Cloud & DevOps",
+      "Aplicaciones Web a Medida",
+      "Landing Pages",
+      "Automatización de Procesos",
+      "Integraciones y APIs",
       "Inteligencia Artificial",
-      "Soporte e Infraestructura"
+      "Cloud y Migración"
     ],
     "navTitle": "Navegación",
     "navLinks": [
       { "label": "Inicio", "href": "#inicio" },
+      { "label": "Sobre mí", "href": "#fundadores" },
       { "label": "Servicios", "href": "#servicios" },
-      { "label": "Tecnologías", "href": "#tecnologias" },
       { "label": "Casos de Éxito", "href": "#casos" },
       { "label": "Contacto", "href": "#contacto" },
       { "label": "Política de Privacidad", "href": "/es/privacy" }
@@ -260,7 +334,7 @@
     "whatsappLabel": "WhatsApp",
     "locationLabel": "Ubicación",
     "location": "Lirio 20, Lomas de San Miguel, CP 52928",
-    "ctaButton": "Solicitar Cotización",
+    "ctaButton": "Habla con el Fundador",
     "copyright": "Todos los derechos reservados.",
     "privacyPolicy": "Política de Privacidad",
     "privacyHref": "/es/privacy",
@@ -272,38 +346,38 @@
     "label": "Preguntas Frecuentes",
     "title": "Todo lo que necesitas",
     "titleGradient": "saber",
-    "subtitle": "Resolvemos las dudas más comunes antes de que inicies tu proyecto con nosotros.",
+    "subtitle": "Respondo las dudas más comunes antes de que inicies tu proyecto.",
     "items": [
       {
         "question": "¿Cuánto cuesta desarrollar un proyecto?",
-        "answer": "Cada proyecto es único, por lo que no manejamos precios fijos. El costo depende del alcance, la complejidad y el tiempo estimado. Lo que sí podemos garantizar es transparencia total: en la consulta gratuita analizamos tu necesidad y te entregamos una propuesta detallada sin compromiso."
+        "answer": "Cada proyecto es único, por lo que no manejo precios fijos. El costo depende del alcance, la complejidad y el tiempo estimado. Lo que sí garantizo es transparencia total: en la consulta gratuita analizo tu necesidad y te entrego una propuesta detallada sin compromiso."
       },
       {
         "question": "¿Cuánto tiempo tarda en desarrollarse un proyecto?",
-        "answer": "Depende del tipo de solución. Una landing page o sitio informativo puede estar lista en 1-2 semanas. Una aplicación web con funcionalidades personalizadas tarda entre 1 y 3 meses. Plataformas enterprise o integraciones complejas pueden llevar más tiempo. Siempre definimos plazos claros antes de comenzar."
+        "answer": "Depende del tipo de solución. Una landing page puede estar lista en 1-2 semanas. Una aplicación web con funcionalidades personalizadas tarda entre 1 y 3 meses. Plataformas más complejas o integraciones pueden llevar más tiempo. Siempre defino plazos claros antes de comenzar."
       },
       {
-        "question": "¿Trabajan con startups o solo con empresas grandes?",
-        "answer": "Trabajamos con ambas. Tenemos experiencia en empresas enterprise del sector bancario, seguros y telecomunicaciones, pero también apoyamos a emprendedores y negocios en crecimiento. Adaptamos la solución y el presupuesto a la etapa en la que se encuentra tu negocio."
+        "question": "¿Trabajas con startups o solo con empresas grandes?",
+        "answer": "Con ambas. Tengo experiencia en entornos enterprise de banca, seguros y telecomunicaciones, pero también apoyo a emprendedores y negocios en crecimiento. Adapto la solución y el presupuesto a la etapa en la que se encuentra tu negocio."
       },
       {
         "question": "¿Qué pasa si no me gusta el resultado?",
-        "answer": "Trabajamos con entregas iterativas cada 2 semanas para que puedas ver y validar el avance constantemente. Esto elimina sorpresas al final. Además, incluimos un periodo de garantía de 30 días tras la entrega final para corregir cualquier error funcional sin costo adicional."
+        "answer": "Trabajo con entregas iterativas cada 2 semanas para que puedas ver y validar el avance constantemente. Esto elimina sorpresas al final. Además, incluyo un periodo de garantía de 30 días tras la entrega final para corregir cualquier error funcional sin costo adicional."
       },
       {
-        "question": "¿Necesito saber de tecnología para contratar sus servicios?",
-        "answer": "No. Tú nos describes el problema de negocio que quieres resolver y nosotros nos encargamos de la solución técnica. Nuestro trabajo incluye traducir tus necesidades a tecnología, no al revés. Solo necesitas tener clara la meta, nosotros elegimos el camino."
+        "question": "¿Necesito saber de tecnología para contratarte?",
+        "answer": "No. Tú me describes el problema de negocio que quieres resolver y yo me encargo de la solución técnica. Mi trabajo incluye traducir tus necesidades a tecnología, no al revés. Solo necesitas tener clara la meta, yo elijo el camino."
       },
       {
-        "question": "¿Trabajan de forma remota?",
-        "answer": "Sí, operamos 100% de forma remota con clientes en México y en el extranjero. Usamos herramientas de colaboración para mantenernos alineados: videollamadas semanales, tableros de proyecto en tiempo real y entregas demostrables cada sprint."
+        "question": "¿Trabajas de forma remota?",
+        "answer": "Sí, opero 100% de forma remota con clientes en México y en el extranjero. Usamos herramientas de colaboración para mantenernos alineados: videollamadas semanales, tableros de proyecto en tiempo real y entregas demostrables cada sprint."
       },
       {
-        "question": "¿Dan soporte después de entregar el proyecto?",
-        "answer": "Sí. Todo proyecto incluye 30 días de garantía para corrección de errores. Además ofrecemos planes de mantenimiento y soporte continuo para quienes necesiten monitoreo, actualizaciones y atención técnica post-lanzamiento. El soporte de emergencia está disponible 24/7."
+        "question": "¿Das soporte después de entregar el proyecto?",
+        "answer": "Sí. Todo proyecto incluye 30 días de garantía para corrección de errores. Además ofrezco planes de mantenimiento y soporte continuo para quienes necesiten monitoreo, actualizaciones y atención técnica post-lanzamiento. El soporte de emergencia está disponible 24/7."
       }
     ],
-    "ctaText": "¿Tu pregunta no está aquí? Escríbenos directamente.",
+    "ctaText": "¿Tu pregunta no está aquí? Escríbeme directamente.",
     "ctaButton": "Hacer una pregunta"
   },
   "cookieBanner": {
@@ -315,6 +389,6 @@
   },
   "whatsapp": {
     "message": "Hola, me interesa conocer más sobre sus servicios de desarrollo de software.",
-    "tooltip": "¡Chatea con nosotros!"
+    "tooltip": "¡Chatea con el fundador!"
   }
 }
