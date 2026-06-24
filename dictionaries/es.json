@@ -254,11 +254,11 @@
     "subtitle": "La satisfacción de mis clientes es la mejor validación de mi trabajo.",
     "items": [
       {
-        "name": "Mary González",
-        "role": "Fundadora",
-        "company": "BarraFresh",
-        "comment": "Silvano nos está ayudando a construir nuestra presencia digital desde cero: sitio web profesional y menú digital por QR. Un proceso ágil y con comunicación directa en todo momento.",
-        "initials": "MG"
+        "name": "BarraFresh",
+        "role": "Restaurante",
+        "company": "",
+        "comment": "Estamos trabajando con Orbexa para construir nuestra presencia digital desde cero. Han desarrollado nuestro sitio web y el sistema de menú digital por QR. El proceso ha sido rápido, claro y con comunicación directa en todo momento.",
+        "initials": "BF"
       }
     ]
   },

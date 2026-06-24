@@ -53,7 +53,7 @@ export default function Testimonials({ dict }: { dict: TestimonialsDict }) {
                 </div>
                 <div>
                   <div className="font-bold text-white">{t.name}</div>
-                  <div className="text-sm text-slate-400">{t.role} · {t.company}</div>
+                  <div className="text-sm text-slate-400">{t.role}{t.company ? ` · ${t.company}` : ""}</div>
                 </div>
               </div>
             </div>
