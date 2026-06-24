@@ -11,10 +11,10 @@
     "cta": "Solicitar Cotización"
   },
   "hero": {
-    "badge": "15 Años de Experiencia · Ingeniería Senior",
+    "badge": "15 Años de Experiencia · Pymes y Enterprise",
     "title": "15 años desarrollando software para",
     "titleGradient": "seguros, banca, telecomunicaciones y retail",
-    "subtitle": "Construimos plataformas escalables, automatizamos procesos y desarrollamos sistemas donde la disponibilidad y el cumplimiento regulatorio son innegociables.",
+    "subtitle": "Construimos plataformas escalables, automatizamos procesos y desarrollamos sistemas donde la disponibilidad y el cumplimiento regulatorio son innegociables. Trabajamos con negocios de todos los tamaños: desde emprendedores lanzando su primera idea hasta corporativos que necesitan escalar.",
     "ctaPrimary": "Solicitar Cotización",
     "ctaSecondary": "Conocer Servicios",
     "trustBadges": ["Metodologías Ágiles", "Código de Calidad", "Ingeniería Senior"],
@@ -28,7 +28,7 @@
     "label": "Nuestros Servicios",
     "title": "Soluciones tecnológicas para",
     "titleGradient": "cada desafío",
-    "subtitle": "Trabajamos con el ecosistema tecnológico más moderno y probado de la industria para entregar soluciones de clase mundial.",
+    "subtitle": "Trabajamos con el ecosistema tecnológico más moderno y probado de la industria para entregar soluciones de alta calidad, adaptadas al tamaño y presupuesto de tu negocio: pymes, startups y enterprise.",
     "items": [
       {
         "title": "Desarrollo de Software",
@@ -60,7 +60,7 @@
     "label": "¿Por Qué Elegirnos?",
     "title": "La diferencia que",
     "titleGradient": "marca el resultado",
-    "subtitle": "Cuando contratas a Orbexa Systems, trabajas directamente con los ingenieros que escriben tu código. Sin intermediarios, sin junior asignado después de la venta, sin suposiciones sobre tu negocio.",
+    "subtitle": "Cuando contratas a Orbexa Systems, trabajas directamente con los ingenieros que escriben tu código. Sin intermediarios, sin junior asignado después de la venta, sin suposiciones sobre tu negocio. Ya sea que estés lanzando tu primer proyecto o escalando una plataforma existente, el trato y la calidad son los mismos.",
     "stats": [
       { "value": "98%", "label": "Proyectos en tiempo" },
       { "value": "15+", "label": "Años de experiencia personal" }
@@ -108,13 +108,13 @@
     "label": "Stack Tecnológico",
     "title": "Herramientas que",
     "titleGradient": "hacen la diferencia",
-    "subtitle": "Trabajamos con las tecnologías más demandadas y probadas en producción enterprise."
+    "subtitle": "Trabajamos con las tecnologías más demandadas y probadas en proyectos reales, desde sitios y aplicaciones para negocios locales hasta plataformas de alto tráfico."
   },
   "caseStudies": {
     "label": "Experiencia y Proyectos",
-    "title": "Trayectoria real en sectores donde el",
-    "titleGradient": "software no puede fallar",
-    "subtitle": "Proyectos desarrollados en sectores de alta exigencia, donde la disponibilidad, la seguridad y el cumplimiento regulatorio son parte del día a día.",
+    "title": "Experiencia para llevar tu negocio",
+    "titleGradient": "al siguiente nivel",
+    "subtitle": "Sin importar en qué etapa esté tu negocio, tenemos la experiencia y las herramientas para ayudarte a crecer con tecnología que realmente funciona.",
     "challengeLabel": "Desafío",
     "solutionLabel": "Solución",
     "statusLabel": "Estado actual",
@@ -236,7 +236,7 @@
     }
   },
   "footer": {
-    "description": "Especializados en desarrollo de software, cloud computing e inteligencia artificial. Transformamos 15 años de experiencia enterprise en soluciones para tu negocio.",
+    "description": "Especializados en desarrollo de software. Hacemos que la tecnología trabaje para tu negocio, sin importar su tamaño. 15 años de experiencia, resultados reales.",
     "servicesTitle": "Servicios",
     "services": [
       "Desarrollo de Software",
