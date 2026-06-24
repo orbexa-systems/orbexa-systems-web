@@ -74,7 +74,7 @@
       },
       {
         "title": "Code in production by week 2",
-        "description": "No months of endless discovery. By the second week you have something running on a real server — not a Figma prototype.",
+        "description": "Instead of months of planning, within a few weeks you already have a functional version in early production. No staying stuck in prototypes.",
         "stat": "Wk 2",
         "statLabel": "first real deploy"
       },
@@ -97,8 +97,8 @@
         "statLabel": "code in production"
       },
       {
-        "title": "Real warranty, no fine print",
-        "description": "30 days post-delivery warranty at no extra cost. Not like agencies that charge a maintenance retainer from day 1.",
+        "title": "Warranty included",
+        "description": "We include 30 days of post-delivery support at no additional cost for minor adjustments and system stabilization. After that period, you can continue with on-demand support if you need it, with no forced commitments.",
         "stat": "30 days",
         "statLabel": "real guarantee"
       }
@@ -213,36 +213,36 @@
     "label": "How I Work",
     "title": "From the problem",
     "titleGradient": "to code in production",
-    "subtitle": "No bureaucracy, no endless deliverables. Here's exactly how I move from the first call to software running on a real server.",
+    "subtitle": "From the first call to software in production. No bureaucracy, no surprises.",
     "steps": [
       {
         "title": "Discovery call",
-        "description": "30–60 minutes. You tell me the problem you want to solve. I ask technical and business questions. By the end I'll tell you honestly whether I can help, with what technology and in how long.",
+        "description": "30–60 min to understand your problem. I'll tell you honestly what can be built, with what technology and in how long.",
         "duration": "Week 1"
       },
       {
         "title": "Technical proposal",
-        "description": "I deliver a written proposal with scope, proposed architecture, tech stack, delivery phases, estimated timelines and price. No fine print.",
+        "description": "Document with scope, architecture, stack, timelines and price. Everything clear from the start.",
         "duration": "Days 3–5"
       },
       {
-        "title": "First sprint (design + technical base)",
-        "description": "I set up the repository, CI/CD pipeline, staging environment and base architecture. By the end of the sprint you already have something deployed in a real environment.",
+        "title": "First sprint",
+        "description": "I set up the repository, CI/CD and staging environment. By sprint close, you have code running on a real server.",
         "duration": "Weeks 1–2"
       },
       {
         "title": "Iterative development",
-        "description": "2-week sprints with a live demo at the close of each one. Code in production, not in Figma. Real-time progress board available. Feedback incorporated in the next sprint.",
+        "description": "2-week sprints with a functional demo at the close of each one. Feedback enters the next cycle without delays.",
         "duration": "Variable"
       },
       {
-        "title": "QA and testing",
-        "description": "Automated testing (unit and integration), load testing if applicable and basic security review (OWASP Top 10). Nothing goes to final production without passing this phase.",
+        "title": "QA & testing",
+        "description": "Automated testing, load tests and OWASP Top 10 security review. Nothing goes to production without validation.",
         "duration": "1–2 weeks"
       },
       {
-        "title": "Delivery and support",
-        "description": "Final deploy to production with rollback plan. I hand over full code access, basic technical documentation and 30 days of warranty at no additional cost.",
+        "title": "Delivery & support",
+        "description": "Deploy with rollback plan, full code ownership and 30 days of included support.",
         "duration": "Ongoing"
       }
     ]
@@ -264,8 +264,8 @@
   },
   "cta": {
     "badge": "20-minute call · 100% free",
-    "title": "Does your idea deserve real software,",
-    "titleGradient": "not another Figma prototype",
+    "title": "Are you building a real product",
+    "titleGradient": "or just a prototype that will never scale",
     "titleEnd": "?",
     "subtitle": "Book a 20-minute call with me. No sales pitch, no corporate presentations. You tell me the problem, I tell you if I can solve it, with what technology and in how long — honestly.",
     "button": "Book your 20-min call (free)",
