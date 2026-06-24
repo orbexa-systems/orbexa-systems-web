@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
+import Founders from "@/components/Founders";
+import Industries from "@/components/Industries";
 import Technologies from "@/components/Technologies";
 import CaseStudies from "@/components/CaseStudies";
 import Process from "@/components/Process";
@@ -32,6 +34,8 @@ export default async function Home({
         <Hero dict={dict.hero} />
         <Services dict={dict.services} />
         <WhyUs dict={dict.whyUs} />
+        <Founders dict={dict.founders} />
+        <Industries dict={dict.industries} />
         <Technologies dict={dict.technologies} lang={lang} />
         <CaseStudies dict={dict.caseStudies} />
         <Process dict={dict.process} />
