@@ -74,7 +74,7 @@
       },
       {
         "title": "Código en producción desde la semana 2",
-        "description": "Sin meses de discovery interminables. En la segunda semana ya tienes algo funcionando en un servidor real — no un prototipo en Figma.",
+        "description": "En lugar de meses de planificación, en pocas semanas ya tienes una versión funcional en producción temprana. Sin quedarse en prototipos.",
         "stat": "Sem 2",
         "statLabel": "primer deploy real"
       },
@@ -97,8 +97,8 @@
         "statLabel": "code in production"
       },
       {
-        "title": "Garantía incluida sin letra chica",
-        "description": "30 días de garantía post-entrega sin costo adicional. No como las agencias que cobran retainer de mantenimiento desde el día 1.",
+        "title": "Garantía incluida",
+        "description": "Incluimos 30 días de soporte post-entrega sin costo adicional para ajustes menores y estabilización del sistema. Después de ese periodo, puedes continuar con soporte bajo demanda si lo necesitas, sin compromisos forzados.",
         "stat": "30 días",
         "statLabel": "garantía real"
       }
@@ -213,36 +213,36 @@
     "label": "Cómo Trabajo",
     "title": "Del problema",
     "titleGradient": "al código en producción",
-    "subtitle": "Sin burocracia, sin deliverables interminables. Aquí está exactamente cómo avanzo desde la primera llamada hasta el software funcionando en un servidor real.",
+    "subtitle": "De la primera llamada al software en producción. Sin burocracia, sin sorpresas.",
     "steps": [
       {
         "title": "Llamada de descubrimiento",
-        "description": "30–60 minutos. Me cuentas el problema que quieres resolver. Te hago preguntas técnicas y de negocio. Al final te digo honestamente si puedo ayudarte, con qué tecnología y en cuánto tiempo.",
+        "description": "30–60 min para entender tu problema. Al final te digo honestamente qué se puede construir, con qué tecnología y en cuánto tiempo.",
         "duration": "Semana 1"
       },
       {
         "title": "Propuesta técnica",
-        "description": "Te entrego una propuesta escrita con alcance, arquitectura propuesta, stack tecnológico, fases de entrega, tiempos estimados y precio. Sin letra chica.",
+        "description": "Documento con alcance, arquitectura, stack, plazos y precio. Todo claro desde el inicio.",
         "duration": "Días 3–5"
       },
       {
-        "title": "Primer sprint (diseño + base técnica)",
-        "description": "Configuro el repositorio, CI/CD pipeline, entorno de staging y la arquitectura base. Al final del sprint ya tienes algo deployado en un ambiente real.",
+        "title": "Primer sprint",
+        "description": "Configuro repositorio, CI/CD y entorno de staging. Al cierre ya tienes código corriendo en un servidor real.",
         "duration": "Semanas 1–2"
       },
       {
         "title": "Desarrollo iterativo",
-        "description": "Sprints de 2 semanas con demo en vivo al cerrar cada uno. Código en producción, no en Figma. Tablero de avance disponible en tiempo real. Feedback incorporado en el siguiente sprint.",
+        "description": "Sprints de 2 semanas con demo funcional al cierre de cada uno. El feedback entra en el siguiente ciclo, sin esperas.",
         "duration": "Variable"
       },
       {
         "title": "QA y pruebas",
-        "description": "Testing automatizado (unitario e integración), pruebas de carga si aplica y revisión de seguridad básica (OWASP Top 10). Nada va a producción final sin pasar esta fase.",
+        "description": "Testing automatizado, pruebas de carga y revisión OWASP Top 10. Nada pasa a producción sin validación.",
         "duration": "1–2 semanas"
       },
       {
         "title": "Entrega y soporte",
-        "description": "Deploy final a producción con plan de rollback. Te entrego acceso completo al código, documentación técnica básica y 30 días de garantía sin costo adicional.",
+        "description": "Deploy con plan de rollback, código completo en tus manos y 30 días de soporte incluido.",
         "duration": "Continuo"
       }
     ]
@@ -264,8 +264,8 @@
   },
   "cta": {
     "badge": "Llamada de 20 minutos · 100% gratuita",
-    "title": "¿Tu idea merece software real,",
-    "titleGradient": "no otro prototipo en Figma",
+    "title": "¿Estás construyendo un producto real",
+    "titleGradient": "o solo un prototipo que nunca va a escalar",
     "titleEnd": "?",
     "subtitle": "Agenda una llamada de 20 minutos conmigo. Sin pitch de ventas, sin presentaciones corporativas. Me cuentas el problema, yo te digo si puedo resolverlo, con qué tecnología y en cuánto tiempo — honestamente.",
     "button": "Agenda tu llamada de 20 min (gratis)",
