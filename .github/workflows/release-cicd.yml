@@ -1,12 +1,14 @@
-name: CI
+name: Release CI/CD
 
 on:
   pull_request:
-    branches: [master, develop]
+    branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   ci:
-    name: Type check · Lint · Build
+    name: Type check · Lint · Build · Audit
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,3 +30,6 @@ jobs:
         run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: 1
+
+      - name: Audit
+        run: npm audit --audit-level=high
