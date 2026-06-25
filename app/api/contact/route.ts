@@ -13,6 +13,22 @@ export async function POST(request: Request) {
       );
     }
 
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      return NextResponse.json(
+        { error: "Ingresa un correo electrónico válido." },
+        { status: 400 }
+      );
+    }
+
+    const phoneRegex = /^[\d\s\+\-\(\)]{7,20}$/;
+    if (phone && !phoneRegex.test(phone)) {
+      return NextResponse.json(
+        { error: "Ingresa un teléfono válido (mínimo 7 dígitos)." },
+        { status: 400 }
+      );
+    }
+
     const { error: sendError } = await resend.emails.send({
       from: "Orbexa Systems <noreply@orbexasystems.com>",
       to: process.env.CONTACT_EMAIL!,

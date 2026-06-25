@@ -1,12 +1,30 @@
 {
   "navbar": {
     "links": [
-      { "label": "Home", "href": "#inicio" },
-      { "label": "About", "href": "#fundadores" },
-      { "label": "Services", "href": "#servicios" },
-      { "label": "Case Studies", "href": "#casos" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Contact", "href": "#contacto" }
+      {
+        "label": "Home",
+        "href": "#inicio"
+      },
+      {
+        "label": "About",
+        "href": "#fundadores"
+      },
+      {
+        "label": "Services",
+        "href": "#servicios"
+      },
+      {
+        "label": "Case Studies",
+        "href": "#casos"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Contact",
+        "href": "#contacto"
+      }
     ],
     "cta": "Talk to the Founder"
   },
@@ -17,11 +35,24 @@
     "subtitle": "I'm a software engineer with 15+ years of experience in banking, insurance, telecom and retail. I build software that goes to production — not prototypes, not demos. Systems that replace spreadsheets, automate processes and connect tools that don't talk to each other.",
     "ctaPrimary": "Book a 20-Min Call (Free)",
     "ctaSecondary": "View Services",
-    "trustBadges": ["No sales pitch", "Code in production", "No middlemen"],
+    "trustBadges": [
+      "No sales pitch",
+      "Code in production",
+      "No middlemen"
+    ],
     "metrics": [
-      { "value": "15+", "label": "Years of founder's technical experience" },
-      { "value": "4", "label": "High-demand industries" },
-      { "value": "24h", "label": "Guaranteed response time" }
+      {
+        "value": "15+",
+        "label": "Years of founder's technical experience"
+      },
+      {
+        "value": "4",
+        "label": "High-demand industries"
+      },
+      {
+        "value": "24h",
+        "label": "Guaranteed response time"
+      }
     ]
   },
   "services": {
@@ -62,8 +93,14 @@
     "titleGradient": "an agency as it is to hire Orbexa",
     "subtitle": "In many agencies, the client rarely speaks with the person actually building the software.\n\nAt Orbexa you work directly with the engineer who designs and develops your system. This eliminates middlemen, speeds up decisions and reduces misinterpretation errors during development.\n\nYou talk to whoever builds it, not to whoever passes messages along.",
     "stats": [
-      { "value": "0", "label": "Middlemen between you and the code" },
-      { "value": "< 24h", "label": "To make technical decisions" }
+      {
+        "value": "0",
+        "label": "Middlemen between you and the code"
+      },
+      {
+        "value": "< 24h",
+        "label": "To make technical decisions"
+      }
     ],
     "reasons": [
       {
@@ -191,7 +228,16 @@
           "Distributed teams with agile methodologies",
           "Large-scale microservice architectures"
         ],
-        "technologies": ["Java", "Spring Boot", "Microservices", "RESTful APIs", "Oracle · PostgreSQL", "Docker · Kubernetes", "CI/CD", "High availability"],
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Microservices",
+          "RESTful APIs",
+          "Oracle · PostgreSQL",
+          "Docker · Kubernetes",
+          "CI/CD",
+          "High availability"
+        ],
         "impact": "Experience directly applicable to designing robust, secure and highly available systems — regardless of business size.",
         "estado": null,
         "screenshotPlaceholder": false
@@ -202,7 +248,14 @@
         "problem": "BarraFresh, a healthy food business in Atizapán de Zaragoza, operated without any digital presence: no website, no online menu and no direct channel to receive orders from customers.",
         "solution": "I built a professional landing page with Next.js 15, a digital menu accessible via QR code, direct WhatsApp integration for order intake and local SEO optimized for area searches.",
         "highlights": [],
-        "technologies": ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Vercel", "WhatsApp API"],
+        "technologies": [
+          "Next.js 15",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "WhatsApp API"
+        ],
         "impact": "The business has a professional digital presence for the first time, an active WhatsApp ordering channel and visibility in local Google searches.",
         "estado": "Project currently in active development.",
         "screenshotPlaceholder": true
@@ -269,7 +322,11 @@
     "titleEnd": "?",
     "subtitle": "Book a 20-minute call with me. No sales pitch, no corporate presentations. You tell me the problem, I tell you if I can solve it, with what technology and in how long — honestly.",
     "button": "Book your 20-min call (free)",
-    "trustItems": ["No commitment", "No sales pitch", "Honest technical assessment"]
+    "trustItems": [
+      "No commitment",
+      "No sales pitch",
+      "Honest technical assessment"
+    ]
   },
   "contact": {
     "label": "Contact",
@@ -284,9 +341,18 @@
     "location": "Lirio 20, Lomas de San Miguel, CP 52928",
     "officeHoursTitle": "Office Hours",
     "officeHours": [
-      { "day": "Monday — Friday", "hours": "8:00 — 18:00" },
-      { "day": "Saturday", "hours": "9:00 — 13:00" },
-      { "day": "Emergency support", "hours": "24/7" }
+      {
+        "day": "Monday — Friday",
+        "hours": "8:00 — 18:00"
+      },
+      {
+        "day": "Saturday",
+        "hours": "9:00 — 13:00"
+      },
+      {
+        "day": "Emergency support",
+        "hours": "24/7"
+      }
     ],
     "form": {
       "nameLabel": "Full name",
@@ -306,7 +372,9 @@
       "successTitle": "Message sent!",
       "successSubtitle": "Thank you for your message. I'll get back to you within 24 hours.",
       "errorGeneric": "Error sending. Please try again.",
-      "errorRequired": "Name, email and message are required."
+      "errorRequired": "Name, email and message are required.",
+      "errorEmail": "Enter a valid email address.",
+      "errorPhone": "Enter a valid phone number (at least 7 digits)."
     }
   },
   "footer": {
@@ -322,12 +390,30 @@
     ],
     "navTitle": "Navigation",
     "navLinks": [
-      { "label": "Home", "href": "#inicio" },
-      { "label": "About", "href": "#fundadores" },
-      { "label": "Services", "href": "#servicios" },
-      { "label": "Case Studies", "href": "#casos" },
-      { "label": "Contact", "href": "#contacto" },
-      { "label": "Privacy Policy", "href": "/en/privacy" }
+      {
+        "label": "Home",
+        "href": "#inicio"
+      },
+      {
+        "label": "About",
+        "href": "#fundadores"
+      },
+      {
+        "label": "Services",
+        "href": "#servicios"
+      },
+      {
+        "label": "Case Studies",
+        "href": "#casos"
+      },
+      {
+        "label": "Contact",
+        "href": "#contacto"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "/en/privacy"
+      }
     ],
     "contactTitle": "Quick Contact",
     "emailLabel": "Email",

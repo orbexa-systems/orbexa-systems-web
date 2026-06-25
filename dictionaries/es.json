@@ -1,12 +1,30 @@
 {
   "navbar": {
     "links": [
-      { "label": "Inicio", "href": "#inicio" },
-      { "label": "Sobre mí", "href": "#fundadores" },
-      { "label": "Servicios", "href": "#servicios" },
-      { "label": "Casos de Éxito", "href": "#casos" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Contacto", "href": "#contacto" }
+      {
+        "label": "Inicio",
+        "href": "#inicio"
+      },
+      {
+        "label": "Sobre mí",
+        "href": "#fundadores"
+      },
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Casos de Éxito",
+        "href": "#casos"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      }
     ],
     "cta": "Habla con el Fundador"
   },
@@ -17,11 +35,24 @@
     "subtitle": "Soy ingeniero de software con más de 15 años de experiencia en banca, seguros, telecomunicaciones y retail. Construyo software que va a producción — no prototipos, no demos. Sistemas que reemplazan hojas de Excel, automatizan procesos y conectan herramientas que hoy no se hablan.",
     "ctaPrimary": "Agenda una Llamada de 20 Min (Gratis)",
     "ctaSecondary": "Ver Servicios",
-    "trustBadges": ["Sin pitch de ventas", "Código en producción", "Sin intermediarios"],
+    "trustBadges": [
+      "Sin pitch de ventas",
+      "Código en producción",
+      "Sin intermediarios"
+    ],
     "metrics": [
-      { "value": "15+", "label": "Años de experiencia técnica del fundador" },
-      { "value": "4", "label": "Industrias de alta exigencia" },
-      { "value": "24h", "label": "Tiempo de respuesta garantizado" }
+      {
+        "value": "15+",
+        "label": "Años de experiencia técnica del fundador"
+      },
+      {
+        "value": "4",
+        "label": "Industrias de alta exigencia"
+      },
+      {
+        "value": "24h",
+        "label": "Tiempo de respuesta garantizado"
+      }
     ]
   },
   "services": {
@@ -62,8 +93,14 @@
     "titleGradient": "una agencia que contratar a Orbexa",
     "subtitle": "En muchas agencias, el cliente rara vez habla con la persona que realmente construye el software.\n\nEn Orbexa trabajas directamente con el ingeniero que diseña y desarrolla tu sistema. Esto elimina intermediarios, acelera decisiones y reduce errores de interpretación en el desarrollo.\n\nHablas con quien construye, no con quien transmite mensajes.",
     "stats": [
-      { "value": "0", "label": "Intermediarios entre tú y el código" },
-      { "value": "< 24h", "label": "Para tomar decisiones técnicas" }
+      {
+        "value": "0",
+        "label": "Intermediarios entre tú y el código"
+      },
+      {
+        "value": "< 24h",
+        "label": "Para tomar decisiones técnicas"
+      }
     ],
     "reasons": [
       {
@@ -191,7 +228,16 @@
           "Equipos distribuidos con metodologías ágiles",
           "Arquitecturas de microservicios a gran escala"
         ],
-        "technologies": ["Java", "Spring Boot", "Microservicios", "APIs RESTful", "Oracle · PostgreSQL", "Docker · Kubernetes", "CI/CD", "Alta disponibilidad"],
+        "technologies": [
+          "Java",
+          "Spring Boot",
+          "Microservicios",
+          "APIs RESTful",
+          "Oracle · PostgreSQL",
+          "Docker · Kubernetes",
+          "CI/CD",
+          "Alta disponibilidad"
+        ],
         "impact": "Experiencia directamente aplicable al diseño de sistemas robustos, seguros y de alta disponibilidad — sin importar el tamaño del negocio.",
         "estado": null,
         "screenshotPlaceholder": false
@@ -202,7 +248,14 @@
         "problem": "BarraFresh, negocio de comida saludable en Atizapán de Zaragoza, operaba sin presencia digital: sin sitio web, sin menú en línea y sin un canal directo para recibir pedidos de sus clientes.",
         "solution": "Desarrollé una landing page profesional con Next.js 15, un menú digital accesible vía código QR, integración directa con WhatsApp para la recepción de pedidos y SEO local optimizado para búsquedas en la zona.",
         "highlights": [],
-        "technologies": ["Next.js 15", "React", "TypeScript", "Tailwind CSS", "Vercel", "WhatsApp API"],
+        "technologies": [
+          "Next.js 15",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "Vercel",
+          "WhatsApp API"
+        ],
         "impact": "El negocio cuenta por primera vez con presencia digital profesional, un canal activo de pedidos por WhatsApp y visibilidad en búsquedas locales de Google.",
         "estado": "Proyecto en fase de desarrollo activo.",
         "screenshotPlaceholder": true
@@ -269,7 +322,11 @@
     "titleEnd": "?",
     "subtitle": "Agenda una llamada de 20 minutos conmigo. Sin pitch de ventas, sin presentaciones corporativas. Me cuentas el problema, yo te digo si puedo resolverlo, con qué tecnología y en cuánto tiempo — honestamente.",
     "button": "Agenda tu llamada de 20 min (gratis)",
-    "trustItems": ["Sin compromiso", "Sin pitch de ventas", "Evaluación técnica honesta"]
+    "trustItems": [
+      "Sin compromiso",
+      "Sin pitch de ventas",
+      "Evaluación técnica honesta"
+    ]
   },
   "contact": {
     "label": "Contacto",
@@ -284,9 +341,18 @@
     "location": "Lirio 20, Lomas de San Miguel, CP 52928",
     "officeHoursTitle": "Horario de Atención",
     "officeHours": [
-      { "day": "Lunes — Viernes", "hours": "8:00 — 18:00" },
-      { "day": "Sábado", "hours": "9:00 — 13:00" },
-      { "day": "Soporte de emergencia", "hours": "24/7" }
+      {
+        "day": "Lunes — Viernes",
+        "hours": "8:00 — 18:00"
+      },
+      {
+        "day": "Sábado",
+        "hours": "9:00 — 13:00"
+      },
+      {
+        "day": "Soporte de emergencia",
+        "hours": "24/7"
+      }
     ],
     "form": {
       "nameLabel": "Nombre completo",
@@ -306,7 +372,9 @@
       "successTitle": "¡Mensaje enviado!",
       "successSubtitle": "Gracias por tu mensaje. Te respondo en menos de 24 horas.",
       "errorGeneric": "Error al enviar. Intenta de nuevo.",
-      "errorRequired": "Nombre, correo y mensaje son requeridos."
+      "errorRequired": "Nombre, correo y mensaje son requeridos.",
+      "errorEmail": "Ingresa un correo electrónico válido.",
+      "errorPhone": "Ingresa un teléfono válido (mínimo 7 dígitos)."
     }
   },
   "footer": {
@@ -322,12 +390,30 @@
     ],
     "navTitle": "Navegación",
     "navLinks": [
-      { "label": "Inicio", "href": "#inicio" },
-      { "label": "Sobre mí", "href": "#fundadores" },
-      { "label": "Servicios", "href": "#servicios" },
-      { "label": "Casos de Éxito", "href": "#casos" },
-      { "label": "Contacto", "href": "#contacto" },
-      { "label": "Política de Privacidad", "href": "/es/privacy" }
+      {
+        "label": "Inicio",
+        "href": "#inicio"
+      },
+      {
+        "label": "Sobre mí",
+        "href": "#fundadores"
+      },
+      {
+        "label": "Servicios",
+        "href": "#servicios"
+      },
+      {
+        "label": "Casos de Éxito",
+        "href": "#casos"
+      },
+      {
+        "label": "Contacto",
+        "href": "#contacto"
+      },
+      {
+        "label": "Política de Privacidad",
+        "href": "/es/privacy"
+      }
     ],
     "contactTitle": "Contacto Rápido",
     "emailLabel": "Email",
