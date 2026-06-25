@@ -34,6 +34,7 @@ type ContactDict = {
     successTitle: string;
     successSubtitle: string;
     errorGeneric: string;
+    errorRequired: string;
     errorEmail: string;
     errorPhone: string;
   };
