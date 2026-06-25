@@ -374,7 +374,7 @@
       "errorGeneric": "Error al enviar. Intenta de nuevo.",
       "errorRequired": "Nombre, correo y mensaje son requeridos.",
       "errorEmail": "Ingresa un correo electrónico válido.",
-      "errorPhone": "Ingresa un teléfono válido (mínimo 7 dígitos)."
+      "errorPhone": "Ingresa un teléfono válido (mínimo 10 dígitos)."
     }
   },
   "footer": {

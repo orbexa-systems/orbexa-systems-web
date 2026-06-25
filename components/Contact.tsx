@@ -61,7 +61,7 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
   ];
 
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  const phoneRegex = /^[\d\s\+\-\(\)]{7,20}$/;
+  const phoneRegex = /^[\d\s\+\-\(\)]{10,20}$/;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;

@@ -374,7 +374,7 @@
       "errorGeneric": "Error sending. Please try again.",
       "errorRequired": "Name, email and message are required.",
       "errorEmail": "Enter a valid email address.",
-      "errorPhone": "Enter a valid phone number (at least 7 digits)."
+      "errorPhone": "Enter a valid phone number (at least 10 digits)."
     }
   },
   "footer": {

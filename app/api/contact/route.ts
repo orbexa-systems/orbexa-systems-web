@@ -21,7 +21,7 @@ export async function POST(request: Request) {
       );
     }
 
-    const phoneRegex = /^[\d\s\+\-\(\)]{7,20}$/;
+    const phoneRegex = /^[\d\s\+\-\(\)]{10,20}$/;
     if (phone && !phoneRegex.test(phone)) {
       return NextResponse.json(
         { error: "Ingresa un teléfono válido (mínimo 7 dígitos)." },
