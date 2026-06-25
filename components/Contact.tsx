@@ -40,7 +40,7 @@ type ContactDict = {
   };
 };
 
-interface FormData {
+interface ContactFormData {
   name: string;
   company: string;
   email: string;
@@ -49,11 +49,10 @@ interface FormData {
 }
 
 export default function Contact({ dict, lang }: { dict: ContactDict; lang: string }) {
-  const [form, setForm] = useState<FormData>({ name: "", company: "", email: "", phone: "", message: "" });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
-  const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof FormData, string>>>({});
+  const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof ContactFormData, string>>>({});
 
   const contactInfo = [
     { icon: Mail, label: dict.emailLabel, value: "contacto@orbexasystems.com", href: "mailto:contacto@orbexasystems.com", color: "text-blue-600", bg: "bg-blue-50" },
@@ -65,37 +64,41 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
   const phoneRegex = /^[\d\s\+\-\(\)]{10,20}$/;
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setForm((prev) => ({ ...prev, [name]: value }));
-    setFieldErrors((prev) => ({ ...prev, [name]: undefined }));
+    setFieldErrors((prev) => ({ ...prev, [e.target.name]: undefined }));
   };
 
-  const validate = (): boolean => {
-    const errs: Partial<Record<keyof FormData, string>> = {};
-    if (!form.name.trim()) errs.name = dict.form.errorRequired;
-    if (!emailRegex.test(form.email)) errs.email = dict.form.errorEmail;
-    if (form.phone && !phoneRegex.test(form.phone)) errs.phone = dict.form.errorPhone;
-    if (!form.message.trim()) errs.message = dict.form.errorRequired;
-    setFieldErrors(errs);
-    return Object.keys(errs).length === 0;
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (!validate()) return;
+    const fd = new window.FormData(e.currentTarget);
+    const data: ContactFormData = {
+      name: (fd.get("name") as string) || "",
+      company: (fd.get("company") as string) || "",
+      email: (fd.get("email") as string) || "",
+      phone: (fd.get("phone") as string) || "",
+      message: (fd.get("message") as string) || "",
+    };
+
+    const errs: Partial<Record<keyof ContactFormData, string>> = {};
+    if (!data.name.trim()) errs.name = dict.form.errorRequired;
+    if (!emailRegex.test(data.email)) errs.email = dict.form.errorEmail;
+    if (data.phone && !phoneRegex.test(data.phone)) errs.phone = dict.form.errorPhone;
+    if (!data.message.trim()) errs.message = dict.form.errorRequired;
+    setFieldErrors(errs);
+    if (Object.keys(errs).length > 0) return;
+
     setLoading(true);
     setError("");
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify(data),
       });
       if (!res.ok) {
         let message = dict.form.errorGeneric;
         try {
-          const data = await res.json();
-          message = data.error || dict.form.errorGeneric;
+          const body = await res.json();
+          message = body.error || dict.form.errorGeneric;
         } catch {
           // body vacío o no-JSON
         }
@@ -174,12 +177,12 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="name">
                       {dict.form.nameLabel} <span className="text-red-500">*</span>
                     </label>
-                    <input id="name" name="name" type="text" required value={form.name} onChange={handleChange} placeholder={dict.form.namePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.name ? "border-red-400" : "border-gray-200"}`} />
+                    <input id="name" name="name" type="text" autoComplete="name" onChange={handleChange} placeholder={dict.form.namePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.name ? "border-red-400" : "border-gray-200"}`} />
                     {fieldErrors.name && <p className="mt-1 text-xs text-red-500">{fieldErrors.name}</p>}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="company">{dict.form.companyLabel}</label>
-                    <input id="company" name="company" type="text" value={form.company} onChange={handleChange} placeholder={dict.form.companyPlaceholder} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm" />
+                    <input id="company" name="company" type="text" autoComplete="organization" placeholder={dict.form.companyPlaceholder} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm" />
                   </div>
                 </div>
                 <div className="grid sm:grid-cols-2 gap-5">
@@ -187,12 +190,12 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="email">
                       {dict.form.emailLabel} <span className="text-red-500">*</span>
                     </label>
-                    <input id="email" name="email" type="email" required value={form.email} onChange={handleChange} placeholder={dict.form.emailPlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.email ? "border-red-400" : "border-gray-200"}`} />
+                    <input id="email" name="email" type="email" autoComplete="email" onChange={handleChange} placeholder={dict.form.emailPlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.email ? "border-red-400" : "border-gray-200"}`} />
                     {fieldErrors.email && <p className="mt-1 text-xs text-red-500">{fieldErrors.email}</p>}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="phone">{dict.form.phoneLabel}</label>
-                    <input id="phone" name="phone" type="tel" value={form.phone} onChange={handleChange} placeholder={dict.form.phonePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.phone ? "border-red-400" : "border-gray-200"}`} />
+                    <input id="phone" name="phone" type="tel" autoComplete="tel" onChange={handleChange} placeholder={dict.form.phonePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.phone ? "border-red-400" : "border-gray-200"}`} />
                     {fieldErrors.phone && <p className="mt-1 text-xs text-red-500">{fieldErrors.phone}</p>}
                   </div>
                 </div>
@@ -200,7 +203,7 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                   <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="message">
                     {dict.form.messageLabel} <span className="text-red-500">*</span>
                   </label>
-                  <textarea id="message" name="message" required rows={5} value={form.message} onChange={handleChange} placeholder={dict.form.messagePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none text-sm ${fieldErrors.message ? "border-red-400" : "border-gray-200"}`} />
+                  <textarea id="message" name="message" rows={5} onChange={handleChange} placeholder={dict.form.messagePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none text-sm ${fieldErrors.message ? "border-red-400" : "border-gray-200"}`} />
                   {fieldErrors.message && <p className="mt-1 text-xs text-red-500">{fieldErrors.message}</p>}
                 </div>
                 {error && (
