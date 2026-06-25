@@ -34,6 +34,8 @@ type ContactDict = {
     successTitle: string;
     successSubtitle: string;
     errorGeneric: string;
+    errorEmail: string;
+    errorPhone: string;
   };
 };
 
@@ -50,6 +52,7 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [fieldErrors, setFieldErrors] = useState<Partial<Record<keyof FormData, string>>>({});
 
   const contactInfo = [
     { icon: Mail, label: dict.emailLabel, value: "contacto@orbexasystems.com", href: "mailto:contacto@orbexasystems.com", color: "text-blue-600", bg: "bg-blue-50" },
@@ -57,12 +60,26 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
     { icon: MapPin, label: dict.locationLabel, value: dict.location, href: "#", color: "text-violet-600", bg: "bg-violet-50" },
   ];
 
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  const phoneRegex = /^[\d\s\+\-\(\)]{10,20}$/;
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+    const { name, value } = e.target;
+    setForm((prev) => ({ ...prev, [name]: value }));
+    setFieldErrors((prev) => ({ ...prev, [name]: undefined }));
+  };
+
+  const validate = (): boolean => {
+    const errs: Partial<Record<keyof FormData, string>> = {};
+    if (!emailRegex.test(form.email)) errs.email = dict.form.errorEmail;
+    if (form.phone && !phoneRegex.test(form.phone)) errs.phone = dict.form.errorPhone;
+    setFieldErrors(errs);
+    return Object.keys(errs).length === 0;
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!validate()) return;
     setLoading(true);
     setError("");
     try {
@@ -160,11 +177,13 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="email">
                       {dict.form.emailLabel} <span className="text-red-500">*</span>
                     </label>
-                    <input id="email" name="email" type="email" required value={form.email} onChange={handleChange} placeholder={dict.form.emailPlaceholder} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm" />
+                    <input id="email" name="email" type="email" required value={form.email} onChange={handleChange} placeholder={dict.form.emailPlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.email ? "border-red-400" : "border-gray-200"}`} />
+                    {fieldErrors.email && <p className="mt-1 text-xs text-red-500">{fieldErrors.email}</p>}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="phone">{dict.form.phoneLabel}</label>
-                    <input id="phone" name="phone" type="tel" value={form.phone} onChange={handleChange} placeholder={dict.form.phonePlaceholder} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm" />
+                    <input id="phone" name="phone" type="tel" value={form.phone} onChange={handleChange} placeholder={dict.form.phonePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.phone ? "border-red-400" : "border-gray-200"}`} />
+                    {fieldErrors.phone && <p className="mt-1 text-xs text-red-500">{fieldErrors.phone}</p>}
                   </div>
                 </div>
                 <div>
