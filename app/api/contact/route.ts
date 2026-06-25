@@ -33,7 +33,9 @@ export async function POST(request: Request) {
       from: "Orbexa Systems <noreply@orbexasystems.com>",
       to: process.env.CONTACT_EMAIL!,
       replyTo: email,
-      subject: `${process.env.APP_ENV ? `[${process.env.APP_ENV.toUpperCase()}] ` : ""}Nueva solicitud de cotización — ${name}`,
+      subject: process.env.APP_ENV
+        ? `[${process.env.APP_ENV.toUpperCase()}] Cotización — ${name}`
+        : `Nueva solicitud de cotización — ${name}`,
       html: `
         <!DOCTYPE html>
         <html lang="es">
