@@ -159,7 +159,7 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                 <p className="text-slate-600">{dict.form.successSubtitle}</p>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm space-y-5">
+              <form onSubmit={handleSubmit} noValidate className="bg-white border border-gray-100 rounded-2xl p-8 shadow-sm space-y-5">
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="name">
