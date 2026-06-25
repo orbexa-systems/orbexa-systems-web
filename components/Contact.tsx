@@ -34,6 +34,7 @@ type ContactDict = {
     successTitle: string;
     successSubtitle: string;
     errorGeneric: string;
+    errorRequired: string;
     errorEmail: string;
     errorPhone: string;
   };
@@ -71,8 +72,10 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
 
   const validate = (): boolean => {
     const errs: Partial<Record<keyof FormData, string>> = {};
+    if (!form.name.trim()) errs.name = dict.form.errorRequired;
     if (!emailRegex.test(form.email)) errs.email = dict.form.errorEmail;
     if (form.phone && !phoneRegex.test(form.phone)) errs.phone = dict.form.errorPhone;
+    if (!form.message.trim()) errs.message = dict.form.errorRequired;
     setFieldErrors(errs);
     return Object.keys(errs).length === 0;
   };
@@ -89,8 +92,14 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
         body: JSON.stringify(form),
       });
       if (!res.ok) {
-        const data = await res.json();
-        throw new Error(data.error || dict.form.errorGeneric);
+        let message = dict.form.errorGeneric;
+        try {
+          const data = await res.json();
+          message = data.error || dict.form.errorGeneric;
+        } catch {
+          // body vacío o no-JSON
+        }
+        throw new Error(message);
       }
       setSubmitted(true);
     } catch (err) {
@@ -165,7 +174,8 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="name">
                       {dict.form.nameLabel} <span className="text-red-500">*</span>
                     </label>
-                    <input id="name" name="name" type="text" required value={form.name} onChange={handleChange} placeholder={dict.form.namePlaceholder} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm" />
+                    <input id="name" name="name" type="text" required value={form.name} onChange={handleChange} placeholder={dict.form.namePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-sm ${fieldErrors.name ? "border-red-400" : "border-gray-200"}`} />
+                    {fieldErrors.name && <p className="mt-1 text-xs text-red-500">{fieldErrors.name}</p>}
                   </div>
                   <div>
                     <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="company">{dict.form.companyLabel}</label>
@@ -190,7 +200,8 @@ export default function Contact({ dict, lang }: { dict: ContactDict; lang: strin
                   <label className="block text-sm font-semibold text-slate-700 mb-1.5" htmlFor="message">
                     {dict.form.messageLabel} <span className="text-red-500">*</span>
                   </label>
-                  <textarea id="message" name="message" required rows={5} value={form.message} onChange={handleChange} placeholder={dict.form.messagePlaceholder} className="w-full px-4 py-3 rounded-xl border border-gray-200 text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none text-sm" />
+                  <textarea id="message" name="message" required rows={5} value={form.message} onChange={handleChange} placeholder={dict.form.messagePlaceholder} className={`w-full px-4 py-3 rounded-xl border text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none text-sm ${fieldErrors.message ? "border-red-400" : "border-gray-200"}`} />
+                  {fieldErrors.message && <p className="mt-1 text-xs text-red-500">{fieldErrors.message}</p>}
                 </div>
                 {error && (
                   <div className="bg-red-50 border border-red-200 text-red-700 text-sm px-4 py-3 rounded-xl">{error}</div>
