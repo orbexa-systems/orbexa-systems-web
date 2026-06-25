@@ -33,3 +33,12 @@ jobs:
 
       - name: Audit
         run: npm audit --audit-level=high
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium --with-deps
+
+      - name: E2E tests
+        run: npx playwright test
+        env:
+          NEXT_TELEMETRY_DISABLED: 1
+          CI: true
