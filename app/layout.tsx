@@ -9,13 +9,22 @@ const inter = Inter({
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["LocalBusiness", "ProfessionalService"],
   name: "Orbexa Systems",
   url: "https://orbexasystems.com",
   logo: "https://orbexasystems.com/orbexa-systems-logo-completo.svg",
   description:
     "Specialized in software development, web applications, cloud computing, DevOps and artificial intelligence.",
   foundingDate: "2018",
+  telephone: "+52-55-8600-9578",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Lomas de Tepalcapa",
+    addressLocality: "Ciudad López Mateos",
+    addressRegion: "Estado de México",
+    postalCode: "52928",
+    addressCountry: "MX",
+  },
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+52-55-8600-9578",
@@ -26,6 +35,7 @@ const jsonLd = {
     "https://linkedin.com/company/orbexasystems",
     "https://twitter.com/orbexasystems",
     "https://github.com/orbexasystems",
+    "https://www.google.com/maps?cid=03520441995046567661",
   ],
 };
 
