@@ -35,7 +35,7 @@ const jsonLd = {
     "https://linkedin.com/company/orbexasystems",
     "https://twitter.com/orbexasystems",
     "https://github.com/orbexasystems",
-    "https://www.google.com/maps?cid=03520441995046567661",
+    "https://g.page/r/Cd3XPM4Ij-Q2EBM/review",
   ],
 };
 

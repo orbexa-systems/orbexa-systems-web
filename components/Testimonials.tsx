@@ -4,7 +4,7 @@ import { Star, Quote } from "lucide-react";
 
 const avatarColors = ["bg-green-600"];
 
-const GOOGLE_REVIEW_URL = "https://www.google.com/maps?cid=03520441995046567661";
+const GOOGLE_REVIEW_URL = "https://g.page/r/Cd3XPM4Ij-Q2EBM/review";
 
 type TestimonialsDict = {
   label: string;
