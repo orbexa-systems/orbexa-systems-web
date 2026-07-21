@@ -1,0 +1,890 @@
+
+> empresa@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.9 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.100.130:3000
+- Environments: .env.local
+✓ Ready in 835ms
+
+ GET /es 200 in 1873ms (next.js: 984ms, proxy.ts: 292ms, generate-params: 801ms, application-code: 596ms)
+ GET /es 200 in 313ms (next.js: 30ms, proxy.ts: 18ms, generate-params: 12ms, application-code: 265ms)
+ GET /es 200 in 307ms (next.js: 13ms, proxy.ts: 13ms, generate-params: 87µs, application-code: 280ms)
+ GET /es 200 in 269ms (next.js: 24ms, proxy.ts: 8ms, generate-params: 14ms, application-code: 236ms)
+✓ Compiled in 106ms
+ GET /es 200 in 424ms (next.js: 120ms, proxy.ts: 56ms, generate-params: 11ms, application-code: 248ms)
+ GET /es 200 in 178ms (next.js: 12ms, proxy.ts: 11ms, generate-params: 64µs, application-code: 155ms)
+ GET /es 200 in 90ms (next.js: 14ms, proxy.ts: 10ms, generate-params: 58µs, application-code: 66ms)
+✓ Compiled in 101ms
+ GET /es 200 in 377ms (next.js: 91ms, proxy.ts: 61ms, generate-params: 10ms, application-code: 225ms)
+ GET /es 200 in 171ms (next.js: 17ms, proxy.ts: 9ms, generate-params: 124µs, application-code: 145ms)
+ GET /es 200 in 73ms (next.js: 12ms, proxy.ts: 8ms, generate-params: 56µs, application-code: 54ms)
+✓ Compiled in 84ms
+ GET /es 200 in 412ms (next.js: 121ms, proxy.ts: 61ms, generate-params: 10ms, application-code: 230ms)
+ GET /es 200 in 159ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 61µs, application-code: 138ms)
+ GET /es 200 in 75ms (next.js: 11ms, proxy.ts: 7ms, generate-params: 56µs, application-code: 56ms)
+✓ Compiled in 68ms
+ GET /es 200 in 348ms (next.js: 92ms, proxy.ts: 42ms, generate-params: 10ms, application-code: 214ms)
+ GET /es 200 in 154ms (next.js: 13ms, proxy.ts: 10ms, generate-params: 81µs, application-code: 131ms)
+ GET /es 200 in 67ms (next.js: 11ms, proxy.ts: 7ms, generate-params: 50µs, application-code: 48ms)
+✓ Compiled in 88ms
+ GET /es 200 in 402ms (next.js: 119ms, proxy.ts: 58ms, generate-params: 21ms, application-code: 225ms)
+ GET /es 200 in 164ms (next.js: 11ms, proxy.ts: 8ms, generate-params: 41µs, application-code: 144ms)
+ GET /es 200 in 82ms (next.js: 11ms, proxy.ts: 8ms, generate-params: 43µs, application-code: 63ms)
+✓ Compiled in 110ms
+✓ Compiled in 74ms
+ GET /es 200 in 400ms (next.js: 127ms, proxy.ts: 36ms, generate-params: 11ms, application-code: 238ms)
+ GET /es 200 in 178ms (next.js: 19ms, proxy.ts: 38ms, generate-params: 46µs, application-code: 122ms)
+ GET /es 200 in 81ms (next.js: 15ms, proxy.ts: 10ms, generate-params: 54µs, application-code: 56ms)
+✓ Compiled in 89ms
+✓ Compiled in 100ms
+ GET /es 200 in 531ms (next.js: 167ms, proxy.ts: 68ms, generate-params: 15ms, application-code: 296ms)
+ GET /es 200 in 208ms (next.js: 19ms, proxy.ts: 43ms, generate-params: 59µs, application-code: 145ms)
+ GET /es 200 in 93ms (next.js: 13ms, proxy.ts: 14ms, generate-params: 71µs, application-code: 66ms)
+✓ Compiled in 84ms
+ GET /es 200 in 398ms (next.js: 88ms, proxy.ts: 71ms, generate-params: 9ms, application-code: 238ms)
+ GET /es 200 in 177ms (next.js: 10ms, proxy.ts: 6ms, generate-params: 60µs, application-code: 160ms)
+ GET /es 200 in 107ms (next.js: 13ms, proxy.ts: 11ms, generate-params: 89µs, application-code: 83ms)
+✓ Compiled in 87ms
+ GET /es 200 in 396ms (next.js: 105ms, proxy.ts: 62ms, generate-params: 11ms, application-code: 230ms)
+ GET /es 200 in 146ms (next.js: 11ms, proxy.ts: 9ms, generate-params: 42µs, application-code: 126ms)
+ GET /es 200 in 78ms (next.js: 11ms, proxy.ts: 8ms, generate-params: 47µs, application-code: 58ms)
+✓ Compiled in 70ms
+ GET /es 200 in 360ms (next.js: 90ms, proxy.ts: 42ms, generate-params: 10ms, application-code: 228ms)
+ GET /es 200 in 179ms (next.js: 14ms, proxy.ts: 10ms, generate-params: 76µs, application-code: 154ms)
+ GET /es 200 in 78ms (next.js: 12ms, proxy.ts: 8ms, generate-params: 61µs, application-code: 58ms)
+✓ Compiled in 97ms
+ GET /es 200 in 539ms (next.js: 116ms, proxy.ts: 64ms, generate-params: 15ms, application-code: 359ms)
+ GET /es 200 in 287ms (next.js: 17ms, proxy.ts: 9ms, generate-params: 57µs, application-code: 261ms)
+ GET /es 200 in 189ms (next.js: 13ms, proxy.ts: 12ms, generate-params: 76µs, application-code: 164ms)
+✓ Compiled in 54ms
+ GET /es 200 in 396ms (next.js: 107ms, proxy.ts: 41ms, generate-params: 11ms, application-code: 247ms)
+ GET /es 200 in 197ms (next.js: 30ms, proxy.ts: 43ms, generate-params: 44µs, application-code: 124ms)
+ GET /es 200 in 76ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 40µs, application-code: 59ms)
+✓ Compiled in 75ms
+ GET /es 200 in 368ms (next.js: 97ms, proxy.ts: 52ms, generate-params: 14ms, application-code: 219ms)
+ GET /es 200 in 129ms (next.js: 11ms, proxy.ts: 8ms, generate-params: 46µs, application-code: 110ms)
+ GET /es 200 in 68ms (next.js: 10ms, proxy.ts: 10ms, generate-params: 41µs, application-code: 49ms)
+✓ Compiled in 69ms
+ GET /es 200 in 331ms (next.js: 89ms, proxy.ts: 38ms, generate-params: 11ms, application-code: 204ms)
+ GET /es 200 in 143ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 82µs, application-code: 123ms)
+ GET /es 200 in 74ms (next.js: 11ms, proxy.ts: 8ms, generate-params: 40µs, application-code: 55ms)
+✓ Compiled in 281ms
+ GET /es 200 in 189ms (next.js: 82ms, proxy.ts: 37ms, generate-params: 9ms, application-code: 70ms)
+✓ Compiled in 184ms
+ GET /es 200 in 222ms (next.js: 92ms, proxy.ts: 51ms, generate-params: 10ms, application-code: 79ms)
+ GET /es 200 in 386ms (next.js: 19ms, proxy.ts: 7ms, generate-params: 10ms, application-code: 359ms)
+⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from "eleven-sides-brake.loca.lt".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['eleven-sides-brake.loca.lt'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /en 200 in 282ms (next.js: 22ms, proxy.ts: 9ms, generate-params: 10ms, application-code: 251ms)
+ GET /en 200 in 244ms (next.js: 20ms, proxy.ts: 8ms, generate-params: 11ms, application-code: 216ms)
+ GET /es 200 in 217ms (next.js: 18ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 190ms)
+ GET /en 200 in 298ms (next.js: 20ms, proxy.ts: 9ms, generate-params: 12ms, application-code: 269ms)
+ GET /en 200 in 248ms (next.js: 21ms, proxy.ts: 9ms, generate-params: 10ms, application-code: 218ms)
+ GET /en 200 in 252ms (next.js: 26ms, proxy.ts: 9ms, generate-params: 12ms, application-code: 217ms)
+ GET /en 200 in 268ms (next.js: 28ms, proxy.ts: 7ms, generate-params: 15ms, application-code: 232ms)
+ GET /en 200 in 277ms (next.js: 22ms, proxy.ts: 9ms, generate-params: 13ms, application-code: 245ms)
+ GET /en 200 in 258ms (next.js: 21ms, proxy.ts: 7ms, generate-params: 10ms, application-code: 230ms)
+ GET /en 200 in 217ms (next.js: 20ms, proxy.ts: 8ms, generate-params: 9ms, application-code: 189ms)
+ GET /en 200 in 273ms (next.js: 20ms, proxy.ts: 9ms, generate-params: 10ms, application-code: 244ms)
+ GET /en 200 in 231ms (next.js: 21ms, proxy.ts: 7ms, generate-params: 12ms, application-code: 203ms)
+ GET /en 200 in 244ms (next.js: 18ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 220ms)
+ GET /es 200 in 242ms (next.js: 15ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 221ms)
+ GET /en 200 in 164ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 8ms, application-code: 143ms)
+ GET /en 200 in 148ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 131ms)
+ GET /en 200 in 127ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 111ms)
+✓ Compiled in 67ms
+ GET /en 200 in 131ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 5ms, application-code: 113ms)
+✓ Compiled in 359ms
+ GET /es 200 in 353ms (next.js: 139ms, proxy.ts: 59ms, generate-params: 6ms, application-code: 155ms)
+ GET /es 200 in 89ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 75ms)
+ GET /es 200 in 47ms (next.js: 7ms, proxy.ts: 7ms, generate-params: 33µs, application-code: 33ms)
+ GET /en 200 in 247ms (next.js: 14ms, proxy.ts: 6ms, generate-params: 8ms, application-code: 228ms)
+✓ Compiled in 83ms
+ GET /es 200 in 369ms (next.js: 103ms, proxy.ts: 62ms, generate-params: 5ms, application-code: 204ms)
+ GET /es 200 in 154ms (next.js: 9ms, proxy.ts: 50ms, generate-params: 36µs, application-code: 95ms)
+ GET /es 200 in 52ms (next.js: 19ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 28ms)
+ GET /en 200 in 184ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 164ms)
+✓ Compiled in 50ms
+ GET /es 200 in 361ms (next.js: 99ms, proxy.ts: 75ms, generate-params: 5ms, application-code: 188ms)
+ GET /es 200 in 130ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 115ms)
+ GET /es 200 in 81ms (next.js: 9ms, proxy.ts: 7ms, generate-params: 33µs, application-code: 65ms)
+✓ Compiled in 45ms
+ GET /es 200 in 259ms (next.js: 89ms, proxy.ts: 62ms, generate-params: 6ms, application-code: 108ms)
+ GET /es 200 in 67ms (next.js: 7ms, proxy.ts: 5ms, generate-params: 25µs, application-code: 55ms)
+⨯ ./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+
+./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+✓ Compiled in 7.1s
+ GET /es 500 in 1529ms (next.js: 1295ms, proxy.ts: 114ms, application-code: 119ms)
+⨯ ./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+
+./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+ GET /es 500 in 41ms (next.js: 20ms, proxy.ts: 5ms, application-code: 16ms)
+⨯ ./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+
+./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+ GET /es 500 in 76ms (next.js: 49ms, proxy.ts: 13ms, application-code: 14ms)
+⨯ ./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+
+./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+[browser] Uncaught Error: ./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { Linkedin } from "lucide-react";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | type Founder = {
+  6 |   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+    at <unknown> (Error: ./components/Founders.tsx:3:1)
+    at <unknown> (Error: (./components/Founders.tsx:3:1)
+⨯ ./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+
+./components/Founders.tsx:3:1
+Export Linkedin doesn't exist in target module
+  [90m1 |[0m [32m"use client"[0m;
+  [90m2 |[0m
+[31m[1m>[0m [90m3 |[0m [36mimport[0m { [33mLinkedin[0m } [36mfrom[0m [32m"lucide-react"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m4 |[0m
+  [90m5 |[0m [36mtype[0m [33mFounder[0m = {
+  [90m6 |[0m   name: string;
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/Founders.tsx
+    ./app/[lang]/page.tsx
+
+
+ GET /en 500 in 25ms (next.js: 11ms, proxy.ts: 5ms, application-code: 9ms)
+ GET /es 200 in 585ms (next.js: 251ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 328ms)
+ GET /es 200 in 246ms (next.js: 6ms, proxy.ts: 84ms, generate-params: 31µs, application-code: 156ms)
+✓ Compiled in 99ms
+ GET /es 200 in 345ms (next.js: 93ms, proxy.ts: 59ms, generate-params: 6ms, application-code: 194ms)
+ GET /es 200 in 143ms (next.js: 13ms, proxy.ts: 9ms, generate-params: 50µs, application-code: 121ms)
+ GET /es 200 in 65ms (next.js: 10ms, proxy.ts: 16ms, generate-params: 40µs, application-code: 39ms)
+⚠ Blocked cross-origin request to Next.js dev resource /__nextjs_original-stack-frames from "eleven-sides-brake.loca.lt".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['eleven-sides-brake.loca.lt'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /en 200 in 236ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 219ms)
+ GET /es 200 in 151ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 134ms)
+ GET /es 200 in 139ms (next.js: 11ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 122ms)
+ GET /es 200 in 170ms (next.js: 16ms, proxy.ts: 4ms, generate-params: 9ms, application-code: 150ms)
+ GET /es 200 in 137ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 122ms)
+ GET /es 200 in 133ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 117ms)
+ GET /es 200 in 145ms (next.js: 15ms, proxy.ts: 4ms, generate-params: 8ms, application-code: 126ms)
+ GET /es 200 in 158ms (next.js: 14ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 140ms)
+ GET /es 200 in 185ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 171ms)
+ GET /es/privacy 200 in 557ms (next.js: 484ms, proxy.ts: 4ms, generate-params: 447ms, application-code: 69ms)
+ GET /es 200 in 143ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 127ms)
+ GET /en 200 in 163ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 148ms)
+ GET /es 200 in 135ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 119ms)
+✓ Compiled in 48ms
+ GET /es 200 in 395ms (next.js: 95ms, proxy.ts: 66ms, generate-params: 5ms, application-code: 234ms)
+ GET /es 200 in 188ms (next.js: 11ms, proxy.ts: 7ms, generate-params: 31µs, application-code: 170ms)
+ GET /es 200 in 120ms (next.js: 12ms, proxy.ts: 31ms, generate-params: 33µs, application-code: 77ms)
+ GET /es 200 in 119ms (next.js: 45ms, proxy.ts: 31ms, generate-params: 29µs, application-code: 42ms)
+ GET /es 200 in 234ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 7ms, application-code: 214ms)
+✓ Compiled in 38ms
+ GET /es 200 in 331ms (next.js: 91ms, proxy.ts: 64ms, generate-params: 6ms, application-code: 176ms)
+ GET /es 200 in 116ms (next.js: 5ms, proxy.ts: 4ms, generate-params: 33µs, application-code: 106ms)
+ GET /es 200 in 77ms (next.js: 8ms, proxy.ts: 10ms, generate-params: 26µs, application-code: 59ms)
+ GET /es 200 in 76ms (next.js: 32ms, proxy.ts: 10ms, generate-params: 25µs, application-code: 34ms)
+ GET /es 200 in 219ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 201ms)
+ GET /es 200 in 148ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 132ms)
+ GET /en 200 in 147ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 131ms)
+ GET /es 200 in 179ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 161ms)
+ GET /en 200 in 139ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 124ms)
+ GET /es 200 in 144ms (next.js: 15ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 125ms)
+ GET /es 200 in 158ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 142ms)
+ GET /es 200 in 148ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 132ms)
+ GET /es 200 in 130ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 116ms)
+ GET /es 200 in 137ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 121ms)
+✓ Compiled in 44ms
+ GET /es 200 in 221ms (next.js: 93ms, proxy.ts: 68ms, generate-params: 5ms, application-code: 61ms)
+✓ Compiled in 92ms
+ GET /es 200 in 200ms (next.js: 94ms, proxy.ts: 56ms, generate-params: 5ms, application-code: 50ms)
+ GET /es 200 in 208ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 194ms)
+ GET /es 200 in 137ms (next.js: 9ms, proxy.ts: 3ms, generate-params: 5ms, application-code: 124ms)
+✓ Compiled in 85ms
+ GET /es 200 in 483ms (next.js: 153ms, proxy.ts: 91ms, generate-params: 5ms, application-code: 238ms)
+ GET /es 200 in 180ms (next.js: 7ms, proxy.ts: 58ms, generate-params: 33µs, application-code: 114ms)
+ GET /es 200 in 84ms (next.js: 39ms, proxy.ts: 7ms, generate-params: 28µs, application-code: 37ms)
+ GET /es 200 in 86ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 32µs, application-code: 65ms)
+ GET /es 200 in 211ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 7ms, application-code: 193ms)
+✓ Compiled in 42ms
+ GET /es 200 in 371ms (next.js: 93ms, proxy.ts: 61ms, generate-params: 5ms, application-code: 217ms)
+ GET /es 200 in 154ms (next.js: 8ms, proxy.ts: 7ms, generate-params: 41µs, application-code: 139ms)
+ GET /es 200 in 102ms (next.js: 11ms, proxy.ts: 20ms, generate-params: 31µs, application-code: 71ms)
+ GET /es 200 in 90ms (next.js: 39ms, proxy.ts: 10ms, generate-params: 26µs, application-code: 42ms)
+ GET /es 200 in 206ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 192ms)
+ GET /es 200 in 169ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 153ms)
+ GET /es 200 in 165ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 150ms)
+ GET /es 200 in 163ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 146ms)
+ GET /es 200 in 166ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 148ms)
+ GET /es 200 in 176ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 160ms)
+ GET /es 200 in 151ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 133ms)
+ GET /es 200 in 162ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 146ms)
+ GET /es 200 in 146ms (next.js: 12ms, proxy.ts: 3ms, generate-params: 5ms, application-code: 130ms)
+ GET /es 200 in 354ms (next.js: 23ms, proxy.ts: 7ms, generate-params: 11ms, application-code: 324ms)
+ GET /es 200 in 311ms (next.js: 17ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 289ms)
+ GET /es 200 in 243ms (next.js: 14ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 225ms)
+ GET /es 200 in 143ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 127ms)
+ GET /es 200 in 146ms (next.js: 12ms, proxy.ts: 3ms, generate-params: 6ms, application-code: 131ms)
+ GET /es 200 in 148ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 131ms)
+ GET /es 200 in 138ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 121ms)
+ GET /es 200 in 142ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 127ms)
+ GET /es 200 in 146ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 130ms)
+ GET /es 200 in 153ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 136ms)
+ GET /es 200 in 181ms (next.js: 14ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 162ms)
+ GET /es 200 in 162ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 146ms)
+ GET /es 200 in 907ms (next.js: 74ms, proxy.ts: 78ms, generate-params: 15ms, application-code: 755ms)
+ GET /en 200 in 48ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 32ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /es 200 in 187ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 167ms)
+ GET /es 200 in 142ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 126ms)
+ GET /es 200 in 137ms (next.js: 11ms, proxy.ts: 3ms, generate-params: 6ms, application-code: 123ms)
+⚠ Blocked cross-origin request to Next.js dev resource /_next/webpack-hmr from "curly-radios-tease.loca.lt".
+Cross-origin access to Next.js dev resources is blocked by default for safety.
+
+To allow this host in development, add it to "allowedDevOrigins" in next.config.js and restart the dev server:
+
+// next.config.js
+module.exports = {
+  allowedDevOrigins: ['curly-radios-tease.loca.lt'],
+}
+
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+ GET /es 200 in 146ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 128ms)
+ GET /es 200 in 166ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 148ms)
+ GET /es 200 in 142ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 125ms)
+ GET /es 200 in 142ms (next.js: 10ms, proxy.ts: 3ms, generate-params: 5ms, application-code: 129ms)
+✓ Compiled in 57ms
+ GET /en 200 in 484ms (next.js: 106ms, proxy.ts: 81ms, generate-params: 6ms, application-code: 296ms)
+ GET /es 200 in 488ms (next.js: 164ms, proxy.ts: 81ms, generate-params: 40µs, application-code: 243ms)
+ GET /en 200 in 228ms (next.js: 11ms, proxy.ts: 12ms, generate-params: 38µs, application-code: 206ms)
+ GET /es 200 in 279ms (next.js: 47ms, proxy.ts: 6ms, generate-params: 50µs, application-code: 226ms)
+ GET /en 200 in 152ms (next.js: 33ms, proxy.ts: 7ms, generate-params: 42µs, application-code: 112ms)
+ GET /en 200 in 154ms (next.js: 9ms, proxy.ts: 8ms, generate-params: 27µs, application-code: 137ms)
+ GET /es 200 in 83ms (next.js: 11ms, proxy.ts: 8ms, generate-params: 26µs, application-code: 64ms)
+ GET /es 200 in 76ms (next.js: 39ms, proxy.ts: 5ms, generate-params: 28µs, application-code: 32ms)
+✓ Compiled in 40ms
+ GET /en 200 in 391ms (next.js: 96ms, proxy.ts: 66ms, generate-params: 5ms, application-code: 229ms)
+ GET /es 200 in 398ms (next.js: 144ms, proxy.ts: 66ms, generate-params: 29µs, application-code: 187ms)
+ GET /en 200 in 204ms (next.js: 9ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 190ms)
+ GET /es 200 in 254ms (next.js: 31ms, proxy.ts: 6ms, generate-params: 36µs, application-code: 217ms)
+ GET /en 200 in 198ms (next.js: 10ms, proxy.ts: 10ms, generate-params: 27µs, application-code: 178ms)
+ GET /en 200 in 198ms (next.js: 36ms, proxy.ts: 10ms, generate-params: 25µs, application-code: 152ms)
+ GET /es 200 in 120ms (next.js: 13ms, proxy.ts: 11ms, generate-params: 40µs, application-code: 96ms)
+ GET /es 200 in 111ms (next.js: 41ms, proxy.ts: 6ms, generate-params: 30µs, application-code: 64ms)
+ GET /es 200 in 219ms (next.js: 6ms, proxy.ts: 5ms, generate-params: 32µs, application-code: 209ms)
+✓ Compiled in 43ms
+ GET /en 200 in 359ms (next.js: 93ms, proxy.ts: 63ms, generate-params: 6ms, application-code: 202ms)
+ GET /es 200 in 362ms (next.js: 135ms, proxy.ts: 62ms, generate-params: 25µs, application-code: 164ms)
+ GET /en 200 in 157ms (next.js: 7ms, proxy.ts: 5ms, generate-params: 37µs, application-code: 144ms)
+ GET /es 200 in 212ms (next.js: 28ms, proxy.ts: 5ms, generate-params: 25µs, application-code: 179ms)
+ GET /en 200 in 166ms (next.js: 34ms, proxy.ts: 6ms, generate-params: 32µs, application-code: 126ms)
+ GET /en 200 in 170ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 156ms)
+ GET /es 200 in 125ms (next.js: 14ms, proxy.ts: 10ms, generate-params: 34µs, application-code: 101ms)
+ GET /es 200 in 120ms (next.js: 35ms, proxy.ts: 10ms, generate-params: 37µs, application-code: 75ms)
+✓ Compiled in 41ms
+ GET /en 200 in 398ms (next.js: 95ms, proxy.ts: 66ms, generate-params: 5ms, application-code: 237ms)
+ GET /es 200 in 402ms (next.js: 144ms, proxy.ts: 65ms, generate-params: 29µs, application-code: 192ms)
+ GET /en 200 in 223ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 24µs, application-code: 210ms)
+ GET /es 200 in 226ms (next.js: 28ms, proxy.ts: 5ms, generate-params: 24µs, application-code: 192ms)
+ GET /en 200 in 196ms (next.js: 12ms, proxy.ts: 8ms, generate-params: 62µs, application-code: 176ms)
+ GET /en 200 in 196ms (next.js: 50ms, proxy.ts: 9ms, generate-params: 31µs, application-code: 138ms)
+ GET /es 200 in 106ms (next.js: 32ms, proxy.ts: 8ms, generate-params: 36µs, application-code: 67ms)
+ GET /es 200 in 99ms (next.js: 41ms, proxy.ts: 24ms, generate-params: 29µs, application-code: 35ms)
+ GET /es 200 in 213ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 198ms)
+✓ Compiled in 40ms
+ GET /en 200 in 356ms (next.js: 137ms, proxy.ts: 60ms, generate-params: 28µs, application-code: 159ms)
+ GET /es 200 in 361ms (next.js: 94ms, proxy.ts: 60ms, generate-params: 5ms, application-code: 207ms)
+ GET /en 200 in 146ms (next.js: 30ms, proxy.ts: 5ms, generate-params: 24µs, application-code: 110ms)
+ GET /es 200 in 200ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 47µs, application-code: 186ms)
+ GET /es 200 in 137ms (next.js: 9ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 123ms)
+ GET /es 200 in 138ms (next.js: 30ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 102ms)
+ GET /en 200 in 76ms (next.js: 11ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 58ms)
+ GET /en 200 in 72ms (next.js: 33ms, proxy.ts: 6ms, generate-params: 25µs, application-code: 32ms)
+✓ Compiled in 42ms
+ GET /en 200 in 469ms (next.js: 192ms, proxy.ts: 61ms, generate-params: 25µs, application-code: 216ms)
+ GET /es 200 in 477ms (next.js: 116ms, proxy.ts: 60ms, generate-params: 6ms, application-code: 300ms)
+ GET /en 200 in 230ms (next.js: 34ms, proxy.ts: 55ms, generate-params: 29µs, application-code: 141ms)
+ GET /es 200 in 259ms (next.js: 9ms, proxy.ts: 56ms, generate-params: 27µs, application-code: 194ms)
+ GET /es 200 in 154ms (next.js: 10ms, proxy.ts: 5ms, generate-params: 29µs, application-code: 139ms)
+ GET /es 200 in 155ms (next.js: 32ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 116ms)
+ GET /en 200 in 80ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 26µs, application-code: 64ms)
+ GET /en 200 in 74ms (next.js: 30ms, proxy.ts: 5ms, generate-params: 27µs, application-code: 39ms)
+✓ Compiled in 51ms
+ GET /en 200 in 397ms (next.js: 145ms, proxy.ts: 92ms, generate-params: 27µs, application-code: 160ms)
+ GET /es 200 in 405ms (next.js: 97ms, proxy.ts: 92ms, generate-params: 6ms, application-code: 216ms)
+ GET /en 200 in 180ms (next.js: 30ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 144ms)
+ GET /es 200 in 228ms (next.js: 7ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 215ms)
+ GET /es 200 in 168ms (next.js: 33ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 129ms)
+ GET /es 200 in 171ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 156ms)
+ GET /en 200 in 108ms (next.js: 14ms, proxy.ts: 8ms, generate-params: 33µs, application-code: 86ms)
+ GET /en 200 in 101ms (next.js: 37ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 58ms)
+ GET /es 200 in 212ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 196ms)
+✓ Compiled in 44ms
+ GET /en 200 in 373ms (next.js: 94ms, proxy.ts: 78ms, generate-params: 5ms, application-code: 201ms)
+ GET /es 200 in 369ms (next.js: 136ms, proxy.ts: 73ms, generate-params: 25µs, application-code: 160ms)
+ GET /en 200 in 169ms (next.js: 9ms, proxy.ts: 5ms, generate-params: 26µs, application-code: 155ms)
+ GET /es 200 in 193ms (next.js: 29ms, proxy.ts: 5ms, generate-params: 30µs, application-code: 159ms)
+ GET /en 200 in 139ms (next.js: 8ms, proxy.ts: 9ms, generate-params: 28µs, application-code: 122ms)
+ GET /en 200 in 139ms (next.js: 29ms, proxy.ts: 9ms, generate-params: 25µs, application-code: 101ms)
+ GET /es 200 in 70ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 26µs, application-code: 55ms)
+ GET /es 200 in 65ms (next.js: 29ms, proxy.ts: 5ms, generate-params: 37µs, application-code: 30ms)
+✓ Compiled in 54ms
+ GET /en 200 in 450ms (next.js: 94ms, proxy.ts: 75ms, generate-params: 6ms, application-code: 280ms)
+ GET /es 200 in 450ms (next.js: 156ms, proxy.ts: 75ms, generate-params: 26µs, application-code: 218ms)
+ GET /en 200 in 207ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 31µs, application-code: 186ms)
+ GET /es 200 in 203ms (next.js: 39ms, proxy.ts: 7ms, generate-params: 30µs, application-code: 157ms)
+ GET /en 200 in 165ms (next.js: 11ms, proxy.ts: 7ms, generate-params: 30µs, application-code: 146ms)
+ GET /en 200 in 165ms (next.js: 67ms, proxy.ts: 8ms, generate-params: 34µs, application-code: 90ms)
+ GET /es 200 in 66ms (next.js: 10ms, proxy.ts: 5ms, generate-params: 25µs, application-code: 51ms)
+ GET /es 200 in 66ms (next.js: 30ms, proxy.ts: 5ms, generate-params: 29µs, application-code: 31ms)
+✓ Compiled in 79ms
+ GET /es 200 in 451ms (next.js: 161ms, proxy.ts: 69ms, generate-params: 5ms, application-code: 221ms)
+ GET /en 200 in 448ms (next.js: 148ms, proxy.ts: 132ms, generate-params: 24µs, application-code: 168ms)
+ GET /es 200 in 167ms (next.js: 7ms, proxy.ts: 6ms, generate-params: 24µs, application-code: 154ms)
+ GET /en 200 in 247ms (next.js: 34ms, proxy.ts: 5ms, generate-params: 26µs, application-code: 208ms)
+ GET /es 200 in 214ms (next.js: 13ms, proxy.ts: 29ms, generate-params: 24µs, application-code: 171ms)
+ GET /es 200 in 193ms (next.js: 34ms, proxy.ts: 8ms, generate-params: 25µs, application-code: 150ms)
+ GET /en 200 in 139ms (next.js: 19ms, proxy.ts: 9ms, generate-params: 36µs, application-code: 111ms)
+ GET /en 200 in 138ms (next.js: 59ms, proxy.ts: 9ms, generate-params: 30µs, application-code: 70ms)
+ GET /es 200 in 220ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 206ms)
+ GET /es 200 in 144ms (next.js: 10ms, proxy.ts: 11ms, generate-params: 5ms, application-code: 123ms)
+ GET /es 200 in 140ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 124ms)
+ GET /es 200 in 177ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 159ms)
+ GET /es 200 in 153ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 138ms)
+ GET /es 200 in 157ms (next.js: 15ms, proxy.ts: 5ms, generate-params: 9ms, application-code: 137ms)
+ GET /es 200 in 158ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 140ms)
+ GET /es 200 in 141ms (next.js: 12ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 124ms)
+ GET /es 200 in 142ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 125ms)
+ GET /es 200 in 150ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 135ms)
+ GET /es 200 in 158ms (next.js: 20ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 134ms)
+ GET /es 200 in 143ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 127ms)
+ GET /es 200 in 148ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 130ms)
+ GET /es/privacy 200 in 272ms (next.js: 116ms, proxy.ts: 5ms, generate-params: 8ms, application-code: 151ms)
+ GET /es 200 in 153ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 137ms)
+ GET /es 200 in 131ms (next.js: 14ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 113ms)
+ GET /es 200 in 131ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 115ms)
+ GET /es 200 in 170ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 154ms)
+✓ Compiled in 54ms
+ GET /en 200 in 292ms (next.js: 101ms, proxy.ts: 77ms, generate-params: 6ms, application-code: 114ms)
+ GET /es 200 in 292ms (next.js: 177ms, proxy.ts: 77ms, generate-params: 42µs, application-code: 38ms)
+✓ Compiled in 45ms
+ GET /en 200 in 205ms (next.js: 106ms, proxy.ts: 66ms, generate-params: 26µs, application-code: 33ms)
+ GET /es 200 in 206ms (next.js: 70ms, proxy.ts: 66ms, generate-params: 5ms, application-code: 71ms)
+ GET /es 200 in 250ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 235ms)
+ GET /es 200 in 157ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 143ms)
+ GET /es 200 in 143ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 7ms, application-code: 125ms)
+ GET /es 200 in 131ms (next.js: 12ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 115ms)
+✓ Compiled in 42ms
+ GET /es 200 in 429ms (next.js: 89ms, proxy.ts: 67ms, generate-params: 7ms, application-code: 274ms)
+ GET /en 200 in 432ms (next.js: 151ms, proxy.ts: 67ms, generate-params: 46µs, application-code: 214ms)
+ GET /es 200 in 160ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 145ms)
+ GET /en 200 in 186ms (next.js: 30ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 150ms)
+ GET /es 200 in 153ms (next.js: 35ms, proxy.ts: 7ms, generate-params: 28µs, application-code: 111ms)
+ GET /es 200 in 155ms (next.js: 9ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 140ms)
+ GET /en 200 in 80ms (next.js: 10ms, proxy.ts: 6ms, generate-params: 32µs, application-code: 64ms)
+ GET /en 200 in 79ms (next.js: 36ms, proxy.ts: 7ms, generate-params: 51µs, application-code: 37ms)
+✓ Compiled in 43ms
+ GET /en 200 in 355ms (next.js: 80ms, proxy.ts: 76ms, generate-params: 6ms, application-code: 199ms)
+ GET /es 200 in 359ms (next.js: 115ms, proxy.ts: 76ms, generate-params: 25µs, application-code: 168ms)
+ GET /en 200 in 149ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 25µs, application-code: 135ms)
+ GET /es 200 in 207ms (next.js: 29ms, proxy.ts: 5ms, generate-params: 28µs, application-code: 172ms)
+ GET /en 200 in 148ms (next.js: 12ms, proxy.ts: 7ms, generate-params: 26µs, application-code: 129ms)
+ GET /en 200 in 148ms (next.js: 35ms, proxy.ts: 7ms, generate-params: 40µs, application-code: 106ms)
+ GET /es 200 in 80ms (next.js: 12ms, proxy.ts: 7ms, generate-params: 28µs, application-code: 61ms)
+ GET /es 200 in 74ms (next.js: 38ms, proxy.ts: 5ms, generate-params: 31µs, application-code: 31ms)
+ GET /es 200 in 227ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 209ms)
+✓ Compiled in 49ms
+ GET /en 200 in 379ms (next.js: 80ms, proxy.ts: 70ms, generate-params: 6ms, application-code: 228ms)
+ GET /es 200 in 383ms (next.js: 130ms, proxy.ts: 70ms, generate-params: 24µs, application-code: 184ms)
+ GET /en 200 in 217ms (next.js: 10ms, proxy.ts: 8ms, generate-params: 26µs, application-code: 200ms)
+ GET /es 200 in 254ms (next.js: 31ms, proxy.ts: 7ms, generate-params: 36µs, application-code: 216ms)
+ GET /en 200 in 187ms (next.js: 9ms, proxy.ts: 8ms, generate-params: 27µs, application-code: 170ms)
+ GET /en 200 in 187ms (next.js: 32ms, proxy.ts: 8ms, generate-params: 27µs, application-code: 147ms)
+ GET /es 200 in 116ms (next.js: 19ms, proxy.ts: 12ms, generate-params: 30µs, application-code: 85ms)
+ GET /es 200 in 110ms (next.js: 50ms, proxy.ts: 10ms, generate-params: 32µs, application-code: 50ms)
+✓ Compiled in 38ms
+ GET /en 200 in 336ms (next.js: 111ms, proxy.ts: 64ms, generate-params: 24µs, application-code: 161ms)
+ GET /es 200 in 342ms (next.js: 70ms, proxy.ts: 65ms, generate-params: 6ms, application-code: 207ms)
+ GET /en 200 in 144ms (next.js: 29ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 110ms)
+ GET /es 200 in 171ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 27µs, application-code: 158ms)
+ GET /es 200 in 144ms (next.js: 29ms, proxy.ts: 7ms, generate-params: 25µs, application-code: 108ms)
+ GET /es 200 in 146ms (next.js: 8ms, proxy.ts: 7ms, generate-params: 26µs, application-code: 131ms)
+ GET /en 200 in 80ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 62ms)
+ GET /en 200 in 76ms (next.js: 33ms, proxy.ts: 6ms, generate-params: 45µs, application-code: 38ms)
+ GET /es 200 in 201ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 185ms)
+✓ Compiled in 44ms
+ GET /en 200 in 203ms (next.js: 111ms, proxy.ts: 61ms, generate-params: 26µs, application-code: 31ms)
+ GET /es 200 in 206ms (next.js: 73ms, proxy.ts: 61ms, generate-params: 5ms, application-code: 72ms)
+ GET /es 200 in 215ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 201ms)
+✓ Compiled in 78ms
+ GET /en 200 in 227ms (next.js: 81ms, proxy.ts: 66ms, generate-params: 5ms, application-code: 81ms)
+ GET /es 200 in 228ms (next.js: 124ms, proxy.ts: 66ms, generate-params: 26µs, application-code: 38ms)
+✓ Compiled in 46ms
+ GET /en 200 in 204ms (next.js: 97ms, proxy.ts: 29ms, generate-params: 5ms, application-code: 77ms)
+ GET /es 200 in 204ms (next.js: 141ms, proxy.ts: 29ms, generate-params: 35µs, application-code: 33ms)
+ GET /es 200 in 207ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 194ms)
+✓ Compiled in 75ms
+ GET /en 200 in 391ms (next.js: 122ms, proxy.ts: 30ms, generate-params: 7ms, application-code: 239ms)
+ GET /es 200 in 402ms (next.js: 164ms, proxy.ts: 30ms, generate-params: 26µs, application-code: 207ms)
+ GET /en 200 in 186ms (next.js: 9ms, proxy.ts: 23ms, generate-params: 26µs, application-code: 155ms)
+ GET /es 200 in 238ms (next.js: 36ms, proxy.ts: 23ms, generate-params: 37µs, application-code: 180ms)
+ GET /en 200 in 160ms (next.js: 32ms, proxy.ts: 16ms, generate-params: 25µs, application-code: 112ms)
+ GET /en 200 in 185ms (next.js: 10ms, proxy.ts: 39ms, generate-params: 27µs, application-code: 136ms)
+ GET /es 200 in 78ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 59ms)
+ GET /es 200 in 71ms (next.js: 31ms, proxy.ts: 6ms, generate-params: 34µs, application-code: 34ms)
+ GET /es 200 in 238ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 223ms)
+ GET /es 200 in 161ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 143ms)
+ GET /en 200 in 172ms (next.js: 13ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 154ms)
+ GET /es 200 in 136ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 120ms)
+ GET /es 200 in 151ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 136ms)
+✓ Compiled in 61ms
+ GET /en 200 in 719ms (next.js: 144ms, proxy.ts: 65ms, generate-params: 6ms, application-code: 511ms)
+ GET /es 200 in 726ms (next.js: 241ms, proxy.ts: 65ms, generate-params: 75µs, application-code: 420ms)
+ GET /en 200 in 377ms (next.js: 20ms, proxy.ts: 12ms, generate-params: 77µs, application-code: 345ms)
+ GET /es 200 in 456ms (next.js: 163ms, proxy.ts: 11ms, generate-params: 54µs, application-code: 282ms)
+ GET /en 200 in 237ms (next.js: 62ms, proxy.ts: 9ms, generate-params: 49µs, application-code: 165ms)
+ GET /en 200 in 239ms (next.js: 13ms, proxy.ts: 9ms, generate-params: 32µs, application-code: 217ms)
+ GET /es 200 in 122ms (next.js: 21ms, proxy.ts: 12ms, generate-params: 45µs, application-code: 90ms)
+ GET /es 200 in 111ms (next.js: 51ms, proxy.ts: 9ms, generate-params: 35µs, application-code: 51ms)
+ GET /es 200 in 244ms (next.js: 13ms, proxy.ts: 3ms, generate-params: 7ms, application-code: 228ms)
+ GET /es 200 in 186ms (next.js: 16ms, proxy.ts: 7ms, generate-params: 9ms, application-code: 163ms)
+ GET /es 200 in 165ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 151ms)
+ GET /es 200 in 161ms (next.js: 10ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 146ms)
+ GET /es 200 in 161ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 147ms)
+ GET /es 200 in 196ms (next.js: 15ms, proxy.ts: 4ms, generate-params: 7ms, application-code: 178ms)
+✓ Compiled in 41ms
+ GET /en 200 in 367ms (next.js: 151ms, proxy.ts: 37ms, generate-params: 25µs, application-code: 180ms)
+ GET /es 200 in 373ms (next.js: 99ms, proxy.ts: 37ms, generate-params: 5ms, application-code: 238ms)
+ GET /en 200 in 209ms (next.js: 37ms, proxy.ts: 5ms, generate-params: 27µs, application-code: 167ms)
+ GET /es 200 in 271ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 26µs, application-code: 259ms)
+ GET /es 200 in 208ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 194ms)
+ GET /es 200 in 209ms (next.js: 33ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 170ms)
+ GET /en 200 in 138ms (next.js: 15ms, proxy.ts: 9ms, generate-params: 53µs, application-code: 113ms)
+ GET /en 200 in 130ms (next.js: 48ms, proxy.ts: 7ms, generate-params: 46µs, application-code: 75ms)
+✓ Compiled in 123ms
+ GET /en 200 in 201ms (next.js: 90ms, proxy.ts: 25ms, generate-params: 5ms, application-code: 86ms)
+ GET /es 200 in 201ms (next.js: 139ms, proxy.ts: 25ms, generate-params: 28µs, application-code: 38ms)
+✓ Compiled in 47ms
+ GET /en 200 in 341ms (next.js: 101ms, proxy.ts: 30ms, generate-params: 5ms, application-code: 210ms)
+ GET /es 200 in 344ms (next.js: 149ms, proxy.ts: 30ms, generate-params: 26µs, application-code: 165ms)
+ GET /en 200 in 150ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 136ms)
+ GET /es 200 in 214ms (next.js: 29ms, proxy.ts: 5ms, generate-params: 28µs, application-code: 180ms)
+ GET /en 200 in 159ms (next.js: 8ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 145ms)
+ GET /en 200 in 159ms (next.js: 31ms, proxy.ts: 7ms, generate-params: 30µs, application-code: 121ms)
+ GET /es 200 in 90ms (next.js: 12ms, proxy.ts: 9ms, generate-params: 47µs, application-code: 69ms)
+ GET /es 200 in 85ms (next.js: 41ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 38ms)
+ GET /es 200 in 246ms (next.js: 11ms, proxy.ts: 5ms, generate-params: 6ms, application-code: 231ms)
+ GET /es 200 in 141ms (next.js: 11ms, proxy.ts: 3ms, generate-params: 6ms, application-code: 126ms)
+ GET /es/privacy 200 in 246ms (next.js: 102ms, proxy.ts: 6ms, generate-params: 5ms, application-code: 138ms)
+ GET /es 200 in 45ms (next.js: 10ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 32ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /es/privacy 200 in 71ms (next.js: 13ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 54ms)
+ GET /es 200 in 41ms (next.js: 11ms, proxy.ts: 3ms, generate-params: 5ms, application-code: 27ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /es/terms 200 in 573ms (next.js: 503ms, proxy.ts: 6ms, generate-params: 447ms, application-code: 65ms)
+ GET /es 200 in 47ms (next.js: 12ms, proxy.ts: 3ms, generate-params: 5ms, application-code: 32ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+ GET /es 200 in 132ms (next.js: 9ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 118ms)
+ GET /es 200 in 142ms (next.js: 10ms, proxy.ts: 5ms, generate-params: 5ms, application-code: 127ms)
+✓ Compiled in 167ms
+ GET /en 200 in 639ms (next.js: 224ms, proxy.ts: 55ms, generate-params: 7ms, application-code: 360ms)
+ GET /es 200 in 640ms (next.js: 312ms, proxy.ts: 54ms, generate-params: 46µs, application-code: 274ms)
+ GET /en 200 in 247ms (next.js: 11ms, proxy.ts: 31ms, generate-params: 52µs, application-code: 205ms)
+ GET /es 200 in 246ms (next.js: 41ms, proxy.ts: 31ms, generate-params: 35µs, application-code: 174ms)
+ GET /en 200 in 233ms (next.js: 27ms, proxy.ts: 12ms, generate-params: 36µs, application-code: 194ms)
+ GET /en 200 in 265ms (next.js: 60ms, proxy.ts: 12ms, generate-params: 31µs, application-code: 193ms)
+ GET /en 200 in 342ms (next.js: 17ms, proxy.ts: 9ms, generate-params: 43µs, application-code: 315ms)
+ GET /en 200 in 342ms (next.js: 47ms, proxy.ts: 13ms, generate-params: 43µs, application-code: 282ms)
+ GET /en 200 in 316ms (next.js: 15ms, proxy.ts: 49ms, generate-params: 49µs, application-code: 253ms)
+ GET /en 200 in 280ms (next.js: 45ms, proxy.ts: 10ms, generate-params: 35µs, application-code: 224ms)
+ GET /en 200 in 375ms (next.js: 24ms, proxy.ts: 15ms, generate-params: 53µs, application-code: 336ms)
+ GET /en 200 in 371ms (next.js: 66ms, proxy.ts: 15ms, generate-params: 37µs, application-code: 289ms)
+ GET /en 200 in 392ms (next.js: 27ms, proxy.ts: 16ms, generate-params: 7ms, application-code: 349ms)
+ GET /en 200 in 391ms (next.js: 138ms, proxy.ts: 14ms, generate-params: 100µs, application-code: 238ms)
+ GET /en 200 in 272ms (next.js: 19ms, proxy.ts: 65ms, generate-params: 32µs, application-code: 188ms)
+ GET /en 200 in 266ms (next.js: 52ms, proxy.ts: 61ms, generate-params: 32µs, application-code: 153ms)
+ GET /es 200 in 250ms (next.js: 18ms, proxy.ts: 41ms, generate-params: 41µs, application-code: 192ms)
+ GET /es 200 in 219ms (next.js: 49ms, proxy.ts: 10ms, generate-params: 33µs, application-code: 160ms)
+ GET /es 200 in 289ms (next.js: 16ms, proxy.ts: 9ms, generate-params: 32µs, application-code: 264ms)
+ GET /es 200 in 292ms (next.js: 56ms, proxy.ts: 9ms, generate-params: 33µs, application-code: 227ms)
+ GET /es 200 in 255ms (next.js: 18ms, proxy.ts: 46ms, generate-params: 54µs, application-code: 191ms)
+ GET /es 200 in 279ms (next.js: 56ms, proxy.ts: 38ms, generate-params: 32µs, application-code: 184ms)
+ GET /es 200 in 240ms (next.js: 13ms, proxy.ts: 51ms, generate-params: 40µs, application-code: 176ms)
+ GET /es 200 in 227ms (next.js: 46ms, proxy.ts: 13ms, generate-params: 46µs, application-code: 169ms)
+ GET /es 200 in 181ms (next.js: 14ms, proxy.ts: 8ms, generate-params: 31µs, application-code: 159ms)
+ GET /es 200 in 173ms (next.js: 55ms, proxy.ts: 6ms, generate-params: 6ms, application-code: 112ms)
+ GET /es 200 in 138ms (next.js: 48ms, proxy.ts: 13ms, generate-params: 29µs, application-code: 77ms)
+ GET /es 200 in 128ms (next.js: 36ms, proxy.ts: 41ms, generate-params: 27µs, application-code: 51ms)
+✓ Compiled in 139ms
+ GET /en 200 in 563ms (next.js: 249ms, proxy.ts: 51ms, generate-params: 46µs, application-code: 262ms)
+ GET /es 200 in 565ms (next.js: 296ms, proxy.ts: 50ms, generate-params: 24µs, application-code: 219ms)
+ GET /en 200 in 203ms (next.js: 19ms, proxy.ts: 32ms, generate-params: 5ms, application-code: 153ms)
+ GET /es 200 in 232ms (next.js: 45ms, proxy.ts: 30ms, generate-params: 27µs, application-code: 157ms)
+ GET /en 200 in 177ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 29µs, application-code: 160ms)
+ GET /en 200 in 207ms (next.js: 42ms, proxy.ts: 7ms, generate-params: 31µs, application-code: 158ms)
+ GET /en 200 in 238ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 30µs, application-code: 220ms)
+ GET /en 200 in 235ms (next.js: 38ms, proxy.ts: 5ms, generate-params: 29µs, application-code: 192ms)
+ GET /en 200 in 209ms (next.js: 13ms, proxy.ts: 42ms, generate-params: 30µs, application-code: 154ms)
+ GET /en 200 in 250ms (next.js: 42ms, proxy.ts: 14ms, generate-params: 28µs, application-code: 193ms)
+ GET /en 200 in 237ms (next.js: 11ms, proxy.ts: 35ms, generate-params: 30µs, application-code: 191ms)
+ GET /en 200 in 236ms (next.js: 35ms, proxy.ts: 33ms, generate-params: 50µs, application-code: 168ms)
+ GET /en 200 in 255ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 31µs, application-code: 235ms)
+ GET /en 200 in 254ms (next.js: 43ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 206ms)
+ GET /en 200 in 226ms (next.js: 18ms, proxy.ts: 33ms, generate-params: 30µs, application-code: 175ms)
+ GET /es 200 in 259ms (next.js: 41ms, proxy.ts: 5ms, generate-params: 31µs, application-code: 213ms)
+ GET /es 200 in 255ms (next.js: 21ms, proxy.ts: 35ms, generate-params: 6ms, application-code: 199ms)
+ GET /es 200 in 253ms (next.js: 59ms, proxy.ts: 34ms, generate-params: 28µs, application-code: 160ms)
+ GET /es 200 in 243ms (next.js: 14ms, proxy.ts: 6ms, generate-params: 31µs, application-code: 223ms)
+ GET /es 200 in 242ms (next.js: 42ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 195ms)
+ GET /es 200 in 212ms (next.js: 8ms, proxy.ts: 41ms, generate-params: 33µs, application-code: 163ms)
+ GET /es 200 in 205ms (next.js: 16ms, proxy.ts: 4ms, generate-params: 31µs, application-code: 184ms)
+ GET /es 200 in 194ms (next.js: 45ms, proxy.ts: 34ms, generate-params: 29µs, application-code: 115ms)
+ GET /es 200 in 196ms (next.js: 10ms, proxy.ts: 34ms, generate-params: 32µs, application-code: 152ms)
+ GET /es 200 in 87ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 39µs, application-code: 69ms)
+ GET /es 200 in 82ms (next.js: 38ms, proxy.ts: 5ms, generate-params: 28µs, application-code: 39ms)
+✓ Compiled in 60ms
+✓ Compiled in 37ms
+ GET /es 200 in 376ms (next.js: 104ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 268ms)
+✓ Compiled in 89ms
+ GET /es 200 in 164ms (next.js: 95ms, proxy.ts: 26ms, generate-params: 5ms, application-code: 43ms)
+✓ Compiled in 54ms
+ GET /es 200 in 395ms (next.js: 95ms, proxy.ts: 24ms, generate-params: 5ms, application-code: 276ms)
+ GET /es 200 in 277ms (next.js: 5ms, proxy.ts: 4ms, generate-params: 33µs, application-code: 269ms)
+ GET /es 200 in 251ms (next.js: 16ms, proxy.ts: 11ms, generate-params: 32µs, application-code: 223ms)
+ GET /es 200 in 252ms (next.js: 52ms, proxy.ts: 11ms, generate-params: 40µs, application-code: 189ms)
+ GET /es 200 in 253ms (next.js: 127ms, proxy.ts: 11ms, generate-params: 32µs, application-code: 114ms)
+ GET /es 200 in 255ms (next.js: 94ms, proxy.ts: 12ms, generate-params: 78µs, application-code: 149ms)
+ GET /es 200 in 104ms (next.js: 12ms, proxy.ts: 9ms, generate-params: 32µs, application-code: 82ms)
+ GET /es 200 in 54ms (next.js: 13ms, proxy.ts: 6ms, generate-params: 34µs, application-code: 35ms)
+✓ Compiled in 54ms
+ GET /es 200 in 561ms (next.js: 105ms, proxy.ts: 37ms, generate-params: 6ms, application-code: 419ms)
+ GET /es 200 in 403ms (next.js: 7ms, proxy.ts: 5ms, generate-params: 29µs, application-code: 390ms)
+ GET /es 200 in 366ms (next.js: 62ms, proxy.ts: 16ms, generate-params: 52µs, application-code: 288ms)
+ GET /es 200 in 369ms (next.js: 22ms, proxy.ts: 16ms, generate-params: 42µs, application-code: 331ms)
+ GET /es 200 in 368ms (next.js: 111ms, proxy.ts: 16ms, generate-params: 42µs, application-code: 241ms)
+ GET /es 200 in 367ms (next.js: 149ms, proxy.ts: 16ms, generate-params: 34µs, application-code: 202ms)
+ GET /es 200 in 89ms (next.js: 9ms, proxy.ts: 5ms, generate-params: 30µs, application-code: 75ms)
+ GET /es 200 in 53ms (next.js: 9ms, proxy.ts: 5ms, generate-params: 27µs, application-code: 38ms)
+✓ Compiled in 43ms
+ GET /es 200 in 330ms (next.js: 106ms, proxy.ts: 37ms, generate-params: 5ms, application-code: 186ms)
+ GET /es 200 in 139ms (next.js: 5ms, proxy.ts: 3ms, generate-params: 38µs, application-code: 131ms)
+ GET /es 200 in 104ms (next.js: 37ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 60ms)
+ GET /es 200 in 105ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 25µs, application-code: 89ms)
+ GET /es 200 in 105ms (next.js: 58ms, proxy.ts: 7ms, generate-params: 39µs, application-code: 39ms)
+ GET /es 200 in 331ms (next.js: 113ms, proxy.ts: 25ms, generate-params: 5ms, application-code: 193ms)
+ GET /es 200 in 155ms (next.js: 6ms, proxy.ts: 25ms, generate-params: 27µs, application-code: 124ms)
+ GET /es 200 in 103ms (next.js: 10ms, proxy.ts: 6ms, generate-params: 24µs, application-code: 87ms)
+ GET /es 200 in 103ms (next.js: 60ms, proxy.ts: 6ms, generate-params: 28µs, application-code: 36ms)
+ GET /es 200 in 104ms (next.js: 32ms, proxy.ts: 6ms, generate-params: 25µs, application-code: 66ms)
+ GET /es 200 in 488ms (next.js: 125ms, proxy.ts: 35ms, generate-params: 5ms, application-code: 328ms)
+ GET /es 200 in 287ms (next.js: 6ms, proxy.ts: 28ms, generate-params: 30µs, application-code: 253ms)
+ GET /es 200 in 220ms (next.js: 128ms, proxy.ts: 13ms, generate-params: 58µs, application-code: 79ms)
+ GET /es 200 in 222ms (next.js: 76ms, proxy.ts: 13ms, generate-params: 59µs, application-code: 134ms)
+ GET /es 200 in 225ms (next.js: 17ms, proxy.ts: 13ms, generate-params: 56µs, application-code: 195ms)
+✓ Compiled in 42ms
+ GET /es 200 in 365ms (next.js: 96ms, proxy.ts: 26ms, generate-params: 5ms, application-code: 243ms)
+ GET /es 200 in 195ms (next.js: 6ms, proxy.ts: 5ms, generate-params: 29µs, application-code: 184ms)
+ GET /es 200 in 158ms (next.js: 17ms, proxy.ts: 9ms, generate-params: 34µs, application-code: 132ms)
+ GET /es 200 in 158ms (next.js: 84ms, proxy.ts: 10ms, generate-params: 31µs, application-code: 63ms)
+ GET /es 200 in 160ms (next.js: 55ms, proxy.ts: 9ms, generate-params: 32µs, application-code: 95ms)
+✓ Compiled in 54ms
+ GET /es 200 in 347ms (next.js: 112ms, proxy.ts: 32ms, generate-params: 5ms, application-code: 203ms)
+ GET /es 200 in 161ms (next.js: 6ms, proxy.ts: 4ms, generate-params: 30µs, application-code: 152ms)
+ GET /es 200 in 124ms (next.js: 45ms, proxy.ts: 9ms, generate-params: 29µs, application-code: 70ms)
+ GET /es 200 in 124ms (next.js: 73ms, proxy.ts: 9ms, generate-params: 27µs, application-code: 42ms)
+ GET /es 200 in 127ms (next.js: 15ms, proxy.ts: 9ms, generate-params: 28µs, application-code: 103ms)
+✓ Compiled in 81ms
+ GET /es 200 in 352ms (next.js: 118ms, proxy.ts: 38ms, generate-params: 6ms, application-code: 196ms)
+ GET /es 200 in 154ms (next.js: 10ms, proxy.ts: 22ms, generate-params: 37µs, application-code: 122ms)
+ GET /es 200 in 96ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 25µs, application-code: 80ms)
+ GET /es 200 in 96ms (next.js: 32ms, proxy.ts: 7ms, generate-params: 23µs, application-code: 58ms)
+ GET /es 200 in 96ms (next.js: 57ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 33ms)
+✓ Compiled in 50ms
+ GET /es 200 in 333ms (next.js: 108ms, proxy.ts: 39ms, generate-params: 5ms, application-code: 187ms)
+ GET /es 200 in 145ms (next.js: 7ms, proxy.ts: 3ms, generate-params: 26µs, application-code: 134ms)
+ GET /es 200 in 110ms (next.js: 13ms, proxy.ts: 8ms, generate-params: 26µs, application-code: 89ms)
+ GET /es 200 in 110ms (next.js: 39ms, proxy.ts: 9ms, generate-params: 27µs, application-code: 63ms)
+ GET /es 200 in 108ms (next.js: 64ms, proxy.ts: 7ms, generate-params: 25µs, application-code: 37ms)
+✓ Compiled in 46ms
+ GET /es 200 in 396ms (next.js: 104ms, proxy.ts: 38ms, generate-params: 8ms, application-code: 254ms)
+ GET /es 200 in 211ms (next.js: 7ms, proxy.ts: 8ms, generate-params: 34µs, application-code: 196ms)
+ GET /es 200 in 171ms (next.js: 25ms, proxy.ts: 9ms, generate-params: 33µs, application-code: 138ms)
+ GET /es 200 in 171ms (next.js: 62ms, proxy.ts: 10ms, generate-params: 33µs, application-code: 100ms)
+ GET /es 200 in 171ms (next.js: 94ms, proxy.ts: 10ms, generate-params: 39µs, application-code: 67ms)
+✓ Compiled in 46ms
+✓ Compiled in 55ms
+ GET /es 200 in 436ms (next.js: 130ms, proxy.ts: 45ms, generate-params: 5ms, application-code: 261ms)
+ GET /es 200 in 200ms (next.js: 10ms, proxy.ts: 24ms, generate-params: 28µs, application-code: 167ms)
+ GET /es 200 in 129ms (next.js: 13ms, proxy.ts: 9ms, generate-params: 27µs, application-code: 107ms)
+ GET /es 200 in 128ms (next.js: 72ms, proxy.ts: 10ms, generate-params: 27µs, application-code: 46ms)
+ GET /es 200 in 131ms (next.js: 43ms, proxy.ts: 10ms, generate-params: 32µs, application-code: 78ms)
+✓ Compiled in 42ms
+ GET /es 200 in 317ms (next.js: 109ms, proxy.ts: 26ms, generate-params: 6ms, application-code: 181ms)
+ GET /es 200 in 136ms (next.js: 8ms, proxy.ts: 3ms, generate-params: 30µs, application-code: 125ms)
+ GET /es 200 in 103ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 24µs, application-code: 85ms)
+ GET /es 200 in 103ms (next.js: 34ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 62ms)
+ GET /es 200 in 103ms (next.js: 60ms, proxy.ts: 6ms, generate-params: 26µs, application-code: 37ms)
+✓ Compiled in 53ms
+ GET /es 200 in 330ms (next.js: 111ms, proxy.ts: 26ms, generate-params: 6ms, application-code: 193ms)
+ GET /es 200 in 146ms (next.js: 5ms, proxy.ts: 3ms, generate-params: 27µs, application-code: 138ms)
+ GET /es 200 in 107ms (next.js: 65ms, proxy.ts: 8ms, generate-params: 32µs, application-code: 34ms)
+ GET /es 200 in 110ms (next.js: 14ms, proxy.ts: 8ms, generate-params: 29µs, application-code: 87ms)
+ GET /es 200 in 110ms (next.js: 40ms, proxy.ts: 8ms, generate-params: 27µs, application-code: 62ms)
+✓ Compiled in 40ms
+ GET /es 200 in 430ms (next.js: 130ms, proxy.ts: 35ms, generate-params: 6ms, application-code: 265ms)
+ GET /es 200 in 206ms (next.js: 8ms, proxy.ts: 5ms, generate-params: 42µs, application-code: 192ms)
+ GET /es 200 in 122ms (next.js: 42ms, proxy.ts: 11ms, generate-params: 26µs, application-code: 68ms)
+ GET /es 200 in 124ms (next.js: 16ms, proxy.ts: 11ms, generate-params: 29µs, application-code: 96ms)
+ GET /es 200 in 121ms (next.js: 71ms, proxy.ts: 11ms, generate-params: 49µs, application-code: 39ms)
+ GET /en 200 in 44ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 5ms, application-code: 30ms)
+[browser] Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+✓ Compiled in 46ms
+ GET /en 200 in 350ms (next.js: 117ms, proxy.ts: 32ms, generate-params: 5ms, application-code: 200ms)
+ GET /en 200 in 151ms (next.js: 5ms, proxy.ts: 6ms, generate-params: 27µs, application-code: 141ms)
+ GET /en 200 in 115ms (next.js: 13ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 95ms)
+ GET /en 200 in 116ms (next.js: 40ms, proxy.ts: 7ms, generate-params: 30µs, application-code: 68ms)
+ GET /en 200 in 116ms (next.js: 67ms, proxy.ts: 8ms, generate-params: 27µs, application-code: 41ms)
+✓ Compiled in 48ms
+ GET /en 200 in 303ms (next.js: 102ms, proxy.ts: 33ms, generate-params: 5ms, application-code: 168ms)
+ GET /en 200 in 131ms (next.js: 5ms, proxy.ts: 3ms, generate-params: 27µs, application-code: 123ms)
+ GET /en 200 in 99ms (next.js: 10ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 82ms)
+ GET /en 200 in 98ms (next.js: 54ms, proxy.ts: 7ms, generate-params: 32µs, application-code: 37ms)
+ GET /en 200 in 99ms (next.js: 33ms, proxy.ts: 7ms, generate-params: 27µs, application-code: 59ms)
+ GET /es 200 in 48ms (next.js: 11ms, proxy.ts: 4ms, generate-params: 6ms, application-code: 33ms)
+✓ Compiled in 42ms
+ GET /es 200 in 377ms (next.js: 102ms, proxy.ts: 52ms, generate-params: 7ms, application-code: 223ms)
+ GET /es 200 in 229ms (next.js: 5ms, proxy.ts: 5ms, generate-params: 28µs, application-code: 219ms)
+ GET /es 200 in 195ms (next.js: 94ms, proxy.ts: 9ms, generate-params: 27µs, application-code: 91ms)
+ GET /es 200 in 198ms (next.js: 16ms, proxy.ts: 8ms, generate-params: 25µs, application-code: 174ms)
+ GET /es 200 in 198ms (next.js: 71ms, proxy.ts: 9ms, generate-params: 27µs, application-code: 118ms)
+ GET /es 200 in 200ms (next.js: 42ms, proxy.ts: 9ms, generate-params: 30µs, application-code: 149ms)
+ GET /es 200 in 59ms (next.js: 7ms, proxy.ts: 6ms, generate-params: 43µs, application-code: 47ms)
+ GET /es 200 in 405ms (next.js: 116ms, proxy.ts: 56ms, generate-params: 6ms, application-code: 234ms)
+ GET /es 200 in 217ms (next.js: 6ms, proxy.ts: 4ms, generate-params: 33µs, application-code: 207ms)
+ GET /es 200 in 177ms (next.js: 42ms, proxy.ts: 8ms, generate-params: 30µs, application-code: 126ms)
+ GET /es 200 in 177ms (next.js: 66ms, proxy.ts: 9ms, generate-params: 30µs, application-code: 102ms)
+ GET /es 200 in 180ms (next.js: 14ms, proxy.ts: 9ms, generate-params: 30µs, application-code: 157ms)
+ GET /es 200 in 178ms (next.js: 92ms, proxy.ts: 9ms, generate-params: 29µs, application-code: 77ms)
+ GET /es 200 in 44ms (next.js: 7ms, proxy.ts: 4ms, generate-params: 35µs, application-code: 32ms)
+ GET /es 200 in 580ms (next.js: 150ms, proxy.ts: 91ms, generate-params: 6ms, application-code: 339ms)
+ GET /es 200 in 322ms (next.js: 7ms, proxy.ts: 33ms, generate-params: 32µs, application-code: 282ms)
+ GET /es 200 in 250ms (next.js: 24ms, proxy.ts: 15ms, generate-params: 54µs, application-code: 211ms)
+ GET /es 200 in 245ms (next.js: 127ms, proxy.ts: 14ms, generate-params: 32µs, application-code: 104ms)
+ GET /es 200 in 249ms (next.js: 59ms, proxy.ts: 15ms, generate-params: 31µs, application-code: 176ms)
+ GET /es 200 in 280ms (next.js: 94ms, proxy.ts: 14ms, generate-params: 51µs, application-code: 172ms)
+ GET /es 200 in 203ms (next.js: 9ms, proxy.ts: 6ms, generate-params: 38µs, application-code: 188ms)
+ GET /es 200 in 156ms (next.js: 12ms, proxy.ts: 6ms, generate-params: 29µs, application-code: 138ms)
+ GET /es 200 in 107ms (next.js: 13ms, proxy.ts: 9ms, generate-params: 39µs, application-code: 85ms)
+ GET /es 200 in 107ms (next.js: 45ms, proxy.ts: 10ms, generate-params: 31µs, application-code: 52ms)
+[?25h

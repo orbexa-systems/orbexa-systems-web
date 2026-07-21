@@ -1,0 +1,9 @@
+<svg width="400" height="180" viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="180" fill="#FFFFFF"/>
+<g transform="translate(150,90)">
+<text x="-20" y="14" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" letter-spacing="-1" fill="#042C53">RBEXA</text>
+<ellipse cx="13" cy="-4" rx="30" ry="30" fill="none" stroke="#378ADD" stroke-width="6"/>
+<ellipse cx="13" cy="-4" rx="42" ry="16" fill="none" stroke="#185FA5" stroke-width="3.2" transform="rotate(-18 13 -4)"/>
+</g>
+<text x="130" y="130" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="500" letter-spacing="4" fill="#185FA5">SYSTEMS</text>
+</svg>
