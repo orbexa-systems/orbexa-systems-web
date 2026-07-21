@@ -17,6 +17,8 @@ export function proxy(request: NextRequest) {
 
   if (hasLocalePrefix) return;
 
+  if (pathname.startsWith("/rentaviaje")) return;
+
   const locale = getLocale(request);
   request.nextUrl.pathname = `/${locale}${pathname}`;
   return NextResponse.redirect(request.nextUrl);
