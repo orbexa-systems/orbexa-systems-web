@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const sections = [
   {
     heading: "1. Quiénes somos",
-    body: "Copiloto es una aplicación desarrollada por Orbexa Systems (contacto@orbexasystems.com.mx). La app ayuda a conductores de plataformas de transporte (Uber Driver, DiDi Conductor) a evaluar en segundos si una oferta de viaje es rentable, mostrando un veredicto automático en pantalla.\n\nCopiloto está diseñada para conductores que operan en México. Los cálculos de rentabilidad utilizan pesos mexicanos (MXN) y están calibrados para tarifas y costos de combustible del mercado mexicano.",
+    body: "Copiloto es una aplicación desarrollada por Orbexa Systems (contacto@orbexasystems.com). La app ayuda a conductores de plataformas de transporte (Uber Driver, DiDi Conductor) a evaluar en segundos si una oferta de viaje es rentable, mostrando un veredicto automático en pantalla.\n\nCopiloto está diseñada para conductores que operan en México. Los cálculos de rentabilidad utilizan pesos mexicanos (MXN) y están calibrados para tarifas y costos de combustible del mercado mexicano.",
   },
   {
     heading: "2. Información que la app lee y por qué",
@@ -46,7 +46,7 @@ const sections = [
   },
   {
     heading: "10. Contacto",
-    body: "Si tienes preguntas sobre esta política de privacidad, escríbenos a:\ncontacto@orbexasystems.com.mx",
+    body: "Si tienes preguntas sobre esta política de privacidad, escríbenos a:\ncontacto@orbexasystems.com",
   },
 ];
 

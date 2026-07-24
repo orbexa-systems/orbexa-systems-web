@@ -46,7 +46,7 @@ const sections = [
   },
   {
     heading: "10. Contacto",
-    body: "Para cualquier consulta relacionada con estos términos:\ncontacto@orbexasystems.com.mx\norbexasystems.com",
+    body: "Para cualquier consulta relacionada con estos términos:\ncontacto@orbexasystems.com\norbexasystems.com",
   },
 ];
 
