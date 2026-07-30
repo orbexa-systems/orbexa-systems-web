@@ -18,6 +18,7 @@ export function proxy(request: NextRequest) {
   if (hasLocalePrefix) return;
 
   if (pathname.startsWith("/rentaviaje")) return;
+  if (pathname.startsWith("/copiloto")) return;
 
   const locale = getLocale(request);
   request.nextUrl.pathname = `/${locale}${pathname}`;
